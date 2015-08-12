@@ -1,0 +1,50 @@
+<Window class="UITargetTarget">
+	<property style="default"/>
+	<property position="439 94"/>
+	<property extent="73 35"/>
+	<property minExtent="8 8"/>
+	<property CanEscapeFouce = "true"/>
+	<property visible="0"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<Window class="UBitmap" id="3">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\UIPlayerShow\Player_NotLogin.png"/>
+		<property position="4 4"/>
+		<property extent="27 27"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="4">
+		<property style="UBitmap"/>
+		<property Skin="UIPlayerShow\TemMemBKG.skin"/>
+		<property position="0 0"/>
+		<property extent="73 35"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UProgressBar_Skin" id="0">
+		<property style="SYUProgressCtrl"/>
+		<property BarSkin="UIPlayerShow\HPBar_TargetTarget.skin"/>
+		<property position="31 12"/>
+		<property extent="39 6"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UProgressBar_Skin" id="1">
+		<property style="SYUProgressCtrl"/>
+		<property BarSkin="UIPlayerShow\MPBar_TargetTarget.skin"/>
+		<property position="31 21"/>
+		<property extent="39 4"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="SYNameSmall"/>
+		<property position="26 -2"/>
+		<property extent="80 12"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text = ""/>
+	</Window>
+</Window>

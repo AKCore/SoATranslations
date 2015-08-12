@@ -1,0 +1,206 @@
+<Window class="URefineEqu">
+	<property style="UDialog"/>
+	<property position="129 202"/>
+	<property extent="321 461"/>
+	<property CloseBtnPos="271 23"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property bkgskin="Refine\BGK.skin"/>
+	<property CanEscapeFouce="1"/>
+	<!--主装备-->
+	<Window class="URefineEqu::URefineBtn" id="0">
+		<property style="SkillButton"/>
+		<property position="135 64"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "主装备"/>
+		<property hovertime = "300"/>
+		<property BackSkin = "Refine\Equip.skin"/>
+	</Window>
+	<!--精炼宝石-->
+	<Window class="URefineEqu::URefineBtn" id="1">
+		<property style="SkillButton"/>
+		<property position="46 337"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "精炼宝石"/>
+		<property hovertime = "300"/>
+		<property BackSkin = "Refine\RefineGem.skin"/>
+	</Window>
+	<!--材料-->
+	<Window class="URefineEqu::URefineBtn" id="2">
+		<property style="SkillButton"/>
+		<property position="110 350"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "材料"/>
+		<property hovertime = "300"/>
+		<property BackSkin = "Refine\Matr.skin"/>
+	</Window>
+	<!--材料-->
+	<Window class="URefineEqu::URefineBtn" id="3">
+		<property style="SkillButton"/>
+		<property position="151 350"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "材料"/>
+		<property hovertime = "300"/>
+		<property BackSkin = "Refine\Matr.skin"/>
+	</Window>
+	<!--材料-->
+	<Window class="URefineEqu::URefineBtn" id="4">
+		<property style="SkillButton"/>
+		<property position="192 350"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "材料"/>
+		<property hovertime = "300"/>
+		<property BackSkin = "Refine\Matr.skin"/>
+	</Window>
+	<!--材料-->
+	<Window class="URefineEqu::URefineBtn" id="5">
+		<property style="SkillButton"/>
+		<property position="233 350"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "材料"/>
+		<property hovertime = "300"/>
+		<property BackSkin = "Refine\Matr.skin"/>
+	</Window>
+	<!--进度-->
+	<Window class="URefineBar" id="6">
+		<property style="SYUProgressCtrl"/>
+		<property BarTexture="DATA\UI\Refine\Progress.png"/>
+		<property position="25 410"/>
+		<property extent="262 10"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<!--消耗钱-->
+	<Window class="UMoneyText" id="7">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="65 433"/>
+		<property extent="136 14"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--消耗元宝-->
+	<Window class="UStaticText" id="8">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="65 433"/>
+		<property extent="136 14"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--开始-->
+	<Window class="UBitmapButton" id="9">
+		<property style="UButton"/>
+		<property bitmap="Public\OK.skin"/>
+		<property position="213 433"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--精炼装备-->
+	<Window class="UBitmapButton" id="10">
+		<property style="SYURadioButton"/>
+		<property bitmap="Refine\Type.skin"/>
+		<property position="291 87"/>
+		<property extent="30 86"/>
+		<property minExtent="2 8"/>
+		<property visible="1"/>
+		<property IsHoriText="0"/>
+		<property text="装备精炼"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--装备镶嵌-->
+	<Window class="UBitmapButton" id="12">
+		<property style="SYURadioButton"/>
+		<property bitmap="Refine\Type.skin"/>
+		<property position="291 174"/>
+		<property extent="30 86"/>
+		<property IsHoriText="0"/>
+		<property minExtent="2 8"/>
+		<property text="装备镶嵌"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UScrollBar" id="14">
+		<property style="UScrollBarQ"/>
+		<property position="34 107"/>
+		<property extent="248 235"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin = "7 0"/>
+		<property ShowScrollBkg="1"/>
+		<property AllShowBar="0"/>
+		<property visible="1"/>
+		<Window class="URichTextCtrl" id="16">
+			<property style="URichTextCtrl"/>
+			<property position="0 0"/>
+			<property extent="223 235"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<!--effect-->
+	<Window class="UNiAVControlEffRe" id="15">
+		<property style="UBitmap"/>
+		<property position="51 124"/>
+		<property extent="209 192"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property avobj="Data\UI\Refine\EA0021.nif"/>
+	</Window>
+	<Window class="URefineEqu::URefineBtn" id="20">
+		<property style="SkillButton"/>
+		<property position="46 337"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "镶嵌宝石"/>
+		<property hovertime = "300"/>
+		<property BackSkin = "Style\Sockets.skin"/>
+	</Window>
+	<!--材料-->
+	<Window class="URefineEqu::URefineBtn" id="21">
+		<property style="SkillButton"/>
+		<property position="135 337"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "镶嵌宝石"/>
+		<property hovertime = "300"/>
+		<property BackSkin = "Style\Sockets.skin"/>
+	</Window>
+	<!--材料-->
+	<Window class="URefineEqu::URefineBtn" id="22">
+		<property style="SkillButton"/>
+		<property position="224 337"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "镶嵌宝石"/>
+		<property hovertime = "300"/>
+		<property BackSkin = "Style\Sockets.skin"/>
+	</Window>
+</Window>

@@ -1,0 +1,104 @@
+﻿<Window class="UChatChannelBox">
+			<property style="default"/>
+			<property position="30 576"/>
+			<property extent="78 105"/>
+			<property minExtent="8 8"/>
+			<property AnchorHori="3"/>
+			<property AnchorVert="2"/>
+			<property visible="0"/>
+		<Window class="UBitmapButton" id="0">
+			<property style="SYChatChannelCheckBox"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="7 7"/>
+			<property extent="16 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property groupNum="-1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="1">
+			<property style="SYChatChannelCheckBox"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="7 26"/>
+			<property extent="16 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property groupNum="-1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="2">
+			<property style="SYChatChannelCheckBox"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="7 45"/>
+			<property extent="16 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property groupNum="-1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="3">
+			<property style="SYChatChannelCheckBox"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="7 64"/>
+			<property extent="16 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property groupNum="-1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="4">
+			<property style="SYChatChannelCheckBox"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="7 83"/>
+			<property extent="16 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property groupNum="-1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UButton" id="5">
+			<property style="SYChatChannelRadio"/>
+			<property position="24 7"/>
+			<property extent="50 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property groupNum="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UButton" id="6">
+			<property style="SYChatChannelRadio"/>
+			<property position="24 26"/>
+			<property extent="50 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property groupNum="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UButton" id="7">
+			<property style="SYChatChannelRadio"/>
+			<property position="24 45"/>
+			<property extent="50 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property groupNum="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UButton" id="8">
+			<property style="SYChatChannelRadio"/>
+			<property position="24 64"/>
+			<property extent="50 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property groupNum="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UButton" id="9">
+			<property style="SYChatChannelRadio"/>
+			<property position="24 83"/>
+			<property extent="50 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property groupNum="1"/>
+			<property buttonType="2"/>
+		</Window>
+</Window>

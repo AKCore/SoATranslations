@@ -1,0 +1,9 @@
+<Window class = "UTip">
+	<property style = "UMouseStopMain"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="100 100"/>
+	<property extent="195 8"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+</Window>

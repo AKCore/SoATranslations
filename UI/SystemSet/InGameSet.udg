@@ -1,0 +1,682 @@
+<Window class="UInGameSet">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="300 135"/>
+	<property extent="678 558"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property showclose = "false"/>
+	<property bkgskin="SystemSet\SetBGk.skin"/>	
+	<Window class="UStaticText" id = "0">
+		<property style="SYDialogTitle"/>
+		<property position="304 57"/>
+		<property extent="100 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="游戏设置"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="91 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="游戏设置"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="184 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="视频设置"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="277 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="音频设置"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="370 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="按键设置"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmap" id = "45">
+		<property style="SYDialogFrame"/>
+		<property position="82 525"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="UButton"/>
+		<property bitmap="Public\DefaultSet.skin"/>
+		<property position="85 528"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "46">
+		<property style="SYDialogFrame"/>
+		<property position="365 525"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="UButton"/>
+		<property bitmap="Public\UseSet.skin"/>
+		<property position="368 528"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "47">
+		<property style="SYDialogFrame"/>
+		<property position="443 525"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="UButton"/>
+		<property bitmap="Public\OK.skin"/>
+		<property position="446 528"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "48">
+		<property style="SYDialogFrame"/>
+		<property position="521 525"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="524 528"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>	
+	<Window class="USetItem" id="9">
+		<property style="default"/>
+		<property position="93 149"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "NPCName"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="10">
+		<property style="default"/>
+		<property position="93 177"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "PlayerName"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="11">
+		<property style="default"/>
+		<property position="93 205"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "TalkPopo"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="12">
+		<property style="default"/>
+		<property position="93 233"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "TargetTarget"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="13">
+		<property style="default"/>
+		<property position="93 261"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "HostHpBar"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="14">
+		<property style="default"/>
+		<property position="93 289"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "HPBarColorFul"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="15">
+		<property style="default"/>
+		<property position="93 317"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "CameraFollow"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="16">
+		<property style="default"/>
+		<property position="93 345"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "LockCamera"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="17">
+		<property style="default"/>
+		<property position="93 373"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "Head3DShow"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="18">
+		<property style="default"/>
+		<property position="93 401"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "ReCount"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="19">
+		<property style="default"/>
+		<property position="324 177"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "MiniMapNPC"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="20">
+		<property style="default"/>
+		<property position="324 205"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "MiniMapMonster"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="21">
+		<property style="default"/>
+		<property position="324 233"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "MiniMapPlayer"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="22">
+		<property style="default"/>
+		<property position="324 289"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "AddActionBar1"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="23">
+		<property style="default"/>
+		<property position="324 317"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "AddActionBar2"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="24">
+		<property style="default"/>
+		<property position="324 345"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "LockActionBar"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="25">
+		<property style="default"/>
+		<property position="93 457"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "AutoPick"/>
+		<property visible="1"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetItem" id="26">
+		<property style="default"/>
+		<property position="93 485"/>
+		<property extent="221 22"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "MouseMove"/>
+		<property visible="0"/>
+			<Window class="UBitmapButton" id="0">
+				<property style="UButton"/>
+				<property bitmap="SystemSet\ItemButton.skin"/>
+				<property position="0 0"/>
+				<property extent="22 22"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				<property groupNum="1"/>
+				<property buttonType="1"/>
+			</Window>
+			<Window class="UStaticText" id = "1">
+				<property style="SYSetTitle"/>
+				<property position="32 4"/>
+				<property extent="179 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="UStaticText" id = "127">
+		<property style="SYSetTitle"/>
+		<property position="93 429"/>
+		<property extent="211 14"/>
+		<property minExtent="8 8"/>
+		<property text = "操作设置"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "128">
+		<property style="SYSetTitle"/>
+		<property position="324 153"/>
+		<property extent="211 14"/>
+		<property minExtent="8 8"/>
+		<property text = "小地图显示"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "129">
+		<property style="SYSetTitle"/>
+		<property position="324 265"/>
+		<property extent="211 14"/>
+		<property minExtent="8 8"/>
+		<property text = "动作条设置"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "130">
+		<property style="SYSetTitle"/>
+		<property position="324 377"/>
+		<property extent="211 14"/>
+		<property minExtent="8 8"/>
+		<property text = "镜头设置"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USetSlider" id="131">
+		<property style="default"/>
+		<property position="344 401"/>
+		<property extent="160 26"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "MouseSemsitivity"/>
+		<property visible="1"/>
+			<Window class="UStaticText" id = "0">
+				<property style="SYSetTitle"/>
+				<property position="0 0"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+			<Window class="USlider" id = "1">
+				<property style="USlider"/>
+				<property position="10 14"/>
+				<property extent="140 12"/>
+				<property minExtent="8 8"/>
+				<property SliderButtonSkin = "SystemSet\RcButton.skin"/>
+				<property SliderBarSkin = "SystemSet\SliderBar.skin"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetSlider" id="132">
+		<property style="default"/>
+		<property position="344 430"/>
+		<property extent="160 26"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "CameraFollowSpeed"/>
+		<property visible="1"/>
+			<Window class="UStaticText" id = "0">
+				<property style="SYSetTitle"/>
+				<property position="0 0"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+			<Window class="USlider" id = "1">
+				<property style="USlider"/>
+				<property position="10 14"/>
+				<property extent="140 12"/>
+				<property minExtent="8 8"/>
+				<property SliderButtonSkin = "SystemSet\RcButton.skin"/>
+				<property SliderBarSkin = "SystemSet\SliderBar.skin"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+	<Window class="USetSlider" id="133">
+		<property style="default"/>
+		<property position="344 459"/>
+		<property extent="160 26"/>
+		<property minExtent="8 2"/>
+		<property SetItem = "CameraDis"/>
+		<property visible="1"/>
+			<Window class="UStaticText" id = "0">
+				<property style="SYSetTitle"/>
+				<property position="0 0"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+			<Window class="USlider" id = "1">
+				<property style="USlider"/>
+				<property position="10 14"/>
+				<property extent="140 12"/>
+				<property minExtent="8 8"/>
+				<property SliderButtonSkin = "SystemSet\RcButton.skin"/>
+				<property SliderBarSkin = "SystemSet\SliderBar.skin"/>
+				<property visible="1"/>
+			</Window>
+	</Window>
+</Window>

@@ -1,0 +1,122 @@
+<Window class = "UBigMapFrame">
+		<property style="BigMap"/>
+		<property position="25 0"/>
+		<property extent="974 766"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property AnchorHori="4"/>
+		<property AnchorVert="4"/>
+		<property CanEscapeFouce = "true"/>
+		<Window class="UBlendBitmap" id="0">
+				<property style="BigMap"/>
+				<property bitmap="Data\UI\BigMap\WorldMapFrame.png"/>
+				<property position="0 0"/>
+				<property extent="974 766"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+		</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\Close.skin"/>
+		<property position="948 8"/>
+		<property extent="18 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYDialogTitle"/>
+		<property position="751 57"/>
+		<property extent="166 25"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property TextEdge = "1"/>
+	</Window>
+	<Window class="USlider" id = "4">
+		<property style="USlider"/>
+		<property position="754 117"/>
+		<property extent="155 23"/>
+		<property minExtent="8 8"/>
+		<property SliderButtonSkin = "BigMap\SliderBarBtn.skin"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="754 99"/>
+		<property extent="100 16"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property TextEdge = "1"/>
+	</Window>
+	<Window class="UScrollBar" id="6">
+		<property style="UScrollBarQ"/>
+		<property position="754 236"/>
+		<property extent="170 478"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin ="0 10"/>
+		<property ShowScrollBkg="1"/>
+		<property visible="1"/>
+		<Window class="UListBox" id="7">
+			<property style="SYUListBoxBigMap"/>
+			<property position="0 0"/>
+			<property extent="155 470"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="UButton"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property position="754 186"/>
+		<property extent="16 16"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="10">
+		<property style="UButton"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property position="860 186"/>
+		<property extent="16 16"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="9">
+		<property style="UButton"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property position="754 209"/>
+		<property extent="16 16"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<!--ËÑË÷Ãû×Ö-->
+	<Window class="UEdit" id="11">
+		<property style="SYChatInputEdit"/>
+		<property position="761 154"/>
+		<property extent="122 18"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property Tiptext="ÊäÈëËÑË÷Ãû×Ö"/>
+	</Window>
+	<!--ËÑË÷-->
+	<Window class="UBitmapButton" id="12">
+		<property style="UBitmap"/>
+		<property bitmap="Public\Search.skin"/>
+		<property position="887 156"/>
+		<property extent="18 14"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+
+	<Window class = "UBigMap" id="1">
+		<property style = "BigMap"/>
+		<property AnchorHori="0"/>
+		<property AnchorVert="0"/>
+		<property position="56 52"/>
+		<property extent="664 664"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+	</Window>
+</Window>

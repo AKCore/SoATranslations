@@ -1,0 +1,32 @@
+<Window class="USpellProcessBar">
+	<property style="SYUCastBar"/>
+	<property position="417 586"/>
+	<property extent="217 24"/>
+	<property minExtent="0 0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="2"/>
+	<property visible="0"/>
+	<Window class="UProgressBar_Skin" id="0">
+		<property style="SYUProgressCtrl"/>
+		<property BarSkin="Public\MainCastBar.skin"/>
+		<property BarHeadSkin="Public\MainCastBarHead.skin"/>
+		<property position="0 0"/>
+		<property extent="217 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="1">
+		<property style="SYUCastBar"/>
+		<property position="17 0"/>
+		<property extent="183 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="SYUCastBar"/>
+		<property position="17 0"/>
+		<property extent="183 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

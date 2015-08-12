@@ -1,0 +1,6 @@
+<Skin texture ="BGBtn.png">
+	<item x="71" y="64" w="66" h="30" />
+	<item x="71" y="33" w="66" h="30" />
+	<item x="71" y="3" w="66" h="30" />
+	<item x="71" y="95" w="66" h="30" />
+</Skin>

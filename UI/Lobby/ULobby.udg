@@ -1,0 +1,783 @@
+<Window class="UInstanceLobbyDlg">
+	<property style="UDialog"/>
+	<property position="94 25"/>
+	<property extent="827 678"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property CanEscapeFouce="true"/>
+	<property bkgskin="Lobby\ULobbyBkg.skin"/>
+		<Window class="ULobbyItem" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="80 133"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\LobbyItemBkg.png"/>
+				</Window>
+				<Window class="UBitmap" id = "1">
+				<property style="SYDialogFrame"/>
+				<property position="6 11"/>
+				<property extent="150 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\NameBkg.png"/>
+				</Window>
+				<Window class="UStaticText" id = "2">
+				<property style="SYURadioButton"/>
+				<property position="16 13"/>
+				<property extent="127 16"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "3">
+				<property style="SYUIChatMsg"/>
+				<property position="16 34"/>
+				<property extent="127 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "4">
+				<property style="SYDialogFrame"/>
+				<property position="5 65"/>
+				<property extent="153 153"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "15">
+				<property style="SYDialogFrame"/>
+				<property position="6 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="5">
+				<property style="UButton"/>
+				<property bitmap="Public\Queue.skin"/>
+				<property position="9 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "16">
+				<property style="SYDialogFrame"/>
+				<property position="82 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="6">
+				<property style="UButton"/>
+				<property bitmap="Public\QuitQueue.skin"/>
+				<property position="85 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "7">
+				<property style="SYUIChatMsg"/>
+				<property position="16 51"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+		</Window>
+		<Window class="ULobbyItem" id = "1">
+				<property style="SYDialogFrame"/>
+				<property position="248 133"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\LobbyItemBkg.png"/>
+				</Window>
+				<Window class="UBitmap" id = "1">
+				<property style="SYDialogFrame"/>
+				<property position="6 11"/>
+				<property extent="150 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\NameBkg.png"/>
+				</Window>
+				<Window class="UStaticText" id = "2">
+				<property style="SYURadioButton"/>
+				<property position="16 13"/>
+				<property extent="127 16"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "3">
+				<property style="SYUIChatMsg"/>
+				<property position="16 34"/>
+				<property extent="127 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "4">
+				<property style="SYDialogFrame"/>
+				<property position="5 65"/>
+				<property extent="153 153"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "15">
+				<property style="SYDialogFrame"/>
+				<property position="6 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="5">
+				<property style="UButton"/>
+				<property bitmap="Public\Queue.skin"/>
+				<property position="9 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "16">
+				<property style="SYDialogFrame"/>
+				<property position="82 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="6">
+				<property style="UButton"/>
+				<property bitmap="Public\QuitQueue.skin"/>
+				<property position="85 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "7">
+				<property style="SYUIChatMsg"/>
+				<property position="16 51"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+		</Window>		
+		<Window class="ULobbyItem" id = "2">
+				<property style="SYDialogFrame"/>
+				<property position="417 133"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\LobbyItemBkg.png"/>
+				</Window>
+				<Window class="UBitmap" id = "1">
+				<property style="SYDialogFrame"/>
+				<property position="6 11"/>
+				<property extent="150 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\NameBkg.png"/>
+				</Window>
+				<Window class="UStaticText" id = "2">
+				<property style="SYURadioButton"/>
+				<property position="16 13"/>
+				<property extent="127 16"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "3">
+				<property style="SYUIChatMsg"/>
+				<property position="16 34"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "4">
+				<property style="SYDialogFrame"/>
+				<property position="5 65"/>
+				<property extent="153 153"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "15">
+				<property style="SYDialogFrame"/>
+				<property position="6 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="5">
+				<property style="UButton"/>
+				<property bitmap="Public\Queue.skin"/>
+				<property position="9 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "16">
+				<property style="SYDialogFrame"/>
+				<property position="82 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="6">
+				<property style="UButton"/>
+				<property bitmap="Public\QuitQueue.skin"/>
+				<property position="85 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "7">
+				<property style="SYUIChatMsg"/>
+				<property position="16 51"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+		</Window>
+		<Window class="ULobbyItem" id = "3">
+				<property style="SYDialogFrame"/>
+				<property position="585 133"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\LobbyItemBkg.png"/>
+				</Window>
+				<Window class="UBitmap" id = "1">
+				<property style="SYDialogFrame"/>
+				<property position="6 11"/>
+				<property extent="150 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\NameBkg.png"/>
+				</Window>
+				<Window class="UStaticText" id = "2">
+				<property style="SYURadioButton"/>
+				<property position="16 13"/>
+				<property extent="127 16"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "3">
+				<property style="SYUIChatMsg"/>
+				<property position="16 34"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "4">
+				<property style="SYDialogFrame"/>
+				<property position="5 65"/>
+				<property extent="153 153"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "15">
+				<property style="SYDialogFrame"/>
+				<property position="6 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="5">
+				<property style="UButton"/>
+				<property bitmap="Public\Queue.skin"/>
+				<property position="9 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "16">
+				<property style="SYDialogFrame"/>
+				<property position="82 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="6">
+				<property style="UButton"/>
+				<property bitmap="Public\QuitQueue.skin"/>
+				<property position="85 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "7">
+				<property style="SYUIChatMsg"/>
+				<property position="16 51"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+		</Window>
+		<Window class="ULobbyItem" id = "4">
+				<property style="SYDialogFrame"/>
+				<property position="80 392"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\LobbyItemBkg.png"/>
+				</Window>
+				<Window class="UBitmap" id = "1">
+				<property style="SYDialogFrame"/>
+				<property position="6 11"/>
+				<property extent="150 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\NameBkg.png"/>
+				</Window>
+				<Window class="UStaticText" id = "2">
+				<property style="SYURadioButton"/>
+				<property position="16 13"/>
+				<property extent="127 16"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "3">
+				<property style="SYUIChatMsg"/>
+				<property position="16 34"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "4">
+				<property style="SYDialogFrame"/>
+				<property position="5 65"/>
+				<property extent="153 153"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "15">
+				<property style="SYDialogFrame"/>
+				<property position="6 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="5">
+				<property style="UButton"/>
+				<property bitmap="Public\Queue.skin"/>
+				<property position="9 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "16">
+				<property style="SYDialogFrame"/>
+				<property position="82 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="6">
+				<property style="UButton"/>
+				<property bitmap="Public\QuitQueue.skin"/>
+				<property position="85 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "7">
+				<property style="SYUIChatMsg"/>
+				<property position="16 51"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+		</Window>
+		<Window class="ULobbyItem" id = "5">
+				<property style="SYDialogFrame"/>
+				<property position="248 392"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\LobbyItemBkg.png"/>
+				</Window>
+				<Window class="UBitmap" id = "1">
+				<property style="SYDialogFrame"/>
+				<property position="6 11"/>
+				<property extent="150 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\NameBkg.png"/>
+				</Window>
+				<Window class="UStaticText" id = "2">
+				<property style="SYURadioButton"/>
+				<property position="16 13"/>
+				<property extent="127 16"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "3">
+				<property style="SYUIChatMsg"/>
+				<property position="16 34"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "4">
+				<property style="SYDialogFrame"/>
+				<property position="5 65"/>
+				<property extent="153 153"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "15">
+				<property style="SYDialogFrame"/>
+				<property position="6 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="5">
+				<property style="UButton"/>
+				<property bitmap="Public\Queue.skin"/>
+				<property position="9 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "16">
+				<property style="SYDialogFrame"/>
+				<property position="82 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="6">
+				<property style="UButton"/>
+				<property bitmap="Public\QuitQueue.skin"/>
+				<property position="85 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "7">
+				<property style="SYUIChatMsg"/>
+				<property position="16 51"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+		</Window>
+		<Window class="ULobbyItem" id = "6">
+				<property style="SYDialogFrame"/>
+				<property position="417 392"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\LobbyItemBkg.png"/>
+				</Window>
+				<Window class="UBitmap" id = "1">
+				<property style="SYDialogFrame"/>
+				<property position="6 11"/>
+				<property extent="150 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\NameBkg.png"/>
+				</Window>
+				<Window class="UStaticText" id = "2">
+				<property style="SYURadioButton"/>
+				<property position="16 13"/>
+				<property extent="127 16"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "3">
+				<property style="SYUIChatMsg"/>
+				<property position="16 34"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "4">
+				<property style="SYDialogFrame"/>
+				<property position="5 65"/>
+				<property extent="153 153"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "15">
+				<property style="SYDialogFrame"/>
+				<property position="6 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="5">
+				<property style="UButton"/>
+				<property bitmap="Public\Queue.skin"/>
+				<property position="9 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "16">
+				<property style="SYDialogFrame"/>
+				<property position="82 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="6">
+				<property style="UButton"/>
+				<property bitmap="Public\QuitQueue.skin"/>
+				<property position="85 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "7">
+				<property style="SYUIChatMsg"/>
+				<property position="16 51"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+		</Window>
+		<Window class="ULobbyItem" id = "7">
+				<property style="SYDialogFrame"/>
+				<property position="585 392"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="163 252"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\LobbyItemBkg.png"/>
+				</Window>
+				<Window class="UBitmap" id = "1">
+				<property style="SYDialogFrame"/>
+				<property position="6 11"/>
+				<property extent="150 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property bitmap = "Data\UI\Lobby\NameBkg.png"/>
+				</Window>
+				<Window class="UStaticText" id = "2">
+				<property style="SYURadioButton"/>
+				<property position="16 13"/>
+				<property extent="127 16"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "3">
+				<property style="SYUIChatMsg"/>
+				<property position="16 34"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "4">
+				<property style="SYDialogFrame"/>
+				<property position="5 65"/>
+				<property extent="153 153"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "15">
+				<property style="SYDialogFrame"/>
+				<property position="6 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="5">
+				<property style="UButton"/>
+				<property bitmap="Public\Queue.skin"/>
+				<property position="9 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmap" id = "16">
+				<property style="SYDialogFrame"/>
+				<property position="82 224"/>
+				<property extent="75 21"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UBitmapButton" id="6">
+				<property style="UButton"/>
+				<property bitmap="Public\QuitQueue.skin"/>
+				<property position="85 227"/>
+				<property extent="69 15"/>
+				<property minExtent="8 2"/>
+				<property visible="1"/>
+				</Window>
+				<Window class="UStaticText" id = "7">
+				<property style="SYUIChatMsg"/>
+				<property position="16 51"/>
+				<property extent="140 14"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				</Window>
+		</Window>
+	<Window class="UBitmapButton" id="15">
+		<property style="UButton"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="309 645"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="16">
+		<property style="UButton"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="460 645"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "17">
+		<property style="SYDialogTitle"/>
+		<property position="378 650"/>
+		<property extent="72 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "18">
+		<property style="SYDialogTitle"/>
+		<property position="364 56"/>
+		<property extent="100 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="副本大厅"/>
+	</Window>
+	<Window class="UBitmapButton" id="19">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="90 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="全部副本"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="20">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="183 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="刷怪模式"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="21">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="276 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="动态副本"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="22">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="369 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="逃亡模式"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="23">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="462 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="pvp地图"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="24">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="555 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="团队副本"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="25">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="648 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="游乐场"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+</Window>

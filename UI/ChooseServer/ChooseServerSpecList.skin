@@ -1,0 +1,5 @@
+<Skin texture ="ListBgk.png">
+	<item x="0" y="0"  w="1" h="1" />
+	<item x="0" y="0"  w="349" h="20" />
+	<item x="0" y="0"  w="349" h="20" />
+</Skin>

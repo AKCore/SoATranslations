@@ -1,0 +1,102 @@
+<Window class="UITutorial">
+	<property style="SYLoginFrame"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property  CanEscapeFouce = "true"/>
+
+<Window class="UIContentCtrl" id = "0">
+	<property style="SYLoginFrame"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="2"/>
+	<property position="97 350"/>
+	<property extent="832 330"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UKeyBoard" id="0">
+		<property style="UBitmap"/>
+		<property position="50 50"/>
+		<property extent="576 226"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property KeyLayOutFile = "Data\UI\FreshManHelp\KeyBoard.xml"/>
+		<Window class = "UBitmap" id="0">
+			<property style = "UBitmap"/>
+			<property position = "0 0"/>
+			<property extent = "576 226"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+			<property bitmap = "DATA\UI\FreshManHelp\KeyButton\KeyBoardBKG.png"/>
+		</Window>
+	</Window>
+	<Window class="UAMouse" id="1">
+		<property style="UBitmap"/>
+		<property position="700 84"/>
+		<property extent="120 180"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UBitmap" id="0">
+		<property style = "UBitmap"/>
+		<property position = "7 9"/>
+		<property extent = "106 161"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property bitmap = "DATA\UI\FreshManHelp\AMouse.png"/>
+		</Window>
+		<Window class = "UBitmap" id="1">
+		<property style = "UBitmap"/>
+		<property position = "9 12"/>
+		<property extent = "50 67"/>
+		<property minExtent = "8 8"/>
+		<property visible = "0"/>
+		<property bitmap = "DATA\UI\FreshManHelp\MouseLeft.png"/>
+		</Window>
+		<Window class = "UBitmap" id="2">
+		<property style = "UBitmap"/>
+		<property position = "56 24"/>
+		<property extent = "10 31"/>
+		<property minExtent = "8 8"/>
+		<property visible = "0"/>
+		<property bitmap = "DATA\UI\FreshManHelp\MouseMiddle.png"/>
+		</Window>
+		<Window class = "UBitmap" id="3">
+		<property style = "UBitmap"/>
+		<property position = "63 12"/>
+		<property extent = "47 67"/>
+		<property minExtent = "8 8"/>
+		<property visible = "0"/>
+		<property bitmap = "DATA\UI\FreshManHelp\MouseRight.png"/>
+		</Window>
+	</Window>
+</Window>
+
+	<Window class="UNiAVControlEff" id="2">
+		<property style="UBitmap"/>
+		<property position="107 104"/>
+		<property extent="64 64"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property avobj="Data\UI\InGameBar\UnCheck.nif"/>
+	</Window>
+
+	<Window class="URichTextCtrl" id="3">
+		<property style="SYLoginFrame"/>
+		<property position="160 183"/>
+		<property extent="600 150"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property ActiveBigMapURL = "false"/>
+	</Window>
+
+	<Window class = "UBitmapButton" id = "4">
+		<property style = "UButton"/>
+		<property position = "123 368"/>
+		<property extent = "72 19"/>
+		<property minExtent = "1 1"/>
+		<property bitmap = "Public\Nextbtn.skin"/>
+		<property visible = "0"/>
+	</Window>
+</Window>

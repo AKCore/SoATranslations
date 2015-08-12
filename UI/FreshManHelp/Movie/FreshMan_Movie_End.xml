@@ -1,0 +1,5 @@
+<Movie>
+	<FrameSay Index = "0" >
+	<Saying des = "哈哈，那么所有的教程已经学习完了，那么您学会了么？<br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_EndNo>不，还没有完全学会</a><right><a:Close>学会啦，再见</a>"/>
+	</FrameSay>
+</Movie>

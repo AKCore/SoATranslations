@@ -1,0 +1,549 @@
+<Window class="UPetDlg">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="3 132"/>
+	<property extent="455 503"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Equipment\PetDlgBGK.skin"/>
+	<Window class = "UPetItem" id = "0">
+		<property style="UBitmap"/>
+		<property position="25 104"/>
+		<property extent="208 65"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UBitmap" id = "0">
+			<property style="UBitmap"/>
+			<property bitmap="Data\ui\Equipment\PetItemBkg.png"/>
+			<property position="0 0"/>
+			<property extent="208 65"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class = "UBitmap" id = "13">
+			<property style="UBitmap"/>
+			<property position="6 5"/>
+			<property extent="54 54"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class="UBitmapButton" id="2">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallBackPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>	
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\DelPet.skin"/>
+			<property position="70 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="4">
+			<property style="SYDialogTitle"/>
+			<property position="65 11"/>
+			<property extent="138 18"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\PetProperty.skin"/>
+			<property position="0 0"/>
+			<property extent="20 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+	</Window>
+	<Window class = "UPetItem" id = "1">
+		<property style="UBitmap"/>
+		<property position="236 104"/>
+		<property extent="208 65"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UBitmap" id = "0">
+			<property style="UBitmap"/>
+			<property bitmap="Data\ui\Equipment\PetItemBkg.png"/>
+			<property position="0 0"/>
+			<property extent="208 65"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class = "UBitmap" id = "13">
+			<property style="UBitmap"/>
+			<property position="6 5"/>
+			<property extent="54 54"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class="UBitmapButton" id="2">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallBackPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>	
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\DelPet.skin"/>
+			<property position="70 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="4">
+			<property style="SYDialogTitle"/>
+			<property position="65 11"/>
+			<property extent="138 18"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\PetProperty.skin"/>
+			<property position="0 0"/>
+			<property extent="20 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+	</Window>
+	<Window class = "UPetItem" id = "2">
+		<property style="UBitmap"/>
+		<property position="25 187"/>
+		<property extent="208 65"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UBitmap" id = "0">
+			<property style="UBitmap"/>
+			<property bitmap="Data\ui\Equipment\PetItemBkg.png"/>
+			<property position="0 0"/>
+			<property extent="208 65"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class = "UBitmap" id = "13">
+			<property style="UBitmap"/>
+			<property position="6 5"/>
+			<property extent="54 54"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class="UBitmapButton" id="2">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallBackPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>	
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\DelPet.skin"/>
+			<property position="70 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="4">
+			<property style="SYDialogTitle"/>
+			<property position="65 11"/>
+			<property extent="138 18"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\PetProperty.skin"/>
+			<property position="0 0"/>
+			<property extent="20 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+	</Window>
+	<Window class = "UPetItem" id = "3">
+		<property style="UBitmap"/>
+		<property position="236 187"/>
+		<property extent="208 65"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UBitmap" id = "0">
+			<property style="UBitmap"/>
+			<property bitmap="Data\ui\Equipment\PetItemBkg.png"/>
+			<property position="0 0"/>
+			<property extent="208 65"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class = "UBitmap" id = "13">
+			<property style="UBitmap"/>
+			<property position="6 5"/>
+			<property extent="54 54"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class="UBitmapButton" id="2">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallBackPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>	
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\DelPet.skin"/>
+			<property position="70 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="4">
+			<property style="SYDialogTitle"/>
+			<property position="65 11"/>
+			<property extent="138 18"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\PetProperty.skin"/>
+			<property position="0 0"/>
+			<property extent="20 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+	</Window>
+	<Window class = "UPetItem" id = "4">
+		<property style="UBitmap"/>
+		<property position="25 270"/>
+		<property extent="208 65"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UBitmap" id = "0">
+			<property style="UBitmap"/>
+			<property bitmap="Data\ui\Equipment\PetItemBkg.png"/>
+			<property position="0 0"/>
+			<property extent="208 65"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class = "UBitmap" id = "13">
+			<property style="UBitmap"/>
+			<property position="6 5"/>
+			<property extent="54 54"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class="UBitmapButton" id="2">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallBackPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>	
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\DelPet.skin"/>
+			<property position="70 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="4">
+			<property style="SYDialogTitle"/>
+			<property position="65 11"/>
+			<property extent="138 18"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\PetProperty.skin"/>
+			<property position="0 0"/>
+			<property extent="20 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+	</Window>
+	<Window class = "UPetItem" id = "5">
+		<property style="UBitmap"/>
+		<property position="236 270"/>
+		<property extent="208 65"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UBitmap" id = "0">
+			<property style="UBitmap"/>
+			<property bitmap="Data\ui\Equipment\PetItemBkg.png"/>
+			<property position="0 0"/>
+			<property extent="208 65"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class = "UBitmap" id = "13">
+			<property style="UBitmap"/>
+			<property position="6 5"/>
+			<property extent="54 54"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class="UBitmapButton" id="2">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallBackPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>	
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\DelPet.skin"/>
+			<property position="70 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="4">
+			<property style="SYDialogTitle"/>
+			<property position="65 11"/>
+			<property extent="138 18"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\PetProperty.skin"/>
+			<property position="0 0"/>
+			<property extent="20 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+	</Window>
+	<Window class = "UPetItem" id = "6">
+		<property style="UBitmap"/>
+		<property position="25 353"/>
+		<property extent="208 65"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UBitmap" id = "0">
+			<property style="UBitmap"/>
+			<property bitmap="Data\ui\Equipment\PetItemBkg.png"/>
+			<property position="0 0"/>
+			<property extent="208 65"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class = "UBitmap" id = "13">
+			<property style="UBitmap"/>
+			<property position="6 5"/>
+			<property extent="54 54"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class="UBitmapButton" id="2">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallBackPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>	
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\DelPet.skin"/>
+			<property position="70 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="4">
+			<property style="SYDialogTitle"/>
+			<property position="65 11"/>
+			<property extent="138 18"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\PetProperty.skin"/>
+			<property position="0 0"/>
+			<property extent="20 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+	</Window>
+	<Window class = "UPetItem" id = "7">
+		<property style="UBitmap"/>
+		<property position="236 353"/>
+		<property extent="208 65"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UBitmap" id = "0">
+			<property style="UBitmap"/>
+			<property bitmap="Data\ui\Equipment\PetItemBkg.png"/>
+			<property position="0 0"/>
+			<property extent="208 65"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class = "UBitmap" id = "13">
+			<property style="UBitmap"/>
+			<property position="6 5"/>
+			<property extent="54 54"/>
+			<property minExtent="8 8"/>
+		</Window>
+		<Window class="UBitmapButton" id="2">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\CallBackPet.skin"/>
+			<property position="105 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>	
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\DelPet.skin"/>
+			<property position="70 34"/>
+			<property extent="62 19"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="4">
+			<property style="SYDialogTitle"/>
+			<property position="65 11"/>
+			<property extent="138 18"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\PetProperty.skin"/>
+			<property position="0 0"/>
+			<property extent="20 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>	
+		</Window>
+	</Window>
+	
+	<Window class="UBitmapButton" id="31">
+		<property style="SYURadioButton"/>
+		<property bitmap="public\SubTable.skin"/>
+		<property position="29 469"/>
+		<property extent="78 33"/>
+		<property minExtent="8 8"/>
+		<property text="角 色"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="40">
+		<property style="SYURadioButton"/>
+		<property bitmap="public\SubTable.skin"/>
+		<property position="111 469"/>
+		<property extent="78 33"/>
+		<property minExtent="8 8"/>
+		<property text="时 装"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="32">
+		<property style="SYURadioButton"/>
+		<property bitmap="public\SubTable.skin"/>
+		<property position="193 469"/>
+		<property extent="78 33"/>
+		<property minExtent="8 8"/>
+		<property text="宠 物"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UStaticText" id="33">
+		<property style="SYDialogTitle"/>
+		<property position="85 24"/>
+		<property extent="327 24"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=" 宠 物"/>
+	</Window>
+	<Window class="UBitmapButton" id="34">
+		<property style="SYURadioButton"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="123 440"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="35">
+		<property style="SYURadioButton"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="272 440"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="36">
+		<property style="SYDialogTitle"/>
+		<property position="183 440"/>
+		<property extent="89 24"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="1/1"/>
+	</Window>
+</Window>

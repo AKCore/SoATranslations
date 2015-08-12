@@ -1,0 +1,236 @@
+﻿<Window class="UCreatePlayer">
+	<property style="default"/>
+	<property AnchorHori="width"/>
+	<property AnchorVert="height"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property CanEscapeFouce = "true"/>
+	<property visible="1"/>
+	<Window class="UNiAVControlR" id="0">
+		<property style="UBitmap"/>
+		<property position="0 0"/>
+		<property extent="1024 768"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property avobj="Data\UI\Assert\ChoosePlayer\Choose.nif"/>
+	</Window>
+	<Window class="UBitmap" id="1">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\CreatePlayer\CreateBgk.png"/>
+		<property position="6 75"/>
+		<property extent="304 582"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--顶部图-->
+	<Window class="UBitmap" id="2">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\ChoosePlayer\top.png"/>
+		<property position="0 0"/>
+		<property extent="1024 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--底部图-->
+	<Window class="UBitmap" id="3">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\ChoosePlayer\bom.png"/>
+		<property position="0 677"/>
+		<property extent="1024 91"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--种族-->
+	<!--人-->
+	<Window class="UBitmapButton" id="4">
+		<property style="URadioButton"/>
+		<property bitmap="Public\renzu.skin"/>
+		<property position="23 87"/>
+		<property extent="90 112"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--妖-->
+	<Window class="UBitmapButton" id="5">
+		<property style="URadioButton"/>
+		<property bitmap="Public\yaozu.skin"/>
+		<property position="111 87"/>
+		<property extent="90 112"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--巫-->
+	<Window class="UBitmapButton" id="6">
+		<property style="URadioButton"/>
+		<property bitmap="Public\wuzu.skin"/>
+		<property position="200 87"/>
+		<property extent="90 112"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--性别-->
+	<!--男-->
+	<Window class="UBitmapButton" id="7">
+		<property style="URadioButton"/>
+		<property bitmap="Public\Male.skin"/>
+		<property position="113 390"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--女-->
+	<Window class="UBitmapButton" id="8">
+		<property style="URadioButton"/>
+		<property bitmap="Public\Fmale.skin"/>
+		<property position="154 390"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--职业-->
+	<!--武修-->
+	<Window class="UBitmapButton" id="9">
+		<property style="URadioButton"/>
+		<property bitmap="Public\zhanshi.skin"/>
+		<property position="57 461"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="3"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--弓箭手-->
+	<Window class="UBitmapButton" id="10">
+		<property style="URadioButton"/>
+		<property bitmap="Public\gongjian.skin"/>
+		<property position="108 461"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="3"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--仙道-->
+	<Window class="UBitmapButton" id="11">
+		<property style="URadioButton"/>
+		<property bitmap="Public\xiandao.skin"/>
+		<property position="154 461"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="3"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--真巫-->
+	<Window class="UBitmapButton" id="12">
+		<property style="URadioButton"/>
+		<property bitmap="Public\zhenwu.skin"/>
+		<property position="209 461"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="3"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--名字背景-->
+	<Window class="UBitmap" id="22">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\CreatePlayer\namebgk.png"/>
+		<property position="477 639"/>
+		<property extent="127 38"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--名字-->
+	<Window class="UEdit" id="13">
+		<property style="SYPlayerNameEdit"/>
+		<property position="484 659"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--左转-->
+	<Window class="UDownButton" id="14">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnLeft.skin"/>
+		<property position="792 624"/>
+		<property extent="20 20"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--右转-->
+	<Window class="UDownButton" id="15">
+		<property style="UButton"/>
+		<property bitmap="Public\Turnright.skin"/>
+		<property position="816 624"/>
+		<property extent="20 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--确定-->
+	<Window class="UBitmapButton" id="16">
+		<property style="UButton"/>
+		<property bitmap="Public\cOK.skin"/>
+		<property position="505 685"/>
+		<property extent="72 19"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--返回-->
+	<Window class="UBitmapButton" id="17">
+		<property style="UButton"/>
+		<property bitmap="Public\Back.skin"/>
+		<property position="34 713"/>
+		<property extent="72 19"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--种族说明 默认人族-->
+	<Window class="UBitmap" id="18">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\CreatePlayer\ren.png"/>
+		<property position="23 229"/>
+		<property extent="267 132"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--职业说明 默认战士-->
+	<Window class="UBitmap" id="19">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\CreatePlayer\zhanshi.png"/>
+		<property position="23 547"/>
+		<property extent="267 97"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--性别显示 默认男-->
+	<Window class="UBitmap" id="20">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\CreatePlayer\male.png"/>
+		<property position="135 432"/>
+		<property extent="34 17"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--职业显示 默认战士-->
+	<Window class="UBitmap" id="21">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\CreatePlayer\n_zhanshi.png"/>
+		<property position="135 503"/>
+		<property extent="34 17"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+</Window>

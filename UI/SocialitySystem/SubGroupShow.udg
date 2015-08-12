@@ -1,0 +1,17 @@
+<Window class="USubGroupShow">
+	<property style="SYUIChatMsg"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="190 80"/>
+	<property extent="114 220"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property bkgskin="SocialitySystem\SubGroupShowBgk.skin"/>
+	<Window class="USubGroupShow::UDragBtn" id = "0">
+   		<property style="HookTitle"/>
+   		<property position="0 0"/>
+   		<property extent="114 22"/>
+   		<property minExtent="8 8"/>
+   		<property visible="1"/>
+	</Window>
+</Window>

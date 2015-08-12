@@ -1,0 +1,5 @@
+<Skin texture = "chat.png">
+	<item x ="0" y ="0"    w ="366"  h ="137"/>
+	<item x ="0" y ="137" w ="366" h ="24"/>
+	<item x ="366" y = "0" w = "78" h = "105"/>
+</Skin>

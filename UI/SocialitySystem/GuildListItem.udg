@@ -1,0 +1,58 @@
+<Window class="UGuildListItem">
+	<property style="UBitmap"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="0 0"/>
+	<property extent="363 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+		<Window class= "UBitmap" id = "0">
+			<property style="SYDialogFrame"/>
+			<property position= "0 3"/>
+			<property extent= "14 14"/>
+			<property minExtent= "8 8"/>
+			<property visible= "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "23 2"/>
+			<property extent = "119 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "146 2"/>
+			<property extent = "16 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "175 2"/>
+			<property extent = "26 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "210 2"/>
+			<property extent = "66 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "5">
+			<property style = "SYOtherEdit"/>
+			<property position = "282 2"/>
+			<property extent = "42 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "6">
+			<property style = "SYOtherEdit"/>
+			<property position = "329 2"/>
+			<property extent = "34 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+</Window>

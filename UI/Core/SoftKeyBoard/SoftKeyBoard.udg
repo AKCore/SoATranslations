@@ -1,0 +1,44 @@
+<Window class="USoftKeyBoard">
+	<property style="default"/>
+	<property position="650 580"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property extent="271 139"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "false"/>
+	<Window class="USoftKeyBoard::UKeyCtrl" id = "0">
+		<property style="Softkeyboard"/>
+		<property position="214 103"/>
+		<property extent="43 21"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bgkSkin="Core\SoftKeyBoard\KeyBgk2.skin"/>
+	</Window>
+	<Window class="USoftKeyBoard::UKeyCtrl" id = "1">
+		<property style="Softkeyboard"/>
+		<property position="148 103"/>
+		<property extent="66 21"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bgkSkin="Core\SoftKeyBoard\KeyBgk3.skin"/>
+	</Window>
+	<Window class="USoftKeyBoard::UKeyCtrl" id = "2">
+		<property style="Softkeyboard"/>
+		<property position="104 103"/>
+		<property extent="42 21"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bgkSkin="Core\SoftKeyBoard\KeyBgk2.skin"/>
+	</Window>
+	<Window class="USoftKeyBoard::UKeyLock" id="3">
+		<property style="UButton"/>
+		<property bitmap="Core\SoftKeyBoard\Lock.skin"/>
+		<property position="241 17"/>
+		<property extent="12 13"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+	
+
+</Window>

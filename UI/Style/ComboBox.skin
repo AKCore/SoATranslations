@@ -1,0 +1,6 @@
+<Skin texture ="ComboBox.png">
+	<item x="56" y="4" w="15" h="15" />
+	<item x="56" y="17" w="15" h="15" />
+	<item x="56" y="31" w="15" h="15" />
+	<item x="56" y="44" w="15" h="15" />
+</Skin>

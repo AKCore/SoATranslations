@@ -1,0 +1,4 @@
+<WndClass Name = "LWnd" Style = "0" Skin = "LthClientEdge" Cursor = "" Font = "" />
+<WndClass Name = "LStatic" Style = "0" Skin = "LthClientEdge" Cursor = "" Font = "" />
+<WndClass Name = "LListBox" Style = "0" Skin = "LthClientEdge" Cursor = "" Font = "" />
+<WndClass Name = "LFrameWnd" Style = "0" Skin = "LthWndSkin" Cursor = "" Font = "" />

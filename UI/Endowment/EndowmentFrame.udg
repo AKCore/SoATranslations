@@ -1,0 +1,11 @@
+<Window class="UEndowmentFrame">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="173 83"/>
+	<property extent="678 615"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Endowment\Endowment.skin"/>
+</Window>

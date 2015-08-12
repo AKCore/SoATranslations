@@ -1,0 +1,179 @@
+<Window class="UEndowmentRank_Content">
+	<property style="default"/>
+	<property position="74 129"/>
+	<property extent="529 474"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<Window class="UBoardControl" id="40">
+		<property style="SYPlayerNameEdit"/>
+		<property position="6 8"/>
+		<property extent="519 29"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBoardControl" id="41">
+		<property style="SYPlayerNameEdit"/>
+		<property position="6 43"/>
+		<property extent="519 159"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBoardControl" id="42">
+		<property style="SYPlayerNameEdit"/>
+		<property position="6 258"/>
+		<property extent="519 29"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBoardControl" id="43">
+		<property style="SYPlayerNameEdit"/>
+		<property position="58 295"/>
+		<property extent="414 159"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="44">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Endowment\NameBkg.png"/>
+		<property position="183 223"/>
+		<property extent="154 27"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USpecListBox" id="1">
+    		<property style="SYUSpecListBox"/>
+		<property bitmap="Public\SpecList.skin"/>
+    		<property position="13 63"/>
+	    	<property extent="505 131"/>
+    		<property minExtent="8 8"/>
+    		<property visible="1"/>
+	</Window>
+	<Window class="USpecListBox" id="2">
+    		<property style="SYUSpecListBox"/>
+		<property bitmap="Public\SpecList.skin"/>
+    		<property position="67 318"/>
+	    	<property extent="394 126"/>
+    		<property minExtent="8 8"/>
+    		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "8">
+		<property style="SYDialogTitle"/>
+		<property position="6 8"/>
+		<property extent="519 29"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="总捐助排行榜单"/>
+	</Window>
+	<Window class="UStaticText" id = "9">
+		<property style="SYSetTitle"/>
+		<property position="6 258"/>
+		<property extent="519 29"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "10">
+		<property style="SYSetTitle"/>
+		<property position="183 223"/>
+		<property extent="154 27"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "11">
+		<property style="SYSetTitle"/>
+		<property position="13 43"/>
+		<property extent="45 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="排名"/>
+	</Window>
+	<Window class="UStaticText" id = "12">
+		<property style="SYSetTitle"/>
+		<property position="58 43"/>
+		<property extent="135 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="玩家姓名"/>
+	</Window>
+	<Window class="UStaticText" id = "13">
+		<property style="SYSetTitle"/>
+		<property position="199 43"/>
+		<property extent="46 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="等级"/>
+	</Window>
+	<Window class="UStaticText" id = "14">
+		<property style="SYSetTitle"/>
+		<property position="253 43"/>
+		<property extent="138 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="部族"/>
+	</Window>
+	<Window class="UStaticText" id = "15">
+		<property style="SYSetTitle"/>
+		<property position="403 43"/>
+		<property extent="115 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="捐赠元宝总数"/>
+	</Window>
+	<Window class="UStaticText" id = "16">
+		<property style="SYSetTitle"/>
+		<property position="67 295"/>
+		<property extent="38 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="排名"/>
+	</Window>
+	<Window class="UStaticText" id = "17">
+		<property style="SYSetTitle"/>
+		<property position="112 295"/>
+		<property extent="118 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="玩家姓名"/>
+	</Window>
+	<Window class="UStaticText" id = "18">
+		<property style="SYSetTitle"/>
+		<property position="230 295"/>
+		<property extent="32 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="等级"/>
+	</Window>
+	<Window class="UStaticText" id = "19">
+		<property style="SYSetTitle"/>
+		<property position="269 295"/>
+		<property extent="110 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="部族"/>
+	</Window>
+	<Window class="UStaticText" id = "20">
+		<property style="SYSetTitle"/>
+		<property position="379 295"/>
+		<property extent="82 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="捐赠元宝数"/>
+	</Window>
+	<!--prev-->
+	<Window class="UBitmapButton" id="50">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnLeftBig.skin"/>
+		<property position="125 223"/>
+		<property extent="44 28"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--next-->
+	<Window class="UBitmapButton" id="51">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnrightBig.skin"/>
+		<property position="349 223"/>
+		<property extent="44 28"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

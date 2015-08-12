@@ -1,0 +1,6 @@
+<Skin texture ="Type.png">
+	<item x="0" y="0" w="30" h="86" />
+	<item x="0" y="86" w="30" h="86" />
+	<item x="0" y="172" w="30" h="86" />
+	<item x="0" y="258" w="30" h="86" />
+</Skin>

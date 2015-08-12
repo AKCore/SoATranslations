@@ -1,0 +1,140 @@
+<Window class="UEndowmentMain_Content">
+	<property style="default"/>
+	<property position="75 129"/>
+	<property extent="877 625"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property PhotoRect = "20 141 568 513"/>
+	<Window class="UBitmap" id="0">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\adv.png"/>
+		<property position="3 7"/>
+		<property extent="872 83"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="1">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\logo.png"/>
+		<property position="757 7"/>
+		<property extent="107 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="2">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\photoBoard.png"/>
+		<property position="13 102"/>
+		<property extent="562 417"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="3">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\DesBoard.png"/>
+		<property position="589 146"/>
+		<property extent="266 361"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="4">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\text.png"/>
+		<property position="3 559"/>
+		<property extent="870 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="5">
+		<property style="SYSetTitle"/>
+		<property position="441 593"/>
+		<property extent="154 21"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="输入捐助的元宝数量："/>
+	</Window>
+	<Window class="UBitmap" id="6">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Public\ButtonBkg.png"/>
+		<property position="773 591"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="UButton"/>
+		<property bitmap="Public\JuanZhu.skin"/>
+		<property position="776 594"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBoardControl" id="8">
+		<property style="default"/>
+		<property position="612 590"/>
+		<property extent="111 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UEdit" id="9">
+		<property style="SYPlayerNameEdit"/>
+		<property position="614 593"/>
+		<property extent="107 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bfoucesel="1"/>
+	</Window>
+	<Window class="UBitmap" id="10">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\public\YuanBao.png"/>
+		<property position="737 594"/>
+		<property extent="18 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="11">
+		<property style="SYStaticTextCtrl"/>
+		<property position="589 126"/>
+		<property extent="266 16"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="URichTextCtrl" id="12">
+		<property style="ChooseSpecListBox"/>
+		<property position="595 155"/>
+		<property extent="253 343"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property ActiveBigMapURL = "false"/>
+	</Window>
+	<Window class="UBitmapButton" id="13">
+		<property style="UButton"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="185 523"/>
+		<property extent="59 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="14">
+		<property style="SYDialogTitle"/>
+		<property position="248 522"/>
+		<property extent="79 28"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="15">
+		<property style="UButton"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="329 523"/>
+		<property extent="59 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UComboBox" id = "16">
+		<property style="DonationComboBox"/>
+		<property position="103 114"/>
+		<property extent="382 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

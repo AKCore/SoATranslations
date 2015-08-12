@@ -1,0 +1,8 @@
+<Window class="UIFadeText" id="0">
+		<property style="AreaName"/>
+		<property position="362 177"/>
+		<property extent="300 40"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+		<property text=""/>
+</Window>

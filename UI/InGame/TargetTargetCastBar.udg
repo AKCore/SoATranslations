@@ -1,0 +1,18 @@
+<Window class="USpellProcessBar">
+	<property style="SYUCastBar"/>
+	<property position="472 123"/>
+	<property extent="44 10"/>
+	<property minExtent="0 0"/>
+	<property visible="0"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<Window class="UProgressBar_Skin" id="0">
+		<property style="SYUProgressCtrl"/>
+		<property BarSkin="UIPlayerShow\TargetTargetCastBar.skin"/>
+		<property BarHeadSkin="UIPlayerShow\TargetTargetCastBarHead.skin"/>
+		<property position="0 0"/>
+		<property extent="44 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

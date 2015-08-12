@@ -1,0 +1,7 @@
+﻿<Window class="UPlug_LockTargetFrame">
+	<property style="SYDialogFrame"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+</Window>

@@ -1,0 +1,207 @@
+<Window class="UPlug_LockTargetContent">
+	<property style="default"/>
+	<property position="239 400"/>
+	<property extent="279 191"/>
+	<property minExtent="8 8"/>
+	<property CanEscapeFouce = "true"/>
+	<property visible="1"/>
+    	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property bkgskin="UPlug\Plug_LockTarget.png.skin"/>
+	<Window class="UPlug_LockTarget" id="0">
+		<property style="default"/>
+		<property position="0 0"/>
+		<property extent="251 122"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\UIPlayerShow\Player_NotLogin.png"/>
+			<property position="167 19"/>
+			<property extent="77 77"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id="100">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\UIPlayerShow\Tennet.png"/>
+			<property position="0 0"/>
+			<property extent="251 122"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id="6">
+			<property style="UButton"/>
+			<property Skin="UIPlayerShow\WuXiu.skin"/>
+			<property position="151 75"/>
+			<property extent="33 33"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id="7">
+			<property style="UButton"/>
+			<property Skin="UIPlayerShow\LevelMask.skin"/>
+			<property position="234 18"/>
+			<property extent="28 28"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UProgressBar_Skin" id="0">
+			<property style="SYUProgressCtrl"/>
+			<property BarSkin="UIPlayerShow\HPBar_Target.skin"/>
+			<property position="23 38"/>
+			<property extent="137 21"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UProgressBar_Skin" id="1">
+			<property style="SYUProgressCtrl"/>
+			<property BarSkin="UIPlayerShow\MPBar_Target.skin"/>
+			<property position="23 62"/>
+			<property extent="137 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYNameUEdit"/>
+			<property position="31 18"/>
+			<property extent="131 18"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text = ""/>
+		</Window>
+		<Window class="UStaticText" id="4">
+			<property style="SYOtherEdit"/>
+			<property position="236 24"/>
+			<property extent="24 16"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+			<property text = ""/>
+		</Window>
+	</Window>
+	<Window class="USpellProcessBar" id = "1">
+		<property style="SYUCastBar"/>
+		<property position="24 84"/>
+		<property extent="131 21"/>
+		<property minExtent="0 0"/>
+		<property visible="0"/>
+		<property SpellNameAlign = "2"/>
+		<Window class="UProgressBar_Skin" id="0">
+			<property style="SYUProgressCtrl"/>
+			<property BarSkin="UIPlayerShow\TargetCastBar.skin"/>
+			<property BarHeadSkin="UIPlayerShow\TargetCastBarHead.skin"/>
+			<property position="0 0"/>
+			<property extent="131 21"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYUCastBar"/>
+			<property position="0 0"/>
+			<property extent="131 21"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class = "UAuraContent" id = "2">
+		<property style = "SYStaticEditText"/>
+		<property position="23 105"/>
+		<property extent="151 0"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UPlug_LockTarget" id = "3">
+		<property style="default"/>
+		<property position="179 89"/>
+		<property extent="73 35"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<Window class="UBitmap" id="3">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\UIPlayerShow\Player_NotLogin.png"/>
+			<property position="4 4"/>
+			<property extent="27 27"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id="100">
+			<property style="UBitmap"/>
+			<property Skin="UIPlayerShow\TemMemBKG.skin"/>
+			<property position="0 0"/>
+			<property extent="73 35"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UProgressBar_Skin" id="0">
+			<property style="SYUProgressCtrl"/>
+			<property BarSkin="UIPlayerShow\HPBar_TargetTarget.skin"/>
+			<property position="31 12"/>
+			<property extent="39 6"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UProgressBar_Skin" id="1">
+			<property style="SYUProgressCtrl"/>
+			<property BarSkin="UIPlayerShow\MPBar_TargetTarget.skin"/>
+			<property position="31 21"/>
+			<property extent="39 4"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYNameSmall"/>
+			<property position="31 0"/>
+			<property extent="42 11"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text = ""/>
+		</Window>
+	</Window>
+	<Window class="UPlug_LockTarget" id = "4">
+		<property style="default"/>
+		<property position="179 125"/>
+		<property extent="73 35"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<Window class="UBitmap" id="3">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\UIPlayerShow\Player_NotLogin.png"/>
+			<property position="4 4"/>
+			<property extent="27 27"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id="100">
+			<property style="UBitmap"/>
+			<property Skin="UIPlayerShow\TemMemBKG.skin"/>
+			<property position="0 0"/>
+			<property extent="73 35"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UProgressBar_Skin" id="0">
+			<property style="SYUProgressCtrl"/>
+			<property BarSkin="UIPlayerShow\HPBar_TargetTarget.skin"/>
+			<property position="31 12"/>
+			<property extent="39 6"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UProgressBar_Skin" id="1">
+			<property style="SYUProgressCtrl"/>
+			<property BarSkin="UIPlayerShow\MPBar_TargetTarget.skin"/>
+			<property position="31 21"/>
+			<property extent="39 4"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYNameSmall"/>
+			<property position="31 0"/>
+			<property extent="42 11"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text = ""/>
+		</Window>
+	</Window>
+</Window>

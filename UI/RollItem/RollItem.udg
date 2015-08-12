@@ -1,0 +1,49 @@
+<Window class="URollItem">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="300 135"/>
+	<property extent="166 92"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property bitmap="Data\UI\RollItem\roll.png"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\roll.skin"/>
+		<property position="11 66"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\Refuseroll.skin"/>
+		<property position="106 66"/>
+		<property extent="50 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="2">
+		<property style="SkillButton"/>
+		<property position="12 13"/>
+		<property extent="36 36"/>
+		<property showbgk="1"/>
+		<property SkinBgk="PickItemList/ItemQuilty.skin"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UTimeBar" id="3">
+		<property style="UProgressCtrl"/>
+		<property position="14 55"/>
+		<property extent="140 6"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="URichTextCtrl"/>
+		<property position="55 16"/>
+		<property extent="98 30"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

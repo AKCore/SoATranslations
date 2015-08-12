@@ -1,0 +1,892 @@
+<Window class="UISkill">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="3 132"/>
+	<property extent="422 534"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CloseBtnPos = "354 22"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Skill\USkill.skin"/>
+	<Window class="USkillExplain" id="0">
+		<property style="UBitmap"/>
+		<property position="53 135"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="1">
+		<property style="UBitmap"/>
+		<property position="53 194"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="2">
+		<property style="UBitmap"/>
+		<property position="53 253"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="3">
+		<property style="UBitmap"/>
+		<property position="53 312"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="4">
+		<property style="UBitmap"/>
+		<property position="53 371"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="5">
+		<property style="UBitmap"/>
+		<property position="53 430"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="6">
+		<property style="UBitmap"/>
+		<property position="194 135"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="7">
+		<property style="UBitmap"/>
+		<property position="194 194"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="8">
+		<property style="UBitmap"/>
+		<property position="194 253"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="9">
+		<property style="UBitmap"/>
+		<property position="194 312"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="10">
+		<property style="UBitmap"/>
+		<property position="194 371"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="USkillExplain" id="11">
+		<property style="UBitmap"/>
+		<property position="194 430"/>
+		<property extent="121 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="0 0"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\Explain.png"/>
+			<property visible="1"/>
+		</Window>
+		<!--名字-->
+		<Window class="UStaticText" id="0">
+			<property style="SYSkillText"/>
+			<property position="49 7"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能等级-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="49 25"/>
+			<property extent="70 14"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--技能图标-->
+		<Window class="UDynamicIconButtonEx" id="3">
+			<property style="SkillButton"/>
+			<property position="3 3"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<!--上一页-->
+	<Window class="UBitmapButton" id="12">
+		<property style="UButton"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="100 487"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--下一页-->
+	<Window class="UBitmapButton" id="13">
+		<property style="UButton"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="214 487"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="50">
+		<property style="UButton"/>
+		<property bitmap="Data\UI\NPCTrade\ComboBkg.png"/>
+		<property position="276 61"/>
+		<property extent="89 23"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UComboBox" id="14">
+		<property style="SYUComboBox1"/>
+		<property position="281 66"/>
+		<property extent="78 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="15">
+		<property style="SYDialogTitle"/>
+		<property position="68 23"/>
+		<property extent="275 22"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="技 能 书"/>
+	</Window>
+	<Window class="UStaticText" id="16">
+		<property style="SYSkillText"/>
+		<property position="160 492"/>
+		<property extent="54 16"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="51">
+		<property style="UButton"/>
+		<property bitmap="Data\UI\Skill\Help.png"/>
+		<property position="50 378"/>
+		<property extent="273 123"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UProfSkillExplain" id="52">
+		<property style="UButton"/>
+		<property position="45 125"/>
+		<property extent="283 108"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<Window class="UBitmap" id="0">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\Skill\ProfSkill.png"/>
+			<property position="0 0"/>
+			<property extent="283 108"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillExplain" id="1">
+			<property style="UBitmap"/>
+			<property position="155 7"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class="UBitmap" id = "100">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="121 46"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Skill\Explain.png"/>
+				<property visible="1"/>
+			</Window>
+			<!--名字-->
+			<Window class="UStaticText" id="0">
+				<property style="SYSkillText"/>
+				<property position="49 7"/>
+				<property extent="70 14"/>
+				<property minExtent="1 1"/>
+				<property visible="1"/>
+				<property text=""/>
+			</Window>
+			<!--技能等级-->
+			<Window class="UStaticText" id="1">
+				<property style="SYSkillText"/>
+				<property position="49 25"/>
+				<property extent="70 14"/>
+				<property minExtent="1 1"/>
+				<property visible="1"/>
+				<property text=""/>
+			</Window>
+			<!--技能图标-->
+			<Window class="UDynamicIconButtonEx" id="3">
+				<property style="SkillButton"/>
+				<property position="3 3"/>
+				<property extent="40 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+		</Window>
+		<Window class="USkillExplain" id="2">
+			<property style="UBitmap"/>
+			<property position="155 56"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class="UBitmap" id = "100">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="121 46"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Skill\Explain.png"/>
+				<property visible="1"/>
+			</Window>
+			<!--名字-->
+			<Window class="UStaticText" id="0">
+				<property style="SYSkillText"/>
+				<property position="49 7"/>
+				<property extent="70 14"/>
+				<property minExtent="1 1"/>
+				<property visible="1"/>
+				<property text=""/>
+			</Window>
+			<!--技能等级-->
+			<Window class="UStaticText" id="1">
+				<property style="SYSkillText"/>
+				<property position="49 25"/>
+				<property extent="70 14"/>
+				<property minExtent="1 1"/>
+				<property visible="1"/>
+				<property text=""/>
+			</Window>
+			<!--技能图标-->
+			<Window class="UDynamicIconButtonEx" id="3">
+				<property style="SkillButton"/>
+				<property position="3 3"/>
+				<property extent="40 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+		</Window>
+		<Window class="UBitmap" id = "103">
+			<property style="SYDialogFrame"/>
+			<property position="7 81"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="3">
+			<property style="UButton"/>
+			<property bitmap="Public\UnLearn.skin"/>
+			<property position="10 84"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "104">
+			<property style="SYDialogFrame"/>
+			<property position="7 13"/>
+			<property extent="126 62"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UProgressBar_Skin" id="4">
+			<property style="SYUProgressCtrl"/>
+			<property BarSkin="Skill\ProfExpBar.skin"/>
+			<property position="6 62"/>
+			<property extent="109 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UProfSkillExplain" id="53">
+		<property style="UButton"/>
+		<property position="45 243"/>
+		<property extent="283 108"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<Window class="UBitmap" id="0">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\Skill\ProfSkill.png"/>
+			<property position="0 0"/>
+			<property extent="283 108"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillExplain" id="1">
+			<property style="UBitmap"/>
+			<property position="155 7"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class="UBitmap" id = "100">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="121 46"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Skill\Explain.png"/>
+				<property visible="1"/>
+			</Window>
+			<!--名字-->
+			<Window class="UStaticText" id="0">
+				<property style="SYSkillText"/>
+				<property position="49 7"/>
+				<property extent="70 14"/>
+				<property minExtent="1 1"/>
+				<property visible="1"/>
+				<property text=""/>
+			</Window>
+			<!--技能等级-->
+			<Window class="UStaticText" id="1">
+				<property style="SYSkillText"/>
+				<property position="49 25"/>
+				<property extent="70 14"/>
+				<property minExtent="1 1"/>
+				<property visible="1"/>
+				<property text=""/>
+			</Window>
+			<!--技能图标-->
+			<Window class="UDynamicIconButtonEx" id="3">
+				<property style="SkillButton"/>
+				<property position="3 3"/>
+				<property extent="40 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+		</Window>
+		<Window class="USkillExplain" id="2">
+			<property style="UBitmap"/>
+			<property position="155 56"/>
+			<property extent="121 46"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class="UBitmap" id = "100">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="121 46"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Skill\Explain.png"/>
+				<property visible="1"/>
+			</Window>
+			<!--名字-->
+			<Window class="UStaticText" id="0">
+				<property style="SYSkillText"/>
+				<property position="49 7"/>
+				<property extent="70 14"/>
+				<property minExtent="1 1"/>
+				<property visible="1"/>
+				<property text=""/>
+			</Window>
+			<!--技能等级-->
+			<Window class="UStaticText" id="1">
+				<property style="SYSkillText"/>
+				<property position="49 25"/>
+				<property extent="70 14"/>
+				<property minExtent="1 1"/>
+				<property visible="1"/>
+				<property text=""/>
+			</Window>
+			<!--技能图标-->
+			<Window class="UDynamicIconButtonEx" id="3">
+				<property style="SkillButton"/>
+				<property position="3 3"/>
+				<property extent="40 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+		</Window>
+		<Window class="UBitmap" id = "103">
+			<property style="SYDialogFrame"/>
+			<property position="7 81"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="3">
+			<property style="UButton"/>
+			<property bitmap="Public\UnLearn.skin"/>
+			<property position="10 84"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "104">
+			<property style="SYDialogFrame"/>
+			<property position="7 13"/>
+			<property extent="126 62"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UProgressBar_Skin" id="4">
+			<property style="SYUProgressCtrl"/>
+			<property BarSkin="Skill\ProfExpBar.skin"/>
+			<property position="6 62"/>
+			<property extent="109 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UBitmapButton" id="71">
+		<property style="SYURadioButton"/>
+		<property bitmap="Skill\SkillCheckBtnRed.skin"/>
+		<property position="74 62"/>
+		<property extent="42 58"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "职业技能"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="72">
+		<property style="SYURadioButton"/>
+		<property bitmap="Skill\SkillCheckBtnBlue.skin"/>
+		<property position="122 62"/>
+		<property extent="42 58"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "专业技能"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="73">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Skill\ClassFlag.skin"/>
+		<property position="331 140"/>
+		<property extent="91 34"/>
+		<property minExtent="8 8"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="74">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Skill\ClassFlag.skin"/>
+		<property position="331 176"/>
+		<property extent="91 34"/>
+		<property minExtent="8 8"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="75">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Skill\ClassFlag.skin"/>
+		<property position="331 212"/>
+		<property extent="91 34"/>
+		<property minExtent="8 8"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="76">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Skill\ClassFlag.skin"/>
+		<property position="331 248"/>
+		<property extent="91 34"/>
+		<property minExtent="8 8"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="77">
+		<property style="SYTabRadioButton"/>
+		<property bitmap="Skill\ClassFlag.skin"/>
+		<property position="331 284"/>
+		<property extent="91 34"/>
+		<property minExtent="8 8"/>
+		<property groupNum="2"/>
+		<property visible="0"/>
+		<property buttonType="2"/>
+	</Window>
+</Window>

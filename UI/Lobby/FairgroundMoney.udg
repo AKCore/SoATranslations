@@ -1,0 +1,9 @@
+<Window class="UFairGroundMoneyUpdata">
+	<property style="default"/>
+	<property position="520 0"/>
+	<property extent="161 50"/>
+	<property minExtent="8 8"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="3"/>
+	<property visible="0"/>
+</Window>

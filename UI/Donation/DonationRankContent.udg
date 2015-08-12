@@ -1,0 +1,93 @@
+<Window class="UEndowmentRank_Content">
+	<property style="default"/>
+	<property position="75 129"/>
+	<property extent="877 625"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<Window class="UBitmap" id="3">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\hongsidai.png"/>
+		<property position="1 457"/>
+		<property extent="875 168"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="0">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\RankBKG.png"/>
+		<property position="13 3"/>
+		<property extent="853 570"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="1">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\logo.png"/>
+		<property position="598 575"/>
+		<property extent="107 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="1">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\jtxlogo.png"/>
+		<property position="187 574"/>
+		<property extent="63 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="SYDonationSingleName"/>
+		<property position="31 50"/>
+		<property extent="415 39"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="5">
+		<property style="SYDialogTitle"/>
+		<property position="75 89"/>
+		<property extent="299 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="UButton"/>
+		<property bitmap="Public\DonationPrev.skin"/>
+		<property position="31 94"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="UButton"/>
+		<property bitmap="Public\DonationNext.skin"/>
+		<property position="376 94"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USpecListBox" id="8">
+    		<property style="ChooseSpecListBox"/>
+		<property bitmap="Donation\SpecListRed.skin"/>
+    		<property position="24 181"/>
+	    	<property extent="392 381"/>
+    		<property minExtent="8 8"/>
+    		<property visible="1"/>
+	</Window>
+	<Window class="USpecListBox" id="9">
+    		<property style="ChooseSpecListBox"/>
+		<property bitmap="Donation\SpecListBlue.skin"/>
+    		<property position="460 181"/>
+	    	<property extent="395 381"/>
+    		<property minExtent="8 8"/>
+    		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="10">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\wangzhi.png"/>
+		<property position="300 600"/>
+	    	<property extent="270 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

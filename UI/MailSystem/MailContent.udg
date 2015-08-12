@@ -1,0 +1,190 @@
+<Window class="UMailContent">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="333 132"/>
+	<property extent="346 520"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="MailSystem\MailConent.skin"/>
+	<!--屏蔽-->
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\Shield.skin"/>
+		<property position="215 64"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<!--转发-->
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\ReSend.skin"/>
+		<property position="26 378"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UBitmap" id = "102">
+		<property style="SYDialogFrame"/>
+		<property position="232 478"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<!--回复-->
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\Revert.skin"/>
+		<property position="235 481"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--主题-->
+	<Window class="UStaticText" id="3">
+		<property style="SYOtherEdit"/>
+		<property position="50 114"/>
+		<property extent="227 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--发件人-->
+	<Window class="UStaticText" id="4">
+		<property style="SYOtherEdit"/>
+		<property position="50 132"/>
+		<property extent="227 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--邮件内容-->
+	<Window class="UScrollBar" id="5">
+		<property style="SYUScrollBar"/>
+		<property position="45 96"/>
+		<property extent="272 280"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin="5 83"/>
+		<property visible="1"/>
+		<Window class="URichTextCtrl" id="6">
+			<property style="SYTraceTextCtrl"/>
+			<property position="0 0"/>
+			<property extent="232 188"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<!--附件内容-->
+	<Window class="USkillButton" id="7">
+		<property style="SkillButton"/>
+		<property position="35 388"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property minExtent="8 8"/>
+    		<property LockDrag = "true"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="8">
+		<property style="SkillButton"/>
+		<property position="83 388"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property minExtent="8 8"/>
+    		<property LockDrag = "true"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="9">
+		<property style="SkillButton"/>
+		<property position="131 388"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property minExtent="8 8"/>
+    		<property LockDrag = "true"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="10">
+		<property style="SkillButton"/>
+		<property position="179 388"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property minExtent="8 8"/>
+    		<property LockDrag = "true"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="11">
+		<property style="SkillButton"/>
+		<property position="227 388"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property minExtent="8 8"/>
+    		<property LockDrag = "true"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="12">
+		<property style="SkillButton"/>
+		<property position="275 388"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property minExtent="8 8"/>
+    		<property LockDrag = "true"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="13">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="140 66"/>
+		<property extent="63 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="邮件内容"/>
+	</Window>
+	<Window class="UStaticText" id="14">
+		<property style="SYDialogTitle"/>
+		<property position="138 25"/>
+		<property extent="68 26"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="邮 箱"/>
+	</Window>
+	<Window class="UBitmap" id = "115">
+		<property style="SYDialogFrame"/>
+		<property position="231 437"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="15">
+		<property style="UButton"/>
+		<property bitmap="Public\Revert.skin"/>
+		<property position="234 440"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UMoneyText" id="16">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="46 439"/>
+		<property extent="151 16"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "117">
+		<property style="SYDialogFrame"/>
+		<property position="37 478"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="17">
+		<property style="UButton"/>
+		<property bitmap="Public\Delete.skin"/>
+		<property position="40 481"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

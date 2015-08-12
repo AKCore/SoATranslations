@@ -1,0 +1,10 @@
+<Window class="SystemTips">
+	<property style="SystemTip"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="400 100"/>
+	<property extent="359 401"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+</Window>

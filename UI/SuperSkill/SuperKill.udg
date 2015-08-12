@@ -1,0 +1,27 @@
+<Window class="USuperSkill">
+	<property style="default"/>
+	<property position="855 632"/>
+	<property extent="78 54"/>
+	<property minExtent="8 8"/>
+	<property CanEscapeFouce="true"/>
+	<property visible="1"/>
+	<property AnchorHori="2"/>
+	<property AnchorVert="2"/>
+	<Window class="USuperExp" id="1">
+		<property style="UProgressCtrl"/>
+		<property BgkTexture="DATA\ui\SuperSkill\Barbgk.png"/>
+		<property ExpTexture="DATA\ui\SuperSkill\BarExp.png"/>
+		<property position="20 16"/>
+		<property extent="37 37"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UNiAVControlEff" id="0">
+		<property style="UBitmap"/>
+		<property position="0 0"/>
+		<property extent="78 54"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property avobj="Data\UI\SuperSkill\Effect.nif"/>
+	</Window>
+</Window>

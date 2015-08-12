@@ -1,0 +1,68 @@
+<Window class="UIGuildCreateDLg">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="370 280"/>
+	<property extent="318 181"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property showclose = "false"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="SocialitySystem\GuildCreateDlg.skin"/>
+	<Window class="UEdit" id="0">
+		<property style="SYPlayerNameEdit"/>
+		<property position="89 59"/>
+		<property extent="140 16"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\OK.skin"/>
+		<property position="64 148"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="184 148"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class = "UStaticText" id = "3">
+		<property style = "SYOtherEdit"/>
+		<property position = "102 30"/>
+		<property extent = "112 18"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property text = "请输入创建部族名称："/>
+	</Window>
+	<Window class = "UStaticText" id = "4">
+		<property style = "SYOtherEdit"/>
+		<property position = "52 84"/>
+		<property extent = "222 15"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property text = "●创建者等级不能低于10级"/>
+	</Window>
+	<Window class = "UStaticText" id = "5">
+		<property style = "SYOtherEdit"/>
+		<property position = "52 103"/>
+		<property extent = "222 15"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property text = "●创建者前24小时内不曾属于任何部族"/>
+	</Window>
+	<Window class = "UStaticText" id = "6">
+		<property style = "SYOtherEdit"/>
+		<property position = "52 122"/>
+		<property extent = "222 15"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property text = "●身上至少带有10金"/>
+	</Window>
+</Window>

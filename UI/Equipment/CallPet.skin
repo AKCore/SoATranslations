@@ -1,0 +1,6 @@
+<Skin texture ="CallPet.png">
+	<item x="0" y="0" w="38" h="38" />
+	<item x="0" y="38" w="38" h="38" />
+	<item x="0" y="76" w="38" h="38" />
+	<item x="0" y="114" w="38" h="38" />
+</Skin>

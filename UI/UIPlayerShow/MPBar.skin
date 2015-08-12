@@ -1,0 +1,4 @@
+<Skin texture ="PlayHP_MP.png"> 
+   <item x="96" y="52" w="88" h="11" />  <!--bgk     -->
+   <item x="217" y="11" w="88" h="11" /> <!--lightbgk-->
+</Skin>

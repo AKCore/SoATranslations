@@ -1,0 +1,57 @@
+<Window class="UTitle">
+	<property style="UDialog"/>
+	<property position="455 132"/>
+	<property extent="291 458"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Title\bg.skin"/>
+	<Window class="UScrollBar" id="0">
+		<property style="SYUScrollBar"/>
+		<property position="8 54"/>
+		<property extent="153 311"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property AllShowBar="1"/>
+		<Window class="USpecListBox" id="1">
+			<property style="ChooseSpecListBox"/>
+			<property bitmap="Title\TitleSpecList.skin"/>
+			<property position="7 5"/>
+			<property extent="146 306"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="URichTextCtrl" id="2">
+		<property style="URichTextCtrl"/>
+		<property position="171 59"/>
+		<property extent="110 285"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="URichTextCtrl" id="3">
+		<property style="URichTextCtrl"/>
+		<property position="35 378"/>
+		<property extent="220 63"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="UButton"/>
+		<property bitmap="Title\Use.skin"/>
+		<property position="167 349"/>
+		<property extent="50 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="UButton"/>
+		<property bitmap="Title\Cancel.skin"/>
+		<property position="235 349"/>
+		<property extent="50 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+</Window>

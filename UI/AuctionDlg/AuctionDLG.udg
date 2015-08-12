@@ -1,0 +1,831 @@
+<Window class="UAuctionFrame">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="117 132"/>
+	<property extent="861 473"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="AuctionDlg\Auction_Bkg.skin"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="SYURadioButton"/>
+		<property bitmap="AuctionDlg\AuctionTableSmall.skin"/>
+		<property position="1 92"/>
+		<property extent="40 75"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property text="浏览"/>
+		<property IsHoriText="0"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="AuctionDlg\AuctionTableSmall.skin"/>
+		<property position="1 166"/>
+		<property extent="40 75"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property text="竞拍"/>
+		<property IsHoriText="0"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="SYURadioButton"/>
+		<property bitmap="AuctionDlg\AuctionTableBig.skin"/>
+		<property position="1 241"/>
+		<property extent="40 96"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property text="金币拍卖"/>
+		<property IsHoriText="0"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="SYURadioButton"/>
+		<property bitmap="AuctionDlg\AuctionTableBig.skin"/>
+		<property position="1 337"/>
+		<property extent="40 96"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property text="元宝拍卖"/>
+		<property IsHoriText="0"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="SYURadioButton"/>
+		<property bitmap="AuctionDlg\AuctionClassTable.skin"/>
+		<property position="241 67"/>
+		<property extent="79 33"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+		<property text="武器类"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="SYURadioButton"/>
+		<property bitmap="AuctionDlg\AuctionClassTable.skin"/>
+		<property position="320 67"/>
+		<property extent="79 33"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+		<property text="防具类"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="SYURadioButton"/>
+		<property bitmap="AuctionDlg\AuctionClassTable.skin"/>
+		<property position="399 67"/>
+		<property extent="79 33"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+		<property text="基础类"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="SYURadioButton"/>
+		<property bitmap="AuctionDlg\AuctionClassTable.skin"/>
+		<property position="478 67"/>
+		<property extent="79 33"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+		<property text="消耗类"/>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="SYURadioButton"/>
+		<property bitmap="AuctionDlg\AuctionClassTable.skin"/>
+		<property position="555 67"/>
+		<property extent="79 33"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+		<property text="原料类"/>
+	</Window>
+	<Window class="UBitmapButton" id="9">
+		<property style="SYURadioButton"/>
+		<property bitmap="AuctionDlg\AuctionClassTable.skin"/>
+		<property position="636 67"/>
+		<property extent="79 33"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+		<property text="其它"/>
+	</Window>
+	<Window class="UStaticText" id="10">
+		<property style="SYStaticTextCtrl"/>
+		<property position="42 445"/>
+		<property extent="65 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="当前持有："/>
+	</Window>
+	<Window class="UMoneyText" id="11">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="112 445"/>
+		<property extent="151 16"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="12">
+		<property style="FZYAUItemFont"/>
+		<property position="247 104"/>
+		<property extent="188 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="物品名称"/>
+	</Window>
+	<Window class="UStaticText" id="13">
+		<property style="FZYAUItemFont"/>
+		<property position="440 104"/>
+		<property extent="38 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="等级"/>
+	</Window>
+	<Window class="UStaticText" id="14">
+		<property style="FZYAUItemFont"/>
+		<property position="484 104"/>
+		<property extent="109 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="出售者"/>
+	</Window>
+	<Window class="UStaticText" id="15">
+		<property style="FZYAUItemFont"/>
+		<property position="599 104"/>
+		<property extent="65 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="时间"/>
+	</Window>
+	<Window class="UStaticText" id="16">
+		<property style="FZYAUItemFont"/>
+		<property position="670 104"/>
+		<property extent="173 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="当前价格"/>
+	</Window>
+<Window class="UIAuctionItem" id = "17">
+	<property style="URadioButton"/>
+	<property position="247 129"/>
+	<property extent="600 40"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property groupNum="1000"/>
+	<property buttonType="2"/>
+	<property bitmap="AuctionDlg\AuctionContent.skin"/>
+	<Window class="USkillButton" id="0">
+		<property style="SkillButton"/>
+		<property showbgk="0"/>
+		<property position="0 0"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="1">
+		<property style="FZYAUItemFont"/>
+		<property position="75 11"/>
+		<property extent="121 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="FZYAUItemFont"/>
+		<property position="196 11"/>
+		<property extent="31 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="3">
+		<property style="FZYAUItemFont"/>
+		<property position="227 11"/>
+		<property extent="117 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="FZYAUItemFont"/>
+		<property position="344 11"/>
+		<property extent="73 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="5">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 22"/>
+		<property extent="34 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="一口价"/>
+	</Window>
+	<Window class="UMoneyText" id="6">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 4"/>
+		<property extent="144 14"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UMoneyText" id="7">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 22"/>
+		<property extent="144 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="8">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\yi.png"/>
+		<property position="47 9"/>
+		<property extent="23 23"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="9">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 4"/>
+		<property extent="60 13"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text="您的出价："/>
+	</Window>
+</Window>
+<Window class="UIAuctionItem" id = "18">
+	<property style="URadioButton"/>
+	<property position="247 172"/>
+	<property extent="600 40"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property groupNum="1000"/>
+	<property buttonType="2"/>
+	<property bitmap="AuctionDlg\AuctionContent.skin"/>
+	<Window class="USkillButton" id="0">
+		<property style="SkillButton"/>
+		<property showbgk="0"/>
+		<property position="0 0"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="1">
+		<property style="FZYAUItemFont"/>
+		<property position="75 11"/>
+		<property extent="121 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="FZYAUItemFont"/>
+		<property position="196 11"/>
+		<property extent="31 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="3">
+		<property style="FZYAUItemFont"/>
+		<property position="227 11"/>
+		<property extent="117 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="FZYAUItemFont"/>
+		<property position="344 11"/>
+		<property extent="73 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="5">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 22"/>
+		<property extent="34 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="一口价"/>
+	</Window>
+	<Window class="UMoneyText" id="6">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 4"/>
+		<property extent="144 14"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UMoneyText" id="7">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 22"/>
+		<property extent="144 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="8">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\yi.png"/>
+		<property position="47 9"/>
+		<property extent="23 23"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="9">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 4"/>
+		<property extent="60 13"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text="您的出价："/>
+	</Window>
+</Window>
+<Window class="UIAuctionItem" id = "19">
+	<property style="URadioButton"/>
+	<property position="247 215"/>
+	<property extent="600 40"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property groupNum="1000"/>
+	<property buttonType="2"/>
+	<property bitmap="AuctionDlg\AuctionContent.skin"/>
+	<Window class="USkillButton" id="0">
+		<property style="SkillButton"/>
+		<property showbgk="0"/>
+		<property position="0 0"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="1">
+		<property style="FZYAUItemFont"/>
+		<property position="75 11"/>
+		<property extent="121 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="FZYAUItemFont"/>
+		<property position="196 11"/>
+		<property extent="31 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="3">
+		<property style="FZYAUItemFont"/>
+		<property position="227 11"/>
+		<property extent="117 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="FZYAUItemFont"/>
+		<property position="344 11"/>
+		<property extent="73 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="5">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 22"/>
+		<property extent="34 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="一口价"/>
+	</Window>
+	<Window class="UMoneyText" id="6">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 4"/>
+		<property extent="144 14"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UMoneyText" id="7">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 22"/>
+		<property extent="144 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="8">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\yi.png"/>
+		<property position="47 9"/>
+		<property extent="23 23"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="9">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 4"/>
+		<property extent="60 13"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text="您的出价："/>
+	</Window>
+</Window>
+<Window class="UIAuctionItem" id = "20">
+	<property style="URadioButton"/>
+	<property position="247 258"/>
+	<property extent="600 40"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property groupNum="1000"/>
+	<property buttonType="2"/>
+	<property bitmap="AuctionDlg\AuctionContent.skin"/>
+	<Window class="USkillButton" id="0">
+		<property style="SkillButton"/>
+		<property showbgk="0"/>
+		<property position="0 0"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="1">
+		<property style="FZYAUItemFont"/>
+		<property position="75 11"/>
+		<property extent="121 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="FZYAUItemFont"/>
+		<property position="196 11"/>
+		<property extent="31 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="3">
+		<property style="FZYAUItemFont"/>
+		<property position="227 11"/>
+		<property extent="117 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="FZYAUItemFont"/>
+		<property position="344 11"/>
+		<property extent="73 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="5">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 22"/>
+		<property extent="34 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="一口价"/>
+	</Window>
+	<Window class="UMoneyText" id="6">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 4"/>
+		<property extent="144 14"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UMoneyText" id="7">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 22"/>
+		<property extent="144 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="8">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\yi.png"/>
+		<property position="47 9"/>
+		<property extent="23 23"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="9">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 4"/>
+		<property extent="60 13"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text="您的出价："/>
+	</Window>
+</Window>
+<Window class="UIAuctionItem" id = "21">
+	<property style="URadioButton"/>
+	<property position="247 301"/>
+	<property extent="600 40"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property groupNum="1000"/>
+	<property buttonType="2"/>
+	<property bitmap="AuctionDlg\AuctionContent.skin"/>
+	<Window class="USkillButton" id="0">
+		<property style="SkillButton"/>
+		<property showbgk="0"/>
+		<property position="0 0"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="1">
+		<property style="FZYAUItemFont"/>
+		<property position="75 11"/>
+		<property extent="121 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="FZYAUItemFont"/>
+		<property position="196 11"/>
+		<property extent="31 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="3">
+		<property style="FZYAUItemFont"/>
+		<property position="227 11"/>
+		<property extent="117 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="FZYAUItemFont"/>
+		<property position="344 11"/>
+		<property extent="73 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="5">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 22"/>
+		<property extent="34 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="一口价"/>
+	</Window>
+	<Window class="UMoneyText" id="6">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 4"/>
+		<property extent="144 14"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UMoneyText" id="7">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 22"/>
+		<property extent="144 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="8">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\yi.png"/>
+		<property position="47 9"/>
+		<property extent="23 23"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="9">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 4"/>
+		<property extent="60 13"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text="您的出价："/>
+	</Window>
+</Window>
+<Window class="UIAuctionItem" id = "22">
+	<property style="URadioButton"/>
+	<property position="247 344"/>
+	<property extent="600 40"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property groupNum="1000"/>
+	<property buttonType="2"/>
+	<property bitmap="AuctionDlg\AuctionContent.skin"/>
+	<Window class="USkillButton" id="0">
+		<property style="SkillButton"/>
+		<property showbgk="0"/>
+		<property position="0 0"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="1">
+		<property style="FZYAUItemFont"/>
+		<property position="75 11"/>
+		<property extent="121 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="FZYAUItemFont"/>
+		<property position="196 11"/>
+		<property extent="31 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="3">
+		<property style="FZYAUItemFont"/>
+		<property position="227 11"/>
+		<property extent="117 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="FZYAUItemFont"/>
+		<property position="344 11"/>
+		<property extent="73 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="5">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 22"/>
+		<property extent="34 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="一口价"/>
+	</Window>
+	<Window class="UMoneyText" id="6">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 4"/>
+		<property extent="144 14"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UMoneyText" id="7">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 22"/>
+		<property extent="144 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="8">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\yi.png"/>
+		<property position="47 9"/>
+		<property extent="23 23"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="9">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 4"/>
+		<property extent="60 13"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text="您的出价："/>
+	</Window>
+</Window>
+<Window class="UIAuctionItem" id = "23">
+	<property style="URadioButton"/>
+	<property position="247 388"/>
+	<property extent="600 40"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property groupNum="1000"/>
+	<property buttonType="2"/>
+	<property bitmap="AuctionDlg\AuctionContent.skin"/>
+	<Window class="USkillButton" id="0">
+		<property style="SkillButton"/>
+		<property showbgk="0"/>
+		<property position="0 0"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="1">
+		<property style="FZYAUItemFont"/>
+		<property position="75 11"/>
+		<property extent="121 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="FZYAUItemFont"/>
+		<property position="196 11"/>
+		<property extent="31 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="3">
+		<property style="FZYAUItemFont"/>
+		<property position="227 11"/>
+		<property extent="117 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="FZYAUItemFont"/>
+		<property position="344 11"/>
+		<property extent="73 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="5">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 22"/>
+		<property extent="34 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="一口价"/>
+	</Window>
+	<Window class="UMoneyText" id="6">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 4"/>
+		<property extent="144 14"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UMoneyText" id="7">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="456 22"/>
+		<property extent="144 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="8">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\yi.png"/>
+		<property position="47 9"/>
+		<property extent="23 23"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="9">
+		<property style="SYStaticTextCtrlSmallFont"/>
+		<property position="422 4"/>
+		<property extent="60 13"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text="您的出价："/>
+	</Window>
+</Window>
+
+	<Window class="UBitmapButton" id="24">
+		<property style="UButton"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="432 433"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="25">
+		<property style="UButton"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="586 433"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "126">
+		<property style="SYDialogFrame"/>
+		<property position="747 442"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="26">
+		<property style="UButton"/>
+		<property bitmap="Public\Quxiaopaimai.skin"/>
+		<property position="750 445"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="27">
+		<property style="SYDialogTitle"/>
+		<property position="385 22"/>
+		<property extent="127 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="拍 卖 行"/>
+	</Window>
+	<Window class="UBitmap" id = "28">
+		<property style="SYDialogFrame"/>
+		<property position="722 65"/>
+		<property extent="68 37"/>
+		<property minExtent="8 8"/>
+		<property Skin = "AuctionDlg\BrowseBtn_bkg.skin"/>
+		<property visible="1"/>
+	</Window>
+	<Window class = "UBitmapButton" id = "29">
+		<property style = "SYURadioButton"/>
+		<property bitmap = "Public\LeftArrow.skin"/>
+		<property position="730 73"/>
+		<property extent="22 22"/>
+		<property minExtent="8 8"/>
+	</Window>
+	<Window class = "UBitmapButton" id = "30">
+		<property style = "SYURadioButton"/>
+		<property bitmap = "Public\RightArrow.skin"/>
+		<property position="760 73"/>
+		<property extent="22 22"/>
+		<property minExtent="8 8"/>
+	</Window>
+</Window>

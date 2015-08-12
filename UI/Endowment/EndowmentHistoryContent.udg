@@ -1,0 +1,70 @@
+<Window class="UEndowmentHistory_Content">
+	<property style="default"/>
+	<property position="74 129"/>
+	<property extent="529 474"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<Window class="USpecListBox" id="0">
+    		<property style="SYUSpecListBox"/>
+		<property bitmap="Public\SpecList.skin"/>
+    		<property position="0 40"/>
+	    	<property extent="529 401"/>
+    		<property minExtent="8 8"/>
+    		<property visible="1"/>
+	</Window>
+	<Window class="USpecListBox" id="1">
+    		<property style="SYUSpecListBox"/>
+		<property bitmap="Public\SpecList.skin"/>
+    		<property position="0 40"/>
+	    	<property extent="529 401"/>
+    		<property minExtent="8 8"/>
+    		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "10">
+		<property style="SYSetTitle"/>
+		<property position="17 14"/>
+		<property extent="58 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="¾èÔùÊ±¼ä"/>
+	</Window>
+	<Window class="UStaticText" id = "11">
+		<property style="SYSetTitle"/>
+		<property position="214 13"/>
+		<property extent="60 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="¾èÔùÄÚÈÝ"/>
+	</Window>
+	<Window class="UStaticText" id = "12">
+		<property style="SYSetTitle"/>
+		<property position="417 13"/>
+		<property extent="97 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="¾èÔù½ð¶î"/>
+	</Window>
+	<Window class="UBitmapButton" id="50">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnLeftBig.skin"/>
+		<property position="202 441"/>
+		<property extent="44 28"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="51">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnrightBig.skin"/>
+		<property position="284 441"/>
+		<property extent="44 28"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "52">
+		<property style="SYDialogTitle"/>
+		<property position="246 445"/>
+		<property extent="38 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

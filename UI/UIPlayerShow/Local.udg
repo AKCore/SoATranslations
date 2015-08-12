@@ -1,0 +1,80 @@
+<Window class="UIPlayerHead">
+	<property style="default"/>
+	<property position="0 0"/>
+	<property extent="257 108"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<Window class="UNiAVControlHead" id="3">
+		<property style="UBitmap"/>
+		<property position="7 19"/>
+		<property extent="77 77"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="100">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\UIPlayerShow\LocalHead.png"/>
+		<property position="0 0"/>
+		<property extent="257 108"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="101">
+		<property style="UBitmap"/>
+		<property skin="UIPlayerShow\FriendMask.skin"/>
+		<property position="5 17"/>
+		<property extent="79 80"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UBitmap" id="5">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\UIPlayerShow\Master.png"/>
+		<property position="35 6"/>
+		<property extent="20 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UBitmap" id="7">
+		<property style="UButton"/>
+		<property Skin="UIPlayerShow\LevelMask.skin"/>
+		<property position="2 4"/>
+		<property extent="28 28"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UProgressBar_Skin" id="0">
+		<property style="SYUProgressCtrl"/>
+		<property BarSkin="UIPlayerShow\HPBar_Local.skin"/>
+		<property position="92 37"/>
+		<property extent="137 21"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UProgressBar_Skin" id="1">
+		<property style="SYUProgressCtrl"/>
+		<property BarSkin="UIPlayerShow\MPBar_Local.skin"/>
+		<property position="92 62"/>
+		<property extent="137 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="SYNameUEdit"/>
+		<property position="84 19"/>
+		<property extent="131 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text = ""/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="SYOtherEdit"/>
+		<property position="4 10"/>
+		<property extent="24 16"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+		<property text = ""/>
+	</Window>
+</Window>

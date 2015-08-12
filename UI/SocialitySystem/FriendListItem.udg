@@ -1,0 +1,37 @@
+<Window class="UIFriendListItem">
+	<property style="SYOtherEdit"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="0 0"/>
+	<property extent="499 19"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "23 0"/>
+			<property extent = "119 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "180 0"/>
+			<property extent = "26 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "249 0"/>
+			<property extent = "65 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "365 0"/>
+			<property extent = "110 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+</Window>

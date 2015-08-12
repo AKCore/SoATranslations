@@ -1,0 +1,82 @@
+<styles>
+	<style name="UMouseStopMain">
+		<property opaque="true"/>
+		<property canKeyFocus = "false"/>
+		<property dragdrop="0"/>
+		<property fillColor="0 0 0 165"/>
+		<property fillColorHL="255 255 128"/>
+		<property fillColorNA="144 154 171"/>
+		<property border="1"/>
+		<property borderThickness="1"/>
+		<property borderColor="193 193 193"/>
+		<property fontColorHL="193 193 193"/>
+		<property fontColorNA="193 193 193"/>
+		<property fontCharset="134"/>
+		<property fontColor="76 143 255"/>
+		<property fontType="黑体"/>
+		<property fontSize="12"/>
+		<property textOffset="0 2"/>
+		<property autoSizeWidth="false"/>
+		<property autoSizeHeight="true"/>
+	</style>
+	<style name = "UMouseTipItem">
+		<property canKeyFocus = "false"/>
+		<property fontColor="216 216 216"/>
+		<property fontColorHL="216 216 216"/>
+		<property fontColorNA="216 216 216"/>
+		<property dragdrop="0"/>
+		<property fontType="黑体"/>
+		<property fontSize="12"/>
+		<property textOffset="0 2"/>
+	</style>
+	<style name="PlayerProperty">
+		<property canKeyFocus = "false"/>
+		<property fontColor="202 160 132 255"/>
+		<property fontColorHL="255 169 2"/>
+		<property fontColorNA="161 161 159 255"/>
+		<property dragdrop="0"/>
+		<property fontType="黑体"/>
+		<property fontSize="14"/>
+		<property textOffset="-1 3"/>
+	</style>
+	<style name="Plug_ReCount">
+		<property opaque="true"/>
+		<property canKeyFocus = "false"/>
+		<property dragdrop="0"/>
+		<property fillColor="0 0 0 165"/>
+		<property fillColorHL="255 255 128"/>
+		<property fillColorNA="144 154 171"/>
+		<property border="1"/>
+		<property borderThickness="1"/>
+		<property borderColor="193 193 193"/>
+		<property fontColorHL="193 193 193"/>
+		<property fontColorNA="193 193 193"/>
+		<property fontCharset="134"/>
+		<property fontColor="76 143 255"/>
+		<property fontType="黑体"/>
+		<property fontSize="14"/>
+		<property textOffset="0 2"/>
+		<property autoSizeWidth="false"/>
+		<property autoSizeHeight="true"/>
+	</style>
+	<style name="Plug_GroupShow">
+		<property opaque="true"/>
+		<property canKeyFocus = "false"/>
+		<property dragdrop="0"/>
+		<property fillColor="0 0 0 165"/>
+		<property fillColorHL="255 255 128"/>
+		<property fillColorNA="144 154 171"/>
+		<property border="1"/>
+		<property borderThickness="1"/>
+		<property borderColor="193 193 193"/>
+		<property fontColorHL="193 193 193"/>
+		<property fontColorNA="193 193 193"/>
+		<property fontCharset="134"/>
+		<property fontColor="76 143 255"/>
+		<property fontType="黑体"/>
+		<property fontSize="12"/>
+		<property textOffset="0 2"/>
+		<property autoSizeWidth="false"/>
+		<property autoSizeHeight="true"/>
+	</style>
+</styles>

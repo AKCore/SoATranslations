@@ -1,0 +1,61 @@
+<Window class="UNpcQuestDlg">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="303 132"/>
+	<property extent="321 454"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property  CanEscapeFouce = "true"/>
+	<property bkgskin="NpcQuestDlg\bg.skin"/>
+	
+	<Window class="UBitmap" id = "104">
+		<property style="SYDialogFrame"/>
+		<property position="32 421"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="UButton"/>
+		<property bitmap="Public\AcceptQuest.skin"/>
+		<property position="35 424"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UBitmap" id = "105">
+		<property style="SYDialogFrame"/>
+		<property position="211 421"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="UButton"/>
+		<property bitmap="Public\CancelQuest.skin"/>
+		<property position="214 424"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	
+	<Window class="UScrollBar" id="2">
+		<property style="SYUScrollBar"/>
+		<property position="19 92"/>
+		<property extent="289 315"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin = "16 33"/>
+		<property visible="1"/>
+		<Window class="URichTextCtrl" id="3">
+			<property style="URichTextCtrl"/>
+			<property position="0 0"/>
+			<property extent="243 228"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property ActiveMouseOverURL="1"/>
+		</Window>	
+	</Window>
+</Window>

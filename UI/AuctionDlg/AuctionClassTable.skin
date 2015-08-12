@@ -1,0 +1,6 @@
+<Skin texture ="Auction_Tables_btn.png">
+	<item x="123" y="106" w="79" h="33"/>
+	<item x="123" y="63" w="79" h="33"/>
+	<item x="123" y="14" w="79" h="33" />
+	<item x="123" y="106" w="79" h="33"/>
+</Skin>

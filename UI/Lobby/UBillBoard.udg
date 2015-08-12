@@ -1,0 +1,575 @@
+<Window class="UInstanceBillBoardDlg">
+	<property style="SYDialogFrame"/>
+	<property position="193 168"/>
+	<property extent="651 369"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property bkgskin="Lobby\BillBoard.skin"/>
+	<property showclose ="false"/>
+	<Window class="UStaticText" id = "20">
+		<property style="SYDialogTitle"/>
+		<property position="291 56"/>
+		<property extent="67 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="排行榜"/>
+	</Window>
+	<Window class="UStaticText" id = "21">
+		<property style="SYUIChatMsg"/>
+		<property position="82 94"/>
+		<property extent="30 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="排名"/>
+	</Window>
+	<Window class="UStaticText" id = "22">
+		<property style="SYUIChatMsg"/>
+		<property position="179 94"/>
+		<property extent="32 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="角色"/>
+	</Window>
+	<Window class="UStaticText" id = "23">
+		<property style="SYUIChatMsg"/>
+		<property position="261 94"/>
+		<property extent="32 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="成绩"/>
+	</Window>
+	<Window class="UStaticText" id = "24">
+		<property style="SYUIChatMsg"/>
+		<property position="337 94"/>
+		<property extent="64 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="奖励经验"/>
+	</Window>
+	<Window class="UStaticText" id = "25">
+		<property style="SYUIChatMsg"/>
+		<property position="466 94"/>
+		<property extent="64 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="奖励物品"/>
+	</Window>
+	<Window class="UBitmap" id = "15">
+		<property style="SYDialogFrame"/>
+		<property position="288 338"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\cOK.skin"/>
+		<property position="291 341"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+<Window class="UBillBoradItem" id = "1">
+	<property style="SYDialogFrame"/>
+	<property position="78 117"/>
+	<property extent="494 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYUIChatMsg"/>
+		<property position="12 4"/>
+		<property extent="13 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text = "1"/>
+	</Window>
+	<Window class="UBitmap" id = "1">
+		<property style="SYDialogFrame"/>
+		<property position="46 3"/>
+		<property extent="16 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYUIChatMsg"/>
+		<property position="71 3"/>
+		<property extent="97 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYUIChatMsg"/>
+		<property position="183 5"/>
+		<property extent="32 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYUIChatMsg"/>
+		<property position="226 5"/>
+		<property extent="125 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="361 3"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>
+<Window class="UBillBoradItem" id = "2">
+	<property style="SYDialogFrame"/>
+	<property position="78 138"/>
+	<property extent="494 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYUIChatMsg"/>
+		<property position="12 4"/>
+		<property extent="13 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>		
+		<property text = "2"/>
+	</Window>
+	<Window class="UBitmap" id = "1">
+		<property style="SYDialogFrame"/>
+		<property position="46 3"/>
+		<property extent="16 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYUIChatMsg"/>
+		<property position="71 3"/>
+		<property extent="97 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYUIChatMsg"/>
+		<property position="183 5"/>
+		<property extent="32 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYUIChatMsg"/>
+		<property position="226 5"/>
+		<property extent="125 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="361 3"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>
+<Window class="UBillBoradItem" id = "3">
+	<property style="SYDialogFrame"/>
+	<property position="78 160"/>
+	<property extent="494 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYUIChatMsg"/>
+		<property position="12 4"/>
+		<property extent="13 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text = "3"/>
+	</Window>
+	<Window class="UBitmap" id = "1">
+		<property style="SYDialogFrame"/>
+		<property position="46 3"/>
+		<property extent="16 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYUIChatMsg"/>
+		<property position="71 3"/>
+		<property extent="97 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYUIChatMsg"/>
+		<property position="183 5"/>
+		<property extent="32 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYUIChatMsg"/>
+		<property position="226 5"/>
+		<property extent="125 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="361 3"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>
+<Window class="UBillBoradItem" id = "4">
+	<property style="SYDialogFrame"/>
+	<property position="78 181"/>
+	<property extent="494 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYUIChatMsg"/>
+		<property position="12 4"/>
+		<property extent="13 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text = "4"/>
+	</Window>
+	<Window class="UBitmap" id = "1">
+		<property style="SYDialogFrame"/>
+		<property position="46 3"/>
+		<property extent="16 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYUIChatMsg"/>
+		<property position="71 3"/>
+		<property extent="97 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYUIChatMsg"/>
+		<property position="183 5"/>
+		<property extent="32 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYUIChatMsg"/>
+		<property position="226 5"/>
+		<property extent="125 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="361 3"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>
+<Window class="UBillBoradItem" id = "5">
+	<property style="SYDialogFrame"/>
+	<property position="78 203"/>
+	<property extent="494 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYUIChatMsg"/>
+		<property position="12 4"/>
+		<property extent="13 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text = "5"/>
+	</Window>
+	<Window class="UBitmap" id = "1">
+		<property style="SYDialogFrame"/>
+		<property position="46 3"/>
+		<property extent="16 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYUIChatMsg"/>
+		<property position="71 3"/>
+		<property extent="97 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYUIChatMsg"/>
+		<property position="183 5"/>
+		<property extent="32 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYUIChatMsg"/>
+		<property position="226 5"/>
+		<property extent="125 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="361 3"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>
+<Window class="UBillBoradItem" id = "6">
+	<property style="SYDialogFrame"/>
+	<property position="78 224"/>
+	<property extent="494 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYUIChatMsg"/>
+		<property position="12 4"/>
+		<property extent="13 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text = "6"/>
+	</Window>
+	<Window class="UBitmap" id = "1">
+		<property style="SYDialogFrame"/>
+		<property position="46 3"/>
+		<property extent="16 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYUIChatMsg"/>
+		<property position="71 3"/>
+		<property extent="97 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYUIChatMsg"/>
+		<property position="183 5"/>
+		<property extent="32 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYUIChatMsg"/>
+		<property position="226 5"/>
+		<property extent="125 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="361 3"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>
+<Window class="UBillBoradItem" id = "7">
+	<property style="SYDialogFrame"/>
+	<property position="78 246"/>
+	<property extent="494 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYUIChatMsg"/>
+		<property position="12 4"/>
+		<property extent="13 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text = "7"/>
+	</Window>
+	<Window class="UBitmap" id = "1">
+		<property style="SYDialogFrame"/>
+		<property position="46 3"/>
+		<property extent="16 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYUIChatMsg"/>
+		<property position="71 3"/>
+		<property extent="97 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYUIChatMsg"/>
+		<property position="183 5"/>
+		<property extent="32 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYUIChatMsg"/>
+		<property position="226 5"/>
+		<property extent="125 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="361 3"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>
+<Window class="UBillBoradItem" id = "8">
+	<property style="SYDialogFrame"/>
+	<property position="78 267"/>
+	<property extent="494 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYUIChatMsg"/>
+		<property position="12 4"/>
+		<property extent="13 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text = "8"/>
+	</Window>
+	<Window class="UBitmap" id = "1">
+		<property style="SYDialogFrame"/>
+		<property position="46 3"/>
+		<property extent="16 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYUIChatMsg"/>
+		<property position="71 3"/>
+		<property extent="97 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYUIChatMsg"/>
+		<property position="183 5"/>
+		<property extent="32 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYUIChatMsg"/>
+		<property position="226 5"/>
+		<property extent="125 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="361 3"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>
+<Window class="UBillBoradItem" id = "9">
+	<property style="SYDialogFrame"/>
+	<property position="78 289"/>
+	<property extent="494 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYUIChatMsg"/>
+		<property position="12 4"/>
+		<property extent="13 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text = "9"/>
+	</Window>
+	<Window class="UBitmap" id = "1">
+		<property style="SYDialogFrame"/>
+		<property position="46 3"/>
+		<property extent="16 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYUIChatMsg"/>
+		<property position="71 3"/>
+		<property extent="97 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYUIChatMsg"/>
+		<property position="183 5"/>
+		<property extent="32 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYUIChatMsg"/>
+		<property position="226 5"/>
+		<property extent="125 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="361 3"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>
+<Window class="UBillBoradItem" id = "10">
+	<property style="SYDialogFrame"/>
+	<property position="78 310"/>
+	<property extent="494 20"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYUIChatMsg"/>
+		<property position="12 4"/>
+		<property extent="13 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text = "10"/>
+	</Window>
+	<Window class="UBitmap" id = "1">
+		<property style="SYDialogFrame"/>
+		<property position="46 3"/>
+		<property extent="16 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYUIChatMsg"/>
+		<property position="71 3"/>
+		<property extent="97 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYUIChatMsg"/>
+		<property position="183 5"/>
+		<property extent="32 10"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYUIChatMsg"/>
+		<property position="226 5"/>
+		<property extent="125 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "5">
+		<property style="SYUIChatMsg"/>
+		<property position="361 3"/>
+		<property extent="113 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>
+</Window>

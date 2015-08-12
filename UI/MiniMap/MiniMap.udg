@@ -1,0 +1,171 @@
+<Window class="UMinimapFrame">
+		<property style="default"/>
+		<property position="805 0"/>
+		<property extent="219 197"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	    	<property AnchorHori="2"/>
+	    	<property AnchorVert="3"/>
+		<Window class="UMinimap" id="0">
+			<property style="default"/>
+			<property position="31 24"/>
+			<property extent="156 156"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<!--Head-->
+		<Window class="UBitmap" id="1">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\MiniMap\MinimapBGK.png"/>
+			<property position="0 0"/>
+			<property extent="219 197"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="2">
+			<property style="UButton"/>
+			<property position="182 112"/>
+			<property extent="28 28"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+			<property bitmap="MiniMap\zoomBtn.skin"/>
+		</Window>
+		<Window class="UBitmapButton" id="3">
+			<property style="UButton"/>
+			<property position="169 140"/>
+			<property extent="28 28"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+			<property bitmap="MiniMap\reduceBtn.skin"/>
+		</Window>
+		<Window class="UBitmapButton" id="4">
+			<property style="UButton"/>
+			<property bitmap="MiniMap\showMapBtn.skin"/>
+			<property position="168 37"/>
+			<property extent="33 33"/>
+			<property minExtent="3 3"/>
+			<property Accelerator = "ShowMap;"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="5">
+			<property style="SYDialogTitle"/>
+			<property position="43 0"/>
+			<property extent="132 23"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="6">
+			<property style="SYStaticEditText"/>
+			<property position="78 181"/>
+			<property extent="66 13"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmapButton" id="7">
+			<property style="UButton"/>
+			<property position="193 0"/>
+			<property extent="26 25"/>
+			<property minExtent="2 2"/>
+			<property visible="0"/>
+			<property bitmap="MiniMap\SMiNimap.skin"/>
+		</Window>
+		<!--邮件提示-->
+		<Window class="UBitmap" id="8">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\MiniMap\MailT.png"/>
+			<property position="148 160"/>
+			<property extent="28 28"/>
+			<property minExtent="0 0"/>
+			<property visible="1"/>
+			<property tooltipprofile = "UMouseStopMain"/>
+			<property tooltip = "新邮件"/>
+			<property hovertime = "300"/>
+		</Window>
+		<Window class="UBitmapButton" id="9">
+			<property style="UButton"/>
+			<property position="10 120"/>
+			<property extent="33 33"/>
+			<property minExtent="2 2"/>
+			<property visible="0"/>
+			<property bitmap="MiniMap\ExitInstance.skin"/>
+			<property tooltipprofile = "UMouseStopMain"/>
+			<property tooltip = "副本详情"/>
+			<property hovertime = "300"/>
+		</Window>
+		<Window class="UBitmapButton" id="10">
+			<property style="UButton"/>
+			<property position="20 29"/>
+			<property extent="33 33"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+			<property bitmap="MiniMap\Rank.skin"/>
+			<property tooltipprofile = "UMouseStopMain"/>
+			<property tooltip = "排行榜"/>
+			<property hovertime = "300"/>
+		</Window>
+		<Window class="UStaticText" id="11">
+			<property style="SYClockTextCtrl"/>
+			<property position="145 23"/>
+			<property extent="39 11"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UControl" id="12">
+			<property style="SYStaticTextCtrl"/>
+			<property position="145 23"/>
+			<property extent="39 11"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+			<property tooltipprofile = "UMouseStopMain"/>
+			<property tooltip = "当前时间"/>
+			<property hovertime = "300"/>
+		</Window>
+
+		<Window class="UBitmapButton" id="13">
+			<property style="UButton"/>
+			<property position="184 68"/>
+			<property extent="28 28"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+			<property bitmap="MiniMap\Query.skin"/>
+			<property tooltipprofile = "UMouseStopMain"/>
+			<property tooltip = "查询"/>
+			<property hovertime = "300"/>
+		</Window>
+		<Window class="UBitmapButton" id="14">
+			<property style="UButton"/>
+			<property position="36 154"/>
+			<property extent="33 33"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+			<property bitmap="MiniMap\HOOK.skin"/>
+			<property tooltipprofile = "UMouseStopMain"/>
+			<property tooltip = "辅助挂机"/>
+			<property hovertime = "300"/>
+		</Window>
+		<Window class="UBitmapButton" id="15">
+			<property style="UButton"/>
+			<property position="9 63"/>
+			<property extent="33 33"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+			<property bitmap="MiniMap\Shop.skin"/>
+			<property tooltipprofile = "UMouseStopMain"/>
+			<property tooltip = "商城"/>
+			<property hovertime = "300"/>
+		</Window>
+		<Window class="UBitmapButton" id="16">
+			<property style="UButton"/>
+			<property position="191 170"/>
+			<property extent="20 20"/>
+			<property minExtent="2 2"/>
+			<property visible="0"/>
+			<property bitmap="Public\ApplyGroupBtn.skin"/>
+			<property tooltipprofile = "UMouseStopMain"/>
+			<property tooltip = "申请列表"/>
+			<property hovertime = "300"/>
+		</Window>
+</Window>
+

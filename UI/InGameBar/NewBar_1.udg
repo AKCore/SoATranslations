@@ -1,0 +1,106 @@
+<Window class="UActionBar">
+	<property style="UBitmap"/>
+	<property position="400 643"/>
+	<property extent="433 46"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property bkgskin="InGameBar\BarBkg.skin"/>
+	<!--技能快捷按钮-->
+	<Window class="UActionBar::ActionButton" id="0">
+		<property style="SkillButton"/>
+		<property position="24 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "InGameBar\ActionButtonBkg.skin"/>
+		<property Accelerator = "ActionButton1_1;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UActionBar::ActionButton" id="1">
+		<property style="SkillButton"/>
+		<property position="65 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "InGameBar\ActionButtonBkg.skin"/>
+		<property Accelerator = "ActionButton1_2;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UActionBar::ActionButton" id="2">
+		<property style="SkillButton"/>
+		<property position="106 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "InGameBar\ActionButtonBkg.skin"/>
+		<property Accelerator = "ActionButton1_3;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UActionBar::ActionButton" id="3">
+		<property style="SkillButton"/>
+		<property position="147 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "InGameBar\ActionButtonBkg.skin"/>
+		<property Accelerator = "ActionButton1_4;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UActionBar::ActionButton" id="4">
+		<property style="SkillButton"/>
+		<property position="188 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "InGameBar\ActionButtonBkg.skin"/>
+		<property Accelerator = "ActionButton1_5;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UActionBar::ActionButton" id="5">
+		<property style="SkillButton"/>
+		<property position="229 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "InGameBar\ActionButtonBkg.skin"/>
+		<property Accelerator = "ActionButton1_6;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UActionBar::ActionButton" id="6">
+		<property style="SkillButton"/>
+		<property position="270 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "InGameBar\ActionButtonBkg.skin"/>
+		<property Accelerator = "ActionButton1_7;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UActionBar::ActionButton" id="7">
+		<property style="SkillButton"/>
+		<property position="311 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "InGameBar\ActionButtonBkg.skin"/>
+		<property Accelerator = "ActionButton1_8;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UActionBar::ActionButton" id="8">
+		<property style="SkillButton"/>
+		<property position="352 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "InGameBar\ActionButtonBkg.skin"/>
+		<property Accelerator = "ActionButton1_9;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UActionBar::ActionButton" id="9">
+		<property style="SkillButton"/>
+		<property position="393 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "InGameBar\ActionButtonBkg.skin"/>
+		<property Accelerator = "ActionButton1_10;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="10">
+		<property style="SYActionBarIndex"/>
+		<property position="10 32"/>
+		<property extent="7 8"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

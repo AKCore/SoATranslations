@@ -1,0 +1,5 @@
+<Movie>
+	<FrameSay Index = "0" >
+	<Saying des = "嗯，没有学会啊，那么是哪一个不太清楚呢，那请您选出来我再来给您进行讲解吧。<br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_ReMove>移动操作</a><br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_ReBase>基础快捷键</a><br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_ReMouse>鼠标操作</a><br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_ChangeKey>发现都很清楚了</a>"/>
+	</FrameSay>
+</Movie>

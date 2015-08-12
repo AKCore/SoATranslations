@@ -1,0 +1,6 @@
+<Skin texture ="rcButton.png">
+	<item x="0" y="0" w="12" h="12" />
+	<item x="0" y="12" w="12" h="12" />
+	<item x="0" y="24" w="12" h="12" />
+	<item x="0" y="36" w="12" h="12" />
+</Skin>

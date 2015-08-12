@@ -1,0 +1,6 @@
+<Skin texture ="MiniMapBtn.png">
+	<item x="79" y="3" w="28" h="28" />
+	<item x="79" y="33" w="28" h="28" />
+	<item x="79" y="63" w="28" h="28" />
+	<item x="79" y="93" w="28" h="28" />
+</Skin>

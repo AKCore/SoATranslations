@@ -1,0 +1,6 @@
+<Skin texture ="MailContent.png">
+	<item x="94" y="16"  w="58" h="19" />
+	<item x="0" y="0"  w="248" h="52" />
+	<item x="0" y="0"  w="248" h="52" />
+	<item x="0" y="0"  w="248" h="52" />
+</Skin>

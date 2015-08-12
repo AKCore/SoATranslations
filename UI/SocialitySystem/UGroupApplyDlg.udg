@@ -1,0 +1,1073 @@
+<Window class="UGroupApplyFrame">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="223 135"/>
+	<property extent="551 482"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property CloseBtnPos = "524 22"/>
+	<property bkgskin="SocialitySystem\GroupApply.skin"/>
+		<Window class ="UGroupApplyList" id = "0">
+			<property style="SYChatInputHeadEdit"/>
+			<property position="25 109"/>
+			<property extent="515 300"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class="UGroupApplyItem" id = "0">
+				<property style="SYOtherEdit"/>
+				<property position="0 0"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "1">
+				<property style="SYOtherEdit"/>
+				<property position="0 15"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "2">
+				<property style="SYOtherEdit"/>
+				<property position="0 30"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "3">
+				<property style="SYOtherEdit"/>
+				<property position="0 45"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "4">
+				<property style="SYOtherEdit"/>
+				<property position="0 60"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "5">
+				<property style="SYOtherEdit"/>
+				<property position="0 75"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "6">
+				<property style="SYOtherEdit"/>
+				<property position="0 90"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "7">
+				<property style="SYOtherEdit"/>
+				<property position="0 105"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "8">
+				<property style="SYOtherEdit"/>
+				<property position="0 120"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "9">
+				<property style="SYOtherEdit"/>
+				<property position="0 135"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "10">
+				<property style="SYOtherEdit"/>
+				<property position="0 150"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "11">
+				<property style="SYOtherEdit"/>
+				<property position="0 165"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "12">
+				<property style="SYOtherEdit"/>
+				<property position="0 180"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "13">
+				<property style="SYOtherEdit"/>
+				<property position="0 195"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "14">
+				<property style="SYOtherEdit"/>
+				<property position="0 210"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "15">
+				<property style="SYOtherEdit"/>
+				<property position="0 225"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "16">
+				<property style="SYOtherEdit"/>
+				<property position="0 240"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "17">
+				<property style="SYOtherEdit"/>
+				<property position="0 255"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "18">
+				<property style="SYOtherEdit"/>
+				<property position="0 270"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGroupApplyItem" id = "19">
+				<property style="SYOtherEdit"/>
+				<property position="0 285"/>
+				<property extent="515 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<Window class = "UStaticText" id = "0">
+					<property style = "SYOtherEdit"/>
+					<property position = "0 0"/>
+					<property extent = "106 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "108 0"/>
+					<property extent = "56 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "166 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "201 0"/>
+					<property extent = "59 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "260 0"/>
+					<property extent = "254 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+		</Window>
+		<Window class = "UBitmapButton" id = "1">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position = "25 88"/>
+			<property extent = "106 19"/>
+			<property minExtent = "8 8"/>
+			<property text = "队长名称"/>
+			<property visible = "1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="2">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="133 88"/>
+			<property extent="56 19"/>
+			<property minExtent="8 8"/>
+			<property text="队长等级"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="3">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="191 88"/>
+			<property extent="34 19"/>
+			<property minExtent="8 8"/>
+			<property text="人数"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="4">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="227 88"/>
+			<property extent="59 19"/>
+			<property minExtent="8 8"/>
+			<property text="招募状态"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="5">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="288 88"/>
+			<property extent="251 19"/>
+			<property minExtent="8 8"/>
+			<property text="招募说明"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "140">
+			<property style="SYDialogFrame"/>
+			<property position="214 420"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="40">
+			<property style="UButton"/>
+			<property bitmap="Public\applyopen.skin"/>
+			<property position="217 423"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "141">
+			<property style="SYDialogFrame"/>
+			<property position="296 420"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="41">
+			<property style="UButton"/>
+			<property bitmap="Public\applyclose.skin"/>
+			<property position="299 423"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "142">
+			<property style="SYDialogFrame"/>
+			<property position="377 420"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="42">
+			<property style="UButton"/>
+			<property bitmap="Public\applyintro.skin"/>
+			<property position="380 423"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "143">
+			<property style="SYDialogFrame"/>
+			<property position="458 420"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="43">
+			<property style="UButton"/>
+			<property bitmap="Public\Groupapply.skin"/>
+			<property position="461 423"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class = "UStaticText" id = "44">
+			<property style = "SYDialogTitle"/>
+			<property position = "148 62"/>
+			<property extent = "54 18"/>
+			<property minExtent = "8 8"/>
+			<property text= "区域："/>
+			<property visible = "1"/>
+		</Window>
+		<Window class="UComboBox" id = "45">
+			<property style="SYUComboBox1"/>
+			<property position="207 64"/>
+			<property extent="179 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class = "UStaticText" id = "49">
+			<property style = "SYDialogTitle"/>
+			<property position = "230 25"/>
+			<property extent = "111 20"/>
+			<property minExtent = "8 8"/>
+			<property text= "组 队 招 募"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class="UBitmapButton" id="50">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="28 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="好 友"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="51">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="107 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="部 族"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="52">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="185 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="谁在线"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="53">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="263 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="团 队"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="54">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="341 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="组队招募"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+	<!--上一页-->
+	<Window class="UBitmapButton" id="60">
+		<property style="UBitmap"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="26 418"/>
+		<property extent="60 24"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--显示-->
+	<Window class="UStaticText" id = "61">
+		<property style="SYDialogTitle"/>
+		<property position="86 418"/>
+		<property extent="56 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="1/1"/>
+	</Window>
+	<!--下一页-->
+	<Window class="UBitmapButton" id="62">
+		<property style="UBitmap"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="142 418"/>
+		<property extent="60 24"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+</Window>

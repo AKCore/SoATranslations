@@ -1,0 +1,9 @@
+<Window class="UISystemMsg">
+	<property style="default"/>
+	<property position="0 134"/>
+	<property extent="1024 22"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="3"/>
+</Window>

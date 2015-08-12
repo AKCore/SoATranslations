@@ -1,0 +1,8 @@
+<Skin texture ="BagIcon.png">
+	<item x="0"	y="0"	w="36"	h="36"	/>
+	<item x="37"	y="0"	w="36"	h="36"	/>
+	<item x="74"	y="0"	w="36"	h="36"	/>
+	<item x="111"	y="0"	w="36"	h="36"	/>
+</Skin>	
+	
+

@@ -1,0 +1,65 @@
+<Window class="UIGuildQureyListitem">
+	<property style="UBitmap"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="0 0"/>
+	<property extent="560 20"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+		<Window class= "UBitmap" id = "0">
+			<property style="SYDialogFrame"/>
+			<property position= "2 1"/>
+			<property extent= "18 18"/>
+			<property minExtent= "8 8"/>
+			<property visible= "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "27 1"/>
+			<property extent = "112 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "144 1"/>
+			<property extent = "34 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "183 1"/>
+			<property extent = "26 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "213 1"/>
+			<property extent = "26 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "5">
+			<property style = "SYOtherEdit"/>
+			<property position = "243 1"/>
+			<property extent = "114 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "6">
+			<property style = "SYOtherEdit"/>
+			<property position = "361 1"/>
+			<property extent = "82 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "7">
+			<property style = "SYOtherEdit"/>
+			<property position = "449 1"/>
+			<property extent = "111 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+</Window>

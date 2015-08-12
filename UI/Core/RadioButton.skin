@@ -1,0 +1,6 @@
+<Skin texture ="DefaultControlSkin.png">
+	<item x="0" y="160" w="22" h="22" />
+	<item x="23" y="160" w="22" h="22" />
+	<item x="46" y="160" w="22" h="22" />
+	<item x="69" y="160" w="22" h="22" />
+</Skin>

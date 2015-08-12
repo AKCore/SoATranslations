@@ -1,0 +1,139 @@
+<Window class="UIAuctionBrowse">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="42 100"/>
+	<property extent="186 331"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<Window class="UBitmap" id="0">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\BrowseBkg.png"/>
+		<property position="0 0"/>
+		<property extent="186 331"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UEdit" id="7">
+		<property style="UScenceChat"/>
+		<property position="25 53"/>
+		<property extent="143 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+		<property Tiptext = "输入搜索物品名称"/>
+	</Window>
+	<Window class="UEdit" id="8">
+		<property style="UScenceChat"/>
+		<property position="104 78"/>
+		<property extent="20 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UEdit" id="9">
+		<property style="UScenceChat"/>
+		<property position="143 78"/>
+		<property extent="20 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+  	<Window class="UComboBox" id="10">
+    		<property style="SYUComboBox"/>
+		<property position="102 104"/>
+		<property extent="50 15"/>
+    		<property minExtent="8 8"/>
+    		<property visible="1"/>
+  	</Window>
+	<!--金币-->
+	<Window class="UEdit" id="11">
+		<property style="UScenceChat"/>
+		<property position="25 233"/>
+		<property extent="71 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<!--银币-->
+	<Window class="UEdit" id="12">
+		<property style="UScenceChat"/>
+		<property position="116 233"/>
+		<property extent="15 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<!--铜币-->
+	<Window class="UEdit" id="13">
+		<property style="UScenceChat"/>
+		<property position="148 233"/>
+		<property extent="15 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UBitmap" id = "114">
+		<property style="SYDialogFrame"/>
+		<property position="57 135"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="14">
+		<property style="UButton"/>
+		<property bitmap="Public\Sousuo.skin"/>
+		<property position="60 138"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "115">
+		<property style="SYDialogFrame"/>
+		<property position="56 262"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="15">
+		<property style="UButton"/>
+		<property bitmap="Public\Jingpai.skin"/>
+		<property position="59 265"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "116">
+		<property style="SYDialogFrame"/>
+		<property position="56 297"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="16">
+		<property style="UButton"/>
+		<property bitmap="Public\Yikoujia.skin"/>
+		<property position="59 300"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UEdit" id="17">
+		<property style="UScenceChat"/>
+		<property position="24 233"/>
+		<property extent="119 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+</Window>

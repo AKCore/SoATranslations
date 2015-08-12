@@ -1,0 +1,323 @@
+<Window class="USpecialityDlg">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="430 132"/>
+	<property extent="408 524"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CloseBtnPos = "381 22"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Skill\USpecialityDlgBkg.skin"/>
+	<Window class="UScrollBar" id="0">
+		    <property style="SYUScrollBar"/>
+		    <property position="124 89"/>
+		    <property extent="272 171"/>
+		    <property minExtent="8 8"/>
+		    <property ChildMargin="0 10"/>
+		    <property visible="1"/>
+		    <property AllShowBar="0"/>
+		    <Window class="USpecListBox" id="1">
+			    <property style="ChooseSpecListBox"/>
+			    <property bitmap="Skill\SkillTrainingSpecList.skin"/>
+			    <property position="0 0"/>
+			    <property extent="248 154"/>
+			    <property minExtent="8 8"/>
+			    <property visible="1"/>
+		    </Window>
+	</Window>
+	<Window class="UListBox" id="2">
+		<property style="SYUListBox3"/>
+		<property position="28 96"/>
+		<property extent="88 154"/>
+		<property minExtent="8 8"/>
+		<property ChooseBkg = "DATA\UI\Skill\CateBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USpecialityInfo" id="3">
+		<property style="SYStaticTextCtrl"/>
+		<property position="36 272"/>
+		<property extent="350 168"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="16 25"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\IconBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="0">
+			<property style="SkillButton"/>
+			<property showbgk="0"/>
+			<property LockDrag="1"/>
+			<property position="16 25"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style = "SYDialogTitle"/>
+			<property position="18 76"/>
+			<property extent="153 22"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="URichTextCtrl" id="2">
+			<property style="URichTextCtrl"/>
+			<property position="18 98"/>
+			<property extent="153 53"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USpecialityNeedItemInfo" id="3">
+			<property style="URichTextCtrl"/>
+			<property position="182 8"/>
+			<property extent="158 46"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="158 46"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Skill\NeedItem.png"/>
+				<property visible="1"/>
+			</Window>
+			<Window class="USkillButton" id="1">
+				<property style="SkillButton"/>
+				<property showbgk="0"/>
+				<property LockDrag="1"/>
+				<property position="4 3"/>
+				<property extent="40 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+			<Window class="UStaticText" id="2">
+				<property style = "SYDialogTitle"/>
+				<property position="47 12"/>
+				<property extent="104 22"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+		</Window>
+		<Window class="USpecialityNeedItemInfo" id="4">
+			<property style="URichTextCtrl"/>
+			<property position="182 61"/>
+			<property extent="158 46"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="158 46"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Skill\NeedItem.png"/>
+				<property visible="1"/>
+			</Window>
+			<Window class="USkillButton" id="1">
+				<property style="SkillButton"/>
+				<property showbgk="0"/>
+				<property LockDrag="1"/>
+				<property position="4 3"/>
+				<property extent="40 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+			<Window class="UStaticText" id="2">
+				<property style = "SYDialogTitle"/>
+				<property position="47 12"/>
+				<property extent="104 22"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+		</Window>
+		<Window class="USpecialityNeedItemInfo" id="5">
+			<property style="URichTextCtrl"/>
+			<property position="182 114"/>
+			<property extent="158 46"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class="UBitmap" id = "0">
+				<property style="SYDialogFrame"/>
+				<property position="0 0"/>
+				<property extent="158 46"/>
+				<property minExtent="8 8"/>
+				<property bitmap = "Data\UI\Skill\NeedItem.png"/>
+				<property visible="1"/>
+			</Window>
+			<Window class="USkillButton" id="1">
+				<property style="SkillButton"/>
+				<property showbgk="0"/>
+				<property LockDrag="1"/>
+				<property position="4 3"/>
+				<property extent="40 40"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+			<Window class="UStaticText" id="2">
+				<property style = "SYDialogTitle"/>
+				<property position="47 12"/>
+				<property extent="104 22"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+		</Window>
+		<Window class="URichTextCtrl" id="6">
+			<property style="URichTextCtrl"/>
+			<property position="63 27"/>
+			<property extent="112 39"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="URadioButton"/>
+		<property bitmap="Public\SendCheck.skin"/>
+		<property position="359 53"/>
+		<property extent="17 17"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id="108">
+		<property style="SYStaticTextCtrl"/>
+		<property position="301 53"/>
+		<property extent="58 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="材料齐备"/>
+	</Window>
+	<Window class="UBitmapButton" id="9">
+		<property style="URadioButton"/>
+		<property bitmap="Public\SendCheck.skin"/>
+		<property position="359 70"/>
+		<property extent="17 17"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id="109">
+		<property style="SYStaticTextCtrl"/>
+		<property position="301 70"/>
+		<property extent="58 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="不可制造"/>
+	</Window>
+	<Window class="UBitmapButton" id="19">
+		<property style="UBitmap"/>
+		<property bitmap="Skill\Search.skin"/>
+		<property position="280 77"/>
+		<property extent="14 14"/>
+		<property minExtent="2 2"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UEdit" id="20">
+		<property style="SYPlayerNameEdit"/>
+		<property position="138 77"/>
+		<property extent="142 14"/>
+		<property minExtent="8 2"/>
+		<property visible="0"/>
+		<property Tiptext="输入关键字搜索"/>
+	</Window>
+	<Window class = "UStaticText" id = "21">
+		<property style = "SYDialogTitle"/>
+		<property position = "77 21"/>
+		<property extent = "266 26"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property text="专业制造"/>
+	</Window>
+	<Window class="UBitmap" id = "123">
+		<property style="SYDialogFrame"/>
+		<property position="321 482"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="23">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="324 485"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="24">
+		<property style="UButton"/>
+		<property bitmap="Public\PrevArrow.skin"/>
+		<property position="112 484"/>
+		<property extent="18 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UEdit" id="25">
+		<property style="SYChatInputEdit"/>
+		<property position="138 484"/>
+		<property extent="36 14"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property text="0"/>
+	</Window>
+	<Window class="UBitmapButton" id="26">
+		<property style="UButton"/>
+		<property bitmap="Public\NextArrow.skin"/>
+		<property position="181 484"/>
+		<property extent="18 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "127">
+		<property style="SYDialogFrame"/>
+		<property position="207 481"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="27">
+		<property style="UButton"/>
+		<property bitmap="Public\Build.skin"/>
+		<property position="210 484"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "128">
+		<property style="SYDialogFrame"/>
+		<property position="28 481"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="28">
+		<property style="UButton"/>
+		<property bitmap="Public\BuildAll.skin"/>
+		<property position="31 484"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UProgressBar_Skin" id="29">
+		<property style="SYUProgressCtrl"/>
+		<property BarSkin="Skill\SpecialityExp.skin"/>
+		<property position="24 453"/>
+		<property extent="375 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "30">
+		<property style="SYDialogFrame"/>
+		<property position="6 7"/>
+		<property extent="60 60"/>
+		<property minExtent="8 8"/>
+		<property Skin = "Skill\SpecialityIcon.skin"/>
+		<property visible="1"/>
+	</Window>
+</Window>

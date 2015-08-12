@@ -1,0 +1,154 @@
+<AccelerKeys>
+	<AccelerKey ActionCode="MoveForward" KeyCode="W" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="MoveBackward" KeyCode="S" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="MoveLeft" KeyCode="Q" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="MoveRight" KeyCode="E" KeyModify = ""></AccelerKey>
+    	<AccelerKey ActionCode="MoveTurnLeft" KeyCode="A" KeyModify=""></AccelerKey>
+   	<AccelerKey ActionCode="MoveTurnRight" KeyCode="D" KeyModify=""></AccelerKey>
+	<AccelerKey ActionCode="ShowMap" KeyCode="M" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="Jump" KeyCode="SPACE" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="AutoChoose" KeyCode="TAB" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="AutoMove" KeyCode="G" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="ChooseSelf" KeyCode="F1" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="ChooseTeam1" KeyCode="F2" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="ChooseTeam2" KeyCode="F3" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="ChooseTeam3" KeyCode="F4" KeyModify = ""></AccelerKey>
+	<AccelerKey ActionCode="ChooseTeam4" KeyCode="F5" KeyModify = ""></AccelerKey>
+
+  <AccelerKey ActionCode="ActionButton1" KeyCode="1" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton2" KeyCode="2" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton3" KeyCode="3" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton4" KeyCode="4" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton5" KeyCode="5" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton6" KeyCode="6" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton7" KeyCode="7" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton8" KeyCode="8" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton9" KeyCode="9" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton10" KeyCode="0" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton11" KeyCode="-" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton12" KeyCode="=" KeyModify = ""></AccelerKey>
+
+  <AccelerKey ActionCode="ActionButton1_1" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_2" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_3" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_4" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_5" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_6" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_7" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_8" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_9" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_10" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_11" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_12" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_13" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_14" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_15" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_16" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_17" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_18" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_19" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_20" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_21" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton1_22" KeyCode="NULL" KeyModify = ""></AccelerKey>
+
+  <AccelerKey ActionCode="ActionButton2_1" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton2_2" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton2_3" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton2_4" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton2_5" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton2_6" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton2_7" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton2_8" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton2_9" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton2_10" KeyCode="NULL" KeyModify = ""></AccelerKey>
+
+  <AccelerKey ActionCode="ActionButton3_1" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton3_2" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton3_3" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton3_4" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton3_5" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton3_6" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton3_7" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton3_8" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton3_9" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton3_10" KeyCode="NULL" KeyModify = ""></AccelerKey>
+
+
+  <AccelerKey ActionCode="ActionButton4_1" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton4_2" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton4_3" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton4_4" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton4_5" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton4_6" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton4_7" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton4_8" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton4_9" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton4_10" KeyCode="NULL" KeyModify = ""></AccelerKey>
+
+  <AccelerKey ActionCode="ActionButton5_1" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton5_2" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton5_3" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton5_4" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton5_5" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton5_6" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton5_7" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton5_8" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton5_9" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton5_10" KeyCode="NULL" KeyModify = ""></AccelerKey>
+
+  <AccelerKey ActionCode="ActionButton6_1" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton6_2" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton6_3" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton6_4" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton6_5" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton6_6" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton6_7" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton6_8" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton6_9" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton6_10" KeyCode="NULL" KeyModify = ""></AccelerKey>
+
+  <AccelerKey ActionCode="ActionButton7_1" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton7_2" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton7_3" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton7_4" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton7_5" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton7_6" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton7_7" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton7_8" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton7_9" KeyCode="NULL" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="ActionButton7_10" KeyCode="NULL" KeyModify = ""></AccelerKey>
+
+
+  <AccelerKey ActionCode="CallBag" KeyCode="B" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="CallFriend" KeyCode="O" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="CallGameSet" KeyCode="F10" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="CallQuest" KeyCode="L" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="CallEquip" KeyCode="C" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="CallSkill" KeyCode="X" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="CallTalk" KeyCode="NUMPADENTER" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="CallFB" KeyCode="P" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="CallHelp" KeyCode="H" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="CallEndoment" KeyCode="J" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="MSGBOXOK" KeyCode="NUMPADENTER" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="HideUI" KeyCode="F9" KeyModify = ""></AccelerKey>
+  <AccelerKey ActionCode="HidePlayer" KeyCode="F12" KeyModify=""></AccelerKey>
+  <AccelerKey ActionCode="PrintScreen" KeyCode="SYSRQ" KeyModify=""></AccelerKey>
+  <AccelerKey ActionCode="FullScreen" KeyCode="NUMPADENTER" KeyModify="LALT"></AccelerKey>
+  <AccelerKey ActionCode="Whisper" KeyCode="R" KeyModify=""></AccelerKey>
+  <AccelerKey ActionCode="HOOK" KeyCode="F11" KeyModify=""></AccelerKey>
+  <AccelerKey ActionCode="Manufacture" KeyCode="I" KeyModify=""></AccelerKey>
+  <AccelerKey ActionCode="AutoLoot" KeyCode="GRAVE" KeyModify = ""></AccelerKey>
+</AccelerKeys>
+   
+   
+  
+  
+	
+	
+	
+	
+	
+	
+
+
+

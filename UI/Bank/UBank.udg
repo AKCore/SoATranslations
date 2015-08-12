@@ -1,0 +1,127 @@
+<Window class="UBank">
+	<property style="UBitmap"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="2 85"/>
+	<property extent="556 417"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property headRec="0 0 556 98"/>
+	<property leftbordRec="0 98 27 339"/>
+	<property rightbordRec="540 98 556 339"/>
+	<property centerRec="27 98 540 339"/>
+	<property bottomRec="0 339 556 417"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Bank\BankDialog.skin"/>
+	<Window class="UPackageContainer" id="0">
+		<property style="UDragDropGridCtrl"/>
+		<property position="27 98"/>
+		<property extent="513 258"/>
+		<property minExtent="8 8"/>
+	</Window>
+	<Window class="UStaticText" id = "1">
+		<property style="SYOtherEdit"/>
+		<property position="77 73"/>
+		<property extent="65 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="当前持有："/>
+	</Window>
+	<Window class= "UBitmap" id = "3">
+		<property style="SYDialogFrame"/>
+		<property position= "142 73"/>
+		<property extent= "163 20"/>
+		<property minExtent= "8 8"/>
+		<property visible= "1"/>
+		<property bitmap = "Data\UI\Bank\CoinBkg.png"/>
+	</Window>
+	<Window class="UMoneyText" id="2">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="142 73"/>
+		<property extent="163 20"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBank::BageSolt" id="4">
+		<property style="SkillButton"/>
+		<property position="37 375"/>
+		<property extent="42 43"/>
+		<property BackSkin = "Bank\BankBagSlot.skin"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBank::BageSolt" id="5">
+		<property style="SkillButton"/>
+		<property position="93 375"/>
+		<property extent="42 43"/>
+		<property BackSkin = "Bank\BankBagSlot.skin"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBank::BageSolt" id="6">
+		<property style="SkillButton"/>
+		<property position="146 375"/>
+		<property extent="42 43"/>
+		<property BackSkin = "Bank\BankBagSlot.skin"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBank::BageSolt" id="7">
+		<property style="SkillButton"/>
+		<property position="201 375"/>
+		<property extent="42 43"/>
+		<property BackSkin = "Bank\BankBagSlot.skin"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBank::BageSolt" id="8">
+		<property style="SkillButton"/>
+		<property position="254 375"/>
+		<property extent="42 43"/>
+		<property BackSkin = "Bank\BankBagSlot.skin"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBank::BageSolt" id="9">
+		<property style="SkillButton"/>
+		<property position="308 375"/>
+		<property extent="42 43"/>
+		<property BackSkin = "Bank\BankBagSlot.skin"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBank::BageSolt" id="10">
+		<property style="SkillButton"/>
+		<property position="362 375"/>
+		<property extent="42 43"/>
+		<property BackSkin = "Bank\BankBagSlot.skin"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--购买-->
+	<Window class="UBitmapButton" id="11">
+		<property style="UButton"/>
+		<property bitmap="Public\BuyBankBag.skin"/>
+		<property position="485 386"/>
+		<property extent="42 22"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--整理-->
+	<Window class="UBitmap" id = "112">
+		<property style="SYDialogFrame"/>
+		<property position="448 75"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="12">
+		<property style="UButton"/>
+		<property bitmap="Package\zhengli.skin"/>
+		<property position="451 78"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+</Window>

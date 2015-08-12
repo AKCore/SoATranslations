@@ -1,0 +1,602 @@
+<Window class="UEquipment">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="3 132"/>
+	<property extent="455 503"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce="true"/>
+	<property bkgskin="Equipment\BGK.skin"/>
+	<!--Title text-->
+	<Window class="UStaticText" id="34">
+		<property style="SYDialogTitle"/>
+		<property position="163 25"/>
+		<property extent="160 21"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=" 角 色"/>
+	</Window>
+	<!--top head-->
+	<Window class="UBitmap" id="23">
+		<property style="UButton"/>
+		<property position="13 13"/>
+		<property extent="46 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="53">
+		<property style="UButton"/>
+		<property position="24 91"/>
+		<property extent="420 300"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UNiAVControlEq" id="22">
+		<property style="UBitmap"/>
+		<property position="20 5"/>
+		<property extent="429 389"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--装备数据  14个格子-->
+	<!--鞋子-->
+	<Window class="UEquipment::EquipSlot" id="4">
+		<property style="SkillButton"/>
+		<property position="25 349"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="鞋子"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--头盔-->
+	<Window class="UEquipment::EquipSlot" id="0">
+		<property style="SkillButton"/>
+		<property position="25 91"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="头盔"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--项链-->
+	<Window class="UEquipment::EquipSlot" id="7">
+		<property style="SkillButton"/>
+		<property position="403 91"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="项链"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--戒指1-->
+	<Window class="UEquipment::EquipSlot" id="10">
+		<property style="SkillButton"/>
+		<property position="403 134"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="戒指"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--戒指2-->
+	<Window class="UEquipment::EquipSlot" id="11">
+		<property style="SkillButton"/>
+		<property position="403 177"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="戒指"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--饰品1-->
+	<Window class="UEquipment::EquipSlot" id="12">
+		<property style="SkillButton"/>
+		<property position="403 220"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="饰品"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--主武器-->
+	<Window class="UEquipment::EquipSlot" id="5">
+		<property style="SkillButton"/>
+		<property position="403 306"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="主武器"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--饰品2-->
+	<Window class="UEquipment::EquipSlot" id="13">
+		<property style="SkillButton"/>
+		<property position="403 263"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="饰品"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--副手武器-->
+	<Window class="UEquipment::EquipSlot" id="6">
+		<property style="SkillButton"/>
+		<property position="403 349"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="副手武器"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--肩-->
+	<Window class="UEquipment::EquipSlot" id="8">
+		<property style="SkillButton"/>
+		<property position="25 134"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="肩"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--腰带-->
+	<Window class="UEquipment::EquipSlot" id="9">
+		<property style="SkillButton"/>
+		<property position="25 219"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="腰带"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--胸部-->
+	<Window class="UEquipment::EquipSlot" id="2">
+		<property style="SkillButton"/>
+		<property position="25 177"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="胸部"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--手套-->
+	<Window class="UEquipment::EquipSlot" id="1">
+		<property style="SkillButton"/>
+		<property position="25 263"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="手套"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--裤子-->
+	<Window class="UEquipment::EquipSlot" id="3">
+		<property style="SkillButton"/>
+		<property position="25 306"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="裤子"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--时装-->
+	<!--背部14-->
+	<Window class="UEquipment::EquipSlot" id="14">
+		<property style="SkillButton"/>
+		<property position="25 349"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="背部装饰"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--头部15-->
+	<Window class="UEquipment::EquipSlot" id="15">
+		<property style="SkillButton"/>
+		<property position="25 264"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="头部装饰"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--肩膀16-->
+	<Window class="UEquipment::EquipSlot" id="16">
+		<property style="SkillButton"/>
+		<property position="25 306"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="肩膀装饰"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--上衣17-->
+	<Window class="UEquipment::EquipSlot" id="17">
+		<property style="SkillButton"/>
+		<property position="403 263"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="上衣装饰"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--下衣18-->
+	<Window class="UEquipment::EquipSlot" id="18">
+		<property style="SkillButton"/>
+		<property position="403 306"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="下衣装饰"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--鞋子19-->
+	<Window class="UEquipment::EquipSlot" id="19">
+		<property style="SkillButton"/>
+		<property position="403 349"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="鞋子装饰"/>
+		<property hovertime="300"/>
+	</Window>
+	<!--名字title-->
+	<Window class="UStaticText" id="44">
+		<property style="SYEquipmentNameShowTitle"/>
+		<property position="84 353"/>
+		<property extent="41 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="名称："/>
+	</Window>
+	<!--名字-->
+	<Window class="UStaticText" id="24">
+		<property style="SYEquipmentNameShow"/>
+		<property position="125 353"/>
+		<property extent="105 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--等级title-->
+	<Window class="UStaticText" id="45">
+		<property style="SYEquipmentNameShowTitle"/>
+		<property position="233 353"/>
+		<property extent="39 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="等级："/>
+	</Window>
+	<!--等级-->
+	<Window class="UStaticText" id="25">
+		<property style="SYEquipmentNameShow"/>
+		<property position="272 353"/>
+		<property extent="27 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--职业title-->
+	<Window class="UStaticText" id="46">
+		<property style="SYEquipmentNameShowTitle"/>
+		<property position="303 353"/>
+		<property extent="40 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="职业："/>
+	</Window>
+	<!--职业-->
+	<Window class="UStaticText" id="26">
+		<property style="SYEquipmentNameShow"/>
+		<property position="345 353"/>
+		<property extent="33 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--左转-->
+	<Window class="UDownButton" id="20">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnLeft.skin"/>
+		<property position="80 309"/>
+		<property extent="20 20"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--右转-->
+	<Window class="UDownButton" id="21">
+		<property style="UButton"/>
+		<property bitmap="Public\Turnright.skin"/>
+		<property position="338 309"/>
+		<property extent="20 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--角色按钮-->
+	<Window class="UBitmapButton" id="31">
+		<property style="SYURadioButton"/>
+		<property bitmap="public\SubTable.skin"/>
+		<property position="29 469"/>
+		<property extent="78 33"/>
+		<property minExtent="8 8"/>
+		<property text="角 色"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--时装按钮-->
+	<Window class="UBitmapButton" id="40">
+		<property style="SYURadioButton"/>
+		<property bitmap="public\SubTable.skin"/>
+		<property position="111 469"/>
+		<property extent="78 33"/>
+		<property minExtent="8 8"/>
+		<property text="时 装"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--宠物按钮-->
+	<Window class="UBitmapButton" id="32">
+		<property style="SYURadioButton"/>
+		<property bitmap="public\SubTable.skin"/>
+		<property position="193 469"/>
+		<property extent="78 33"/>
+		<property minExtent="8 8"/>
+		<property text="宠 物"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--精炼按钮-->
+	<Window class="UBitmap" id = "133">
+		<property style="SYDialogFrame"/>
+		<property position="380 437"/>
+		<property extent="67 19"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="33">
+		<property style="SYURadioButton"/>
+		<property bitmap="public\TitleMgr.skin"/>
+		<property position="383 440"/>
+		<property extent="61 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--称号管理-->
+	<Window class="UBitmap" id = "137">
+		<property style="SYDialogFrame"/>
+		<property position="380 410"/>
+		<property extent="67 19"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="37">
+		<property style="SYURadioButton"/>
+		<property bitmap="public\GodTool.skin"/>
+		<property position="383 413"/>
+		<property extent="61 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--显示时装-->
+	<Window class="UBitmapButton" id="35">
+		<property style="SYCheckBox"/>
+		<property position="28 440"/>
+		<property extent="16 16"/>
+		<property minExtent="8 8"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property visible="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<!--显示头盔文字-->
+	<Window class="UStaticText" id="36">
+		<property style="SYEquipmentSZ"/>
+		<property position="44 416"/>
+		<property extent="46 11"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="显示头盔"/>
+	</Window>
+	<!--显示头盔-->
+	<Window class="UBitmapButton" id="38">
+		<property style="SYCheckBox"/>
+		<property position="28 414"/>
+		<property extent="16 16"/>
+		<property minExtent="8 8"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property visible="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<!--显示时装文字-->
+	<Window class="UStaticText" id="39">
+		<property style="SYEquipmentSZ"/>
+		<property position="44 442"/>
+		<property extent="46 11"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="显示时装"/>
+	</Window>
+	<!--属性显示-->
+	<Window class="UPropertyInfo" id="41">
+		<property style="SYEquipmentProperty"/>
+		<property position="94 377"/>
+		<property extent="88 85"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<Window class="UComboBox" id = "1">
+			<property style="SYUComboBoxEquipment"/>
+			<property position="0 0"/>
+			<property extent="88 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UPropertyInfo" id="42">
+		<property style="SYEquipmentProperty"/>
+		<property position="191 377"/>
+		<property extent="88 85"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<Window class="UComboBox" id = "1">
+			<property style="SYUComboBoxEquipment"/>
+			<property position="0 0"/>
+			<property extent="88 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UPropertyInfo" id="43">
+		<property style="SYEquipmentProperty"/>
+		<property position="288 377"/>
+		<property extent="88 85"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<Window class="UComboBox" id = "1">
+			<property style="SYUComboBoxEquipment"/>
+			<property position="0 0"/>
+			<property extent="88 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<!--抗性显示-->
+	<!--神圣-->
+	<Window class="UControl" id="67">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 192"/>
+		<property extent="26 26"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="神圣抗性"/>
+		<property hovertime="300"/>
+	</Window>
+	<Window class="UStaticText" id="47">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 204"/>
+		<property extent="25 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="0"/>
+	</Window>
+	<!--暗影-->
+	<Window class="UControl" id="68">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 218"/>
+		<property extent="26 26"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="暗影抗性"/>
+		<property hovertime="300"/>
+	</Window>
+	<Window class="UStaticText" id="48">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 228"/>
+		<property extent="25 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="0"/>
+	</Window>
+	<!--冰霜-->
+	<Window class="UControl" id="69">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 243"/>
+		<property extent="26 26"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="冰霜抗性"/>
+		<property hovertime="300"/>
+	</Window>
+	<Window class="UStaticText" id="49">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 255"/>
+		<property extent="25 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="0"/>
+	</Window>
+	<!--火焰-->
+	<Window class="UControl" id="70">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 268"/>
+		<property extent="26 26"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="火焰抗性"/>
+		<property hovertime="300"/>
+	</Window>
+	<Window class="UStaticText" id="50">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 281"/>
+		<property extent="25 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="0"/>
+	</Window>
+	<!--自然-->
+	<Window class="UControl" id="71">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 294"/>
+		<property extent="26 26"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="自然抗性"/>
+		<property hovertime="300"/>
+	</Window>
+	<Window class="UStaticText" id="51">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 306"/>
+		<property extent="25 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="0"/>
+	</Window>
+	<!--神秘-->
+	<Window class="UControl" id="72">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 319"/>
+		<property extent="26 26"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property tooltipprofile="UMouseStopMain"/>
+		<property tooltip="神秘抗性"/>
+		<property hovertime="300"/>
+	</Window>
+	<Window class="UStaticText" id="52">
+		<property style="SYEquipmentImmunity"/>
+		<property position="373 330"/>
+		<property extent="25 13"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="0"/>
+	</Window>
+</Window>

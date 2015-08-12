@@ -1,0 +1,9 @@
+<Window class="UClientStateTip">
+	<property style="SYOtherEdit"/>
+	<property position="583 521"/>
+	<property extent="193 130"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="2"/>
+</Window>

@@ -1,0 +1,80 @@
+<SkinGroup SkinFile="Engine\\Wnd\\DefSkin.png">
+
+<Skin Name="LthClientEdge">
+	<Item id = "0" Name="SKIN_CE_LEFTTOP" x="100" y="0" w="10" h="10" />
+	<Item id = "1" Name="SKIN_CE_RIGHTTOP" x="110" y="0" w="10" h="10" />
+	<Item id = "2" Name="SKIN_CE_TOP" x="121" y="0" w="8" h="10" />
+	
+	<Item id = "3" Name="SKIN_CE_LEFT" x="100" y="11" w="10" h="8" />
+	<Item id = "4" Name="SKIN_CE_RIGHT" x="110" y="11" w="10" h="8" />
+	<Item id = "5" Name="SKIN_CLIENT_BODY" x="121" y="11" w="8" h="8" />
+	
+	<Item id = "6" Name="SKIN_CE_LEFTBOTTOM" x="100" y="20" w="10" h="10" />
+	<Item id = "7" Name="SKIN_CE_RIGHTBOTTOM" x="110" y="20" w="10" h="10" />
+	<Item id = "8" Name="SKIN_CE_BOTTOM" x="121" y="20" w="8" h="10" />
+</Skin>
+
+<Skin Name="LthWndSkin">
+	<Item id = "0" Name="SKIN_TITLE_LEFT" x="0" y="0" w="14" h="24" />
+	<Item id = "1" Name="SKIN_TITLE_RIGHT" x="15" y="0" w="14" h="24" />
+	<Item id = "2" Name="SKIN_TITLE_BODY" x="31" y="0" w="8" h="24" />
+	
+	<Item id = "3" Name="SKIN_EDGE_LEFTTOP" x="0" y="25" w="32" h="32" />
+	<Item id = "4" Name="SKIN_EDGE_RIGHTTOP" x="33" y="25" w="32" h="32" />
+	<Item id = "5" Name="SKIN_EDGE_TOP" x="67" y="25" w="30" h="32" />
+	
+	<Item id = "6" Name="SKIN_EDGE_LEFT" x="0" y="59" w="32" h="30" />
+	<Item id = "7" Name="SKIN_EDGE_RIGHT" x="33" y="59" w="32" h="30" />
+	<Item id = "8" Name="SKIN_BODY" x="67" y="59" w="30" h="30" />
+	
+	<Item id = "9" Name="SKIN_EDGE_LEFTBOTTOM" x="0" y="91" w="32" h="32" />
+	<Item id = "10" Name="SKIN_EDGE_RIGHTBOTTOM" x="33" y="91" w="32" h="32" />
+	<Item id = "11" Name="SKIN_EDGE_BOTTOM" x="67" y="91" w="30" h="32" />
+</Skin>
+
+<Skin Name = "LthListBox">
+	<Item id = "0" Name="SKIN_ITEM_SEL_BG" x="100" y="90" w="10" h="10" />
+</Skin>
+
+<Skin Name = "LthScrollBar">
+	<Item id = "0" Name="SKIN_UP_ARROW_N" x="131" y="0" w="18" h="18" />
+	<Item id = "1" Name="SKIN_UP_ARROW_H" x="150" y="0" w="18" h="18" />
+	<Item id = "2" Name="SKIN_UP_ARROW_D" x="169" y="0" w="18" h="18" />
+	
+	<Item id = "3" Name="SKIN_DOWN_ARROW_N" x="188" y="0" w="18" h="18" />
+	<Item id = "4" Name="SKIN_DOWN_ARROW_H" x="207" y="0" w="18" h="18" />
+	<Item id = "5" Name="SKIN_DOWN_ARROW_D" x="226" y="0" w="18" h="18" />
+	
+	<Item id = "6" Name="SKIN_LEFT_ARROW_N" x="131" y="19" w="18" h="18" />
+	<Item id = "7" Name="SKIN_LEFT_ARROW_H" x="150" y="19" w="18" h="18" />
+	<Item id = "8" Name="SKIN_LEFT_ARROW_D" x="169" y="19" w="18" h="18" />
+	
+	<Item id = "9" Name="SKIN_RIGHT_ARROW_N" x="188" y="19" w="18" h="18" />
+	<Item id = "10" Name="SKIN_RIGHT_ARROW_H" x="207" y="19" w="18" h="18" />
+	<Item id = "11" Name="SKIN_RIGHT_ARROW_D" x="226" y="19" w="18" h="18" />
+	
+	<Item id = "12" Name="SKIN_VERT_THUMB_N" x="100" y="38" w="18" h="41" />
+	<Item id = "13" Name="SKIN_VERT_THUMB_D" x="120" y="38" w="18" h="41" />
+	
+	<Item id = "14" Name="SKIN_HORI_THUMB_N" x="140" y="38" w="41" h="18" />
+	<Item id = "15" Name="SKIN_HORI_THUMB_D" x="120" y="57" w="41" h="18" />
+	
+	<Item id = "16" Name="SKIN_HORI_THUMB_N" x="100" y="80" w="18" h="4" />
+	<Item id = "17" Name="SKIN_HORI_THUMB_D" x="120" y="80" w="4" h="18" />
+</Skin>
+
+<Skin Name = "LthBtnOk">
+	<Item id = "0" Name="SKIN_BTN_NORMAL" x="100" y="110" w="50" h="25" />
+	<Item id = "1" Name="SKIN_BTN_HILIGHT" x="100" y="135" w="50" h="25" />
+	<Item id = "2" Name="SKIN_BTN_PRESSED" x="100" y="160" w="50" h="25" />
+	<Item id = "3" Name="SKIN_BTN_DISABLED" x="100" y="185" w="50" h="25" />
+</Skin>
+
+<Skin Name = "LthCheckBox">
+	<Item id = "0" Name="SKIN_CHKBTN_UNCHECK_NORMAL" x="0" y="124" w="22" h="22" />
+	<Item id = "1" Name="SKIN_CHKBTN_UNCHECK_HILIGHT" x="23" y="124" w="22" h="22" />
+	<Item id = "2" Name="SKIN_CHKBTN_CHECK_NORMAL" x="46" y="124" w="22" h="22" />
+	<Item id = "3" Name="SKIN_CHKBTN_CHECK_HILIGHT" x="69" y="124" w="22" h="22" />
+</Skin>
+
+</SkinGroup>

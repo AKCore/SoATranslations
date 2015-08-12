@@ -1,0 +1,9 @@
+<Window class = "UAuraContent">
+	<property style = "SYOtherEdit"/>
+	<property AnchorHori="2"/>
+	<property AnchorVert="3"/>
+	<property position="470 15"/>
+	<property extent="338 0"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+</Window>

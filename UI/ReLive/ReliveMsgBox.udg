@@ -1,0 +1,39 @@
+<Window class="UReliveMsgBox">
+	<property style="UBitmap"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="371 312"/>
+	<property extent="283 122"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\cOK.skin"/>
+		<property position="37 86"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\cCancel.skin"/>
+		<property position="174 86"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="URichTextCtrl"/>
+		<property position="92 25"/>
+		<property extent="99 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="3">
+		<property style="URichTextCtrl"/>
+		<property position="76 52"/>
+		<property extent="133 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

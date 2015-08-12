@@ -1,0 +1,61 @@
+<Window class="UControl">
+	<property style="default"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property CanEscapeFouce="true"/>
+	<property visible="1"/>
+	<Window class="UWaitList" id="100">
+		<property style="UDialog"/>
+		<property position="350 251"/>
+		<property extent="363 142"/>
+		<property minExtent="8 8"/>
+		<property AnchorHori="4"/>
+		<property AnchorVert="4"/>
+		<property visible="1"/>
+		<property showclose="0"/>
+		<property CanEscapeFouce="true"/>
+		<property bkgskin="WAITLIST\Bgk.skin"/>
+		<Window class="UStaticText" id="0">
+			<property style="SYDialogTitle"/>
+			<property position="37 16"/>
+			<property extent="276 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text="0"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYDialogTitle"/>
+			<property position="37 37"/>
+			<property extent="276 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text="0"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYDialogTitle"/>
+			<property position="37 59"/>
+			<property extent="276 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text="0"/>
+		</Window>
+
+		<Window class="UBitmap" id = "103">
+			<property style="SYDialogFrame"/>
+			<property position="138 95"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="3">
+			<property style="UButton"/>
+			<property bitmap="Public\Cancel.skin"/>
+			<property position="141 98"/>
+			<property extent="69 15"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+		</Window>	
+	</Window>
+</Window>

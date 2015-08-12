@@ -1,0 +1,6 @@
+<Skin texture ="Plug_ReCount.png">
+	<item x="221" y="54"  w="15" h="15" />
+	<item x="221" y="73"  w="15" h="15" />
+	<item x="221" y="93"  w="15" h="15" />
+	<item x="221" y="113"  w="15" h="15" />
+</Skin>

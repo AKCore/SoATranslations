@@ -1,0 +1,266 @@
+ <Window class="UMailSend">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="3 132"/>
+	<property extent="346 520"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="MailSystem\SendMail.skin"/>
+	<!--发件箱和收件箱为一组按钮-->
+	<!--邮件内容-->
+	<Window class="UScrollBar" id="6">
+		<property style="SYUScrollBar"/>
+		<property position="66 91"/>
+		<property extent="266 280"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin="0 100"/>
+		<property visible="1"/>
+		<Window class="UStaticTextEdit" id="7">
+			<property style="SYMailSendEdit"/>
+			<property position="0 0"/>
+			<property extent="225 180"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<!--发件箱-->
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="MailSystem\MailTable.skin"/>
+		<property position="8 88"/>
+		<property extent="40 95"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property text="收件箱"/>
+		<property IsHoriText="0"/>
+	</Window>
+	<!--收件箱-->
+	<Window class="UBitmapButton" id="0">
+		<property style="SYURadioButton"/>
+		<property bitmap="MailSystem\MailTable.skin"/>
+		<property position="8 190"/>
+		<property extent="40 95"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property text="发件箱"/>
+		<property IsHoriText="0"/>
+	</Window>
+	<!--取消-->
+	<Window class="UBitmap" id = "102">
+		<property style="SYDialogFrame"/>
+		<property position="49 478"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="52 481"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--发送-->
+	<Window class="UBitmap" id = "103">
+		<property style="SYDialogFrame"/>
+		<property position="259 478"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="UButton"/>
+		<property bitmap="Public\Send.skin"/>
+		<property position="262 481"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--主题-->
+	<Window class="UEdit" id="4">
+		<property style="SYChatInputEdit"/>
+		<property position="111 124"/>
+		<property extent="158 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property Tiptext = "输入主题"/>
+	</Window>
+	<!--收件人-->
+	<Window class="UEdit" id="5">
+		<property style="SYChatInputEdit"/>
+		<property position="111 101"/>
+		<property extent="158 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property Tiptext = "输入收件人姓名"/>
+	</Window>
+	<!--发送钱币和付费取货为一组按钮-->
+	<!--发送钱币-->
+	<Window class="UBitmapButton" id="8">
+		<property style="URadioButton"/>
+		<property bitmap="Public\SendCheck.skin"/>
+		<property position="50 430"/>
+		<property extent="17 17"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UStaticText" id="108">
+		<property style="SYStaticTextCtrl"/>
+		<property position="77 430"/>
+		<property extent="72 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="发送钱币"/>
+	</Window>
+	<!--付费取货-->
+	<Window class="UBitmapButton" id="9">
+		<property style="URadioButton"/>
+		<property bitmap="Public\SendCheck.skin"/>
+		<property position="50 447"/>
+		<property extent="17 17"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UStaticText" id="109">
+		<property style="SYStaticTextCtrl"/>
+		<property position="77 447"/>
+		<property extent="72 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="付款取信"/>
+	</Window>
+	<!--邮费-->
+	<Window class="UStaticText" id="10">
+		<property style="SYHideUEdit"/>
+		<property position="153 480"/>
+		<property extent="63 16"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+
+	<Window class="UBitmap" id = "111">
+		<property style="SYDialogFrame"/>
+		<property position="155 434"/>
+		<property extent="175 27"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\MailSystem\MoneyBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<!--金币-->
+	<Window class="UEdit" id="11">
+		<property style="UScenceChat"/>
+		<property position="164 436"/>
+		<property extent="82 17"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<!--银币-->
+	<Window class="UEdit" id="12">
+		<property style="UScenceChat"/>
+		<property position="265 436"/>
+		<property extent="17 17"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<!--铜币-->
+	<Window class="UEdit" id="13">
+		<property style="UScenceChat"/>
+		<property position="297 436"/>
+		<property extent="17 17"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<!--附件内容-->
+	<Window class="USkillButton" id="14">
+		<property style="SkillButton"/>
+		<property position="51 383"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property LockDrag="0"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="15">
+		<property style="SkillButton"/>
+		<property position="99 383"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property LockDrag="0"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="16">
+		<property style="SkillButton"/>
+		<property position="147 383"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property LockDrag="0"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="17">
+		<property style="SkillButton"/>
+		<property position="195 383"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property LockDrag="0"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="18">
+		<property style="SkillButton"/>
+		<property position="243 383"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property LockDrag="0"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="19">
+		<property style="SkillButton"/>
+		<property position="291 383"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property LockDrag="0"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="23">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="157 60"/>
+		<property extent="63 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="写邮件"/>
+	</Window>
+	<Window class="UStaticText" id="24">
+		<property style="SYDialogTitle"/>
+		<property position="155 22"/>
+		<property extent="68 26"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="邮 箱"/>
+	</Window>
+</Window>

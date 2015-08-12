@@ -1,0 +1,28 @@
+<Window class="UBShowLevelTips">
+	<property style="UButton"/>
+	<property position="956 655"/>
+	<property extent="64 64"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property groupNum="-1"/>
+	<property buttonType="1"/>
+	<property tooltipprofile="UMouseStopMain"/>
+	<property tooltip="²éÑ¯ÐÅÏ¢"/>
+	<property hovertime="1000"/>
+	<Window class="UNiAVControlEff" id="0">
+		<property style="UBitmap"/>
+		<property position="0 0"/>
+		<property extent="64 64"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property avobj="Data\UI\InGameBar\UnCheck.nif"/>
+	</Window>
+	<!--Window class="UNiAVControlEff" id="1">
+		<property style="UBitmap"/>
+		<property position="0 0"/>
+		<property extent="64 64"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property avobj="Data\UI\InGameBar\UnCheck.nif"/>
+	</Window-->
+</Window>

@@ -1,0 +1,7 @@
+<Window class="USystemScrollMsg">
+	<property style="SystemTip"/>
+	<property position="0 752"/>
+	<property extent="1024 16"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+</Window>

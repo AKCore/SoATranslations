@@ -1,0 +1,279 @@
+<Window class="UEndowment">
+	<property style="UDialog"/>
+		<property AnchorHori="4"/>
+	    	<property AnchorVert="4"/>
+	<property position="173 83"/>
+	<property extent="678 558"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property  CanEscapeFouce = "true"/>
+	<property bkgskin="Endowment\Endowment.skin"/>
+	<Window class="UScrollBar" id="1">
+		<property style="SYUScrollBar"/>
+		<property position="73 151"/>
+		<property extent="530 366"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin = "9 24"/>
+		<property visible="0"/>
+		<Window class="URichTextCtrl" id="2">
+			<property style="URichTextCtrl"/>
+			<property position="9 0"/>
+			<property extent="496 350"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<property rtffile="Data\UI\Endowment\CiShanJuanZhu.txt"/>
+		</Window>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="183 522"/>
+		<property extent="61 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text ="输入金额"/>
+	</Window>
+	<Window class="UBitmap" id="4">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Endowment\Editor.png"/>
+		<property position="247 520"/>
+		<property extent="157 22"/>
+		<property minExtent="8 1"/>
+		<property visible="0"/>
+	</Window>
+	<!--名字-->
+	<Window class="UEdit" id="5">
+		<property style="SYPlayerNameEdit"/>
+		<property position="249 520"/>
+		<property extent="157 22"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text=""/>
+	</Window>
+	<Window class="UBitmapButton" id="31">
+		<property style="UButton"/>
+		<property bitmap="Public\JuanZhu.skin"/>
+		<property position="409 524"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+
+	//
+	<Window class="UBitmapButton" id="6">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="91 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="慈善捐助"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="184 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="捐助历史"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="277 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="捐助排行"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="9">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="370 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="捐助说明"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+
+
+	<Window class="UScrollBar" id="14">
+		<property style="SYUScrollBar"/>
+		<property position="73 151"/>
+		<property extent="530 366"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin = "0 24"/>
+		<property visible="0"/>
+	  	<Window class="USpecListBox" id="10">
+    			<property style="SYUSpecListBox"/>
+			<property bitmap="Public\SpecList.skin"/>
+    			<property position="0 0"/>
+	    		<property extent="509 336"/>
+    			<property minExtent="8 8"/>
+    			<property visible="0"/>
+	  	</Window>
+	</Window>
+	<Window class="UStaticText" id = "11">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="164 151"/>
+		<property extent="61 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text ="捐助时间"/>
+	</Window>
+	<Window class="UStaticText" id = "12">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="398 151"/>
+		<property extent="61 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text ="捐助金额"/>
+	</Window>
+	<Window class="UStaticText" id = "13">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="255 522"/>
+		<property extent="61 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text ="捐助总额"/>
+	</Window>
+	<Window class="UStaticText" id = "15">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="310 522"/>
+		<property extent="61 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text =""/>
+	</Window>
+
+	<Window class="UBitmapButton" id="20">
+		<property style="SYURadioButton"/>
+		<property bitmap="Endowment\EndowmentBtn.skin"/>
+		<property position="76 131"/>
+		<property extent="168 22"/>
+		<property minExtent="8 8"/>
+		<property text="总排行榜"/>
+		<property visible="0"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="21">
+		<property style="SYURadioButton"/>
+		<property bitmap="Endowment\EndowmentBtn.skin"/>
+		<property position="245 131"/>
+		<property extent="168 22"/>
+		<property minExtent="8 8"/>
+		<property text="本月排行"/>
+		<property visible="0"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="22">
+		<property style="SYURadioButton"/>
+		<property bitmap="Endowment\EndowmentBtn.skin"/>
+		<property position="415 131"/>
+		<property extent="168 22"/>
+		<property minExtent="8 8"/>
+		<property text="本周排行"/>
+		<property visible="0"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UScrollBar" id="23">
+		<property style="SYUScrollBar"/>
+		<property position="73 151"/>
+		<property extent="530 366"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin = "0 24"/>
+		<property visible="0"/>
+	  	<Window class="USpecListBox" id="24">
+    			<property style="SYUSpecListBox"/>
+			<property bitmap="Public\SpecList.skin"/>
+    			<property position="0 0"/>
+	    		<property extent="509 336"/>
+    			<property minExtent="8 8"/>
+    			<property visible="0"/>
+	  	</Window>
+	</Window>
+	<Window class="UStaticText" id = "25">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="120 152"/>
+		<property extent="61 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text ="捐助排名"/>
+	</Window>
+	<Window class="UStaticText" id = "26">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="278 152"/>
+		<property extent="28 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text ="角色"/>
+	</Window>
+	<Window class="UStaticText" id = "27">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="457 152"/>
+		<property extent="61 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text ="捐助金额"/>
+	</Window>
+	<Window class="UStaticText" id = "28">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="183 522"/>
+		<property extent="61 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text ="捐助查询"/>
+	</Window>
+	<Window class="UBitmap" id="29">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Endowment\Editor.png"/>
+		<property position="247 520"/>
+		<property extent="157 22"/>
+		<property minExtent="8 1"/>
+		<property visible="0"/>
+	</Window>
+	<!--名字-->
+	<Window class="UEdit" id="30">
+		<property style="SYPlayerNameEdit"/>
+		<property position="249 520"/>
+		<property extent="157 22"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property text=""/>
+	</Window>
+	<Window class="UBitmapButton" id="32">
+		<property style="UButton"/>
+		<property bitmap="Public\ChaXun.skin"/>
+		<property position="409 524"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UScrollBar" id="33">
+		<property style="SYUScrollBar"/>
+		<property position="73 151"/>
+		<property extent="530 366"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin = "9 24"/>
+		<property visible="0"/>
+		<Window class="URichTextCtrl" id="34">
+			<property style="URichTextCtrl"/>
+			<property position="9 0"/>
+			<property extent="496 350"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<property rtffile="Data\UI\Endowment\JuanZhuShuoMing.txt"/>
+		</Window>
+	</Window>
+</Window>

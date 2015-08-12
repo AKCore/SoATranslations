@@ -1,0 +1,6 @@
+<Skin texture = "fangxia.png">
+	<item x ="0" y ="0"    w ="32"  h ="28"/>
+	<item x ="0" y ="31"    w ="32"  h ="28"/>
+	<item x ="0" y ="61"    w ="32"  h ="28"/>
+	<item x ="0" y ="61"    w ="32"  h ="28"/>
+</Skin>

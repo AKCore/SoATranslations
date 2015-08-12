@@ -1,0 +1,10 @@
+<Window class="UDialog">
+	<property style="UDialog"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property showclose = "false"/>
+	<property bkgskin="Donation\CoverBkg.skin"/>
+</Window>

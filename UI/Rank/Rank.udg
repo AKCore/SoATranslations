@@ -1,0 +1,280 @@
+<Window class="URank">
+	<property style="UDialog"/>
+	<property position="173 83"/>
+	<property extent="678 478"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property CanEscapeFouce="true"/>
+	<property bkgskin="Rank\RankBkg.skin"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYDialogTitle"/>
+		<property position="308 54"/>
+		<property extent="62 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="排行榜"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\RankType.skin"/>
+		<property position="75 83"/>
+		<property extent="66 31"/>
+		<property minExtent="8 8"/>
+		<property text="等级"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\RankType.skin"/>
+		<property position="141 83"/>
+		<property extent="66 31"/>
+		<property minExtent="8 8"/>
+		<property text="财富"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\RankType.skin"/>
+		<property position="207 83"/>
+		<property extent="66 31"/>
+		<property minExtent="8 8"/>
+		<property text="荣誉"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\RankType.skin"/>
+		<property position="273 83"/>
+		<property extent="66 31"/>
+		<property minExtent="8 8"/>
+		<property text="英雄"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\RankType.skin"/>
+		<property position="339 83"/>
+		<property extent="66 31"/>
+		<property minExtent="8 8"/>
+		<property text="衰神"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\RankType.skin"/>
+		<property position="405 83"/>
+		<property extent="66 31"/>
+		<property minExtent="8 8"/>
+		<property text="慈善"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\RankType.skin"/>
+		<property position="471 83"/>
+		<property extent="66 31"/>
+		<property minExtent="8 8"/>
+		<property text="部族"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--Window class="UBitmapButton" id="8">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\RankType.skin"/>
+		<property position="537 83"/>
+		<property extent="66 31"/>
+		<property minExtent="8 8"/>
+		<property text="充值"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window-->
+	<!--种族-->
+	<Window class="UBitmapButton" id="9">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\race.skin"/>
+		<property position="74 132"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property text="全部"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window><Window class="UBitmapButton" id="10">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\race.skin"/>
+		<property position="74 150"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property text="人族"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window><Window class="UBitmapButton" id="11">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\race.skin"/>
+		<property position="74 168"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property text="妖族"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window><Window class="UBitmapButton" id="12">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\race.skin"/>
+		<property position="74 186"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property text="巫族"/>
+		<property groupNum="2"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+
+	<!--翻页-->
+	<!--上一页-->
+	<Window class="UBitmapButton" id="13">
+		<property style="UBitmap"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="323 444"/>
+		<property extent="60 24"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--显示-->
+	<Window class="UStaticText" id = "14">
+		<property style="SYDialogTitle"/>
+		<property position="389 449"/>
+		<property extent="45 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text =""/>
+	</Window>
+	<!--下一页-->
+	<Window class="UBitmapButton" id="15">
+		<property style="UBitmap"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="440 444"/>
+		<property extent="60 24"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+
+	<!--查询相关-->
+	<!--跳转页数-->
+	<Window class="UEdit" id="16">
+		<property style="SYChatInputEdit"/>
+		<property position="513 448"/>
+		<property extent="24 16"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--跳转-->
+	<Window class="UBitmapButton" id="17">
+		<property style="UBitmap"/>
+		<property bitmap="Rank\GOTO.skin"/>
+		<property position="548 449"/>
+		<property extent="50 15"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--搜索名字-->
+	<Window class="UEdit" id="18">
+		<property style="SYChatInputEdit"/>
+		<property position="94 448"/>
+		<property extent="100 16"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property Tiptext="输入搜索名字"/>
+	</Window>
+	<!--搜索-->
+	<Window class="UBitmapButton" id="19">
+		<property style="UBitmap"/>
+		<property bitmap="Rank\Find.skin"/>
+		<property position="223 449"/>
+		<property extent="50 15"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--显示相关-->
+	<Window class="USpecListBox" id="20">
+    		<property style="SYUSpecListBox"/>
+		<property bitmap="Public\SpecList.skin"/>
+    		<property position="148 136"/>
+    		<property extent="455 300"/>
+    		<property minExtent="8 8"/>
+    		<property visible="1"/>
+  	</Window>
+	<Window class="UBitmapButton" id="21">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\Title.skin"/>
+		<property position="148 114"/>
+		<property extent="65 18"/>
+		<property minExtent="8 8"/>
+		<property text="排名"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="22">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\Title.skin"/>
+		<property position="213 114"/>
+		<property extent="133 18"/>
+		<property minExtent="8 8"/>
+		<property text="名字"/>
+	</Window>
+	<Window class="UBitmapButton" id="23">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\Title.skin"/>
+		<property position="346 114"/>
+		<property extent="65 18"/>
+		<property minExtent="8 8"/>
+		<property text="种族"/>
+	</Window>
+	<Window class="UBitmapButton" id="24">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\Title.skin"/>
+		<property position="411 114"/>
+		<property extent="65 18"/>
+		<property minExtent="8 8"/>
+		<property text="职业"/>
+	</Window>
+	<Window class="UBitmapButton" id="25">
+		<property style="SYURadioButton"/>
+		<property bitmap="Rank\Title.skin"/>
+		<property position="476 114"/>
+		<property extent="127 18"/>
+		<property minExtent="8 8"/>
+		<property text="等级"/>
+	</Window>
+	<Window class = "UBitmapButton" id = "26">
+		<property style = "SYURadioButton"/>
+		<property bitmap = "Public\LeftArrow.skin"/>
+		<property position="546 87"/>
+		<property extent="22 22"/>
+		<property minExtent="8 8"/>
+	</Window>
+	<Window class = "UBitmapButton" id = "27">
+		<property style = "SYURadioButton"/>
+		<property bitmap = "Public\RightArrow.skin"/>
+		<property position="575 87"/>
+		<property extent="22 22"/>
+		<property minExtent="8 8"/>
+	</Window>
+</Window>

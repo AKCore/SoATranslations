@@ -1,0 +1,25 @@
+﻿<Window class="UHideQuestTraceButton">
+	<property style="default"/>
+	<property position="992 209"/>
+	<property extent="32 47"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property AnchorHori="2"/>
+	<property AnchorVert="3"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\fangxia.skin"/>
+		<property position="0 17"/>
+		<property extent="32 30"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\shouqiLeft.skin"/>
+		<property position="14 0"/>
+		<property extent="17 34"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+</Window>

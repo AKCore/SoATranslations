@@ -1,0 +1,315 @@
+<Window class="UIManufacture">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="3 132"/>
+	<property extent="443 579"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Skill\UIManufactureBKG.skin"/>
+	<Window class="UScrollBar" id="0">
+		    <property style="SYUScrollBar"/>
+		    <property position="36 112"/>
+		    <property extent="370 174"/>
+		    <property minExtent="8 8"/>
+		    <property ChildMargin="4 2"/>
+		    <property visible="1"/>
+		    <property AllShowBar="0"/>
+		    <Window class="USpecListBox" id="1">
+			    <property style="ChooseSpecListBox"/>
+			    <property bitmap="ChooseServer\ChooseServerSpecList.skin"/>
+			    <property position="0 0"/>
+			    <property extent="334 169"/>
+			    <property minExtent="8 8"/>
+			    <property visible="1"/>
+		    </Window>
+	</Window>
+	<Window class="UIManufactureNeedItem" id="2">
+		<property style="SYStaticTextCtrl"/>
+		<property position="45 370"/>
+		<property extent="178 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="USkillButton" id="0">
+			<property style="SkillButton"/>
+			<property showbgk="0"/>
+			<property LockDrag="1"/>
+			<property position="2 0"/>
+			<property extent="52 52"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id="1">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\Skill\NeedItemBkg.png"/>
+			<property position="59 0"/>
+			<property extent="119 52"/>
+			<property minExtent="8 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="59 20"/>
+			<property extent="119 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UIManufactureNeedItem" id="3">
+		<property style="SYStaticTextCtrl"/>
+		<property position="229 370"/>
+		<property extent="178 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="USkillButton" id="0">
+			<property style="SkillButton"/>
+			<property showbgk="0"/>
+			<property LockDrag="1"/>
+			<property position="2 0"/>
+			<property extent="52 52"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id="1">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\Skill\NeedItemBkg.png"/>
+			<property position="59 0"/>
+			<property extent="119 52"/>
+			<property minExtent="8 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="59 20"/>
+			<property extent="119 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UIManufactureNeedItem" id="4">
+		<property style="SYStaticTextCtrl"/>
+		<property position="45 425"/>
+		<property extent="178 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="USkillButton" id="0">
+			<property style="SkillButton"/>
+			<property showbgk="0"/>
+			<property LockDrag="1"/>
+			<property position="2 0"/>
+			<property extent="52 52"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id="1">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\Skill\NeedItemBkg.png"/>
+			<property position="59 0"/>
+			<property extent="119 52"/>
+			<property minExtent="8 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="59 20"/>
+			<property extent="119 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UIManufactureNeedItem" id="5">
+		<property style="SYStaticTextCtrl"/>
+		<property position="229 425"/>
+		<property extent="178 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="USkillButton" id="0">
+			<property style="SkillButton"/>
+			<property showbgk="0"/>
+			<property LockDrag="1"/>
+			<property position="2 0"/>
+			<property extent="52 52"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id="1">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\Skill\NeedItemBkg.png"/>
+			<property position="59 0"/>
+			<property extent="119 52"/>
+			<property minExtent="8 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="59 20"/>
+			<property extent="119 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<!--可制造-->
+	<Window class="UBitmapButton" id="8">
+		<property style="URadioButton"/>
+		<property bitmap="Public\SendCheck.skin"/>
+		<property position="330 69"/>
+		<property extent="17 17"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id="108">
+		<property style="SYStaticTextCtrl"/>
+		<property position="347 69"/>
+		<property extent="57 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="可制造"/>
+	</Window>
+	<!--付费取货-->
+	<Window class="UBitmapButton" id="9">
+		<property style="URadioButton"/>
+		<property bitmap="Public\SendCheck.skin"/>
+		<property position="330 89"/>
+		<property extent="17 17"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id="109">
+		<property style="SYStaticTextCtrl"/>
+		<property position="347 89"/>
+		<property extent="57 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="不可制造"/>
+	</Window>
+	<Window class="USkillButton" id="10">
+		<property style="SkillButton"/>
+		<property showbgk="0"/>
+		<property LockDrag="1"/>
+		<property position="45 295"/>
+		<property extent="52 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="11">
+		<property style="SYStaticTextCtrl"/>
+		<property position="109 295"/>
+		<property extent="298 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="URichTextCtrl" id="12">
+		<property style="URichTextCtrl"/>
+		<property position="109 314"/>
+		<property extent="298 51"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="13">
+		<property style="SYStaticTextCtrl"/>
+		<property position="45 349"/>
+		<property extent="54 21"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="材料："/>
+	</Window>
+	<Window class="UBitmap" id = "114">
+		<property style="SYDialogFrame"/>
+		<property position="222 500"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="14">
+		<property style="UButton"/>
+		<property bitmap="Public\Build.skin"/>
+		<property position="225 503"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id = "15">
+		<property style="SYURadioButton"/>
+		<property bitmap="Public\LeftArrow.skin"/>
+		<property position="120 500"/>
+		<property extent="22 22"/>
+		<property minExtent="8 8"/>
+	</Window>
+	<Window class="UBitmapButton" id = "16">
+		<property style="SYURadioButton"/>
+		<property bitmap="Public\RightArrow.skin"/>
+		<property position="194 500"/>
+		<property extent="22 22"/>
+		<property minExtent="8 8"/>
+	</Window>
+	<Window class="UEdit" id="17">
+		<property style="SYChatInputEdit"/>
+		<property position="150 503"/>
+		<property extent="38 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property text="0"/>
+	</Window>
+	<Window class="UBitmap" id = "118">
+		<property style="SYDialogFrame"/>
+		<property position="42 500"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="18">
+		<property style="UButton"/>
+		<property bitmap="Public\BuildAll.skin"/>
+		<property position="45 503"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="19">
+		<property style="UBitmap"/>
+		<property bitmap="Skill\Search.skin"/>
+		<property position="128 88"/>
+		<property extent="14 14"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UEdit" id="20">
+		<property style="SYPlayerNameEdit"/>
+		<property position="146 87"/>
+		<property extent="175 16"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property Tiptext="输入搜索名字"/>
+	</Window>
+	<Window class = "UStaticText" id = "21">
+		<property style = "SYDialogTitle"/>
+		<property position = "122 36"/>
+		<property extent = "190 26"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property text="玉能合成"/>
+	</Window>
+	<Window class="UBitmap" id = "122">
+		<property style="SYDialogFrame"/>
+		<property position="316 500"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="22">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="319 503"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

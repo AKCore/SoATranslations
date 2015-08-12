@@ -1,0 +1,45 @@
+<Movie>
+	<FrameSay Index = "0" >
+	<Saying des = "这是我们教程中的最后一部分了，键盘上的按键都清楚了吧，那么现在我们来说鼠标的操作吧，正如你看到的，鼠标的3个按键在我们游戏中都是有用的。接下来我就来说明说明具体的用处吧。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "1" >
+	<Saying des = "鼠标左键，在游戏中主要是用来选取目标的，有时候你也可以用左键按住来拖动物品。双击左键的话可以对双击的敌对目标发动攻击。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "2" >
+	<Saying des = "主要是鼠标滚轮，滚动鼠标滚轮可以调整游戏中的视野。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "3" >
+	<Saying des = "鼠标右键，主要功能是单击选取目标并自动攻击，拾取物品，与NPC进行交互。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "4" >
+	<Saying des = "这就是关于鼠标按键的教学了，那么您学会了么？那么所有的教程都进行完了，如果这部分学会了，可以点击“下一步”，如果你觉得不需要继续教程，可以选择“关闭”。<br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_Mouse>还没学会，重播一遍  </a><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_End>下一步</a><right><a:Close>关闭</a>"/>
+	</FrameSay>
+
+
+
+	<Frame IsKeyBoard = "false" Index = "0">
+	<def KeyCode = "LEFTKEY" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "false" Index = "0">
+	<def KeyCode = "MIDDLEKEY" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "false" Index = "0">
+	<def KeyCode = "RIGHTKEY" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+
+	<Frame IsKeyBoard = "false" Index = "1">
+	<def KeyCode = "LEFTKEY" WinkTime = "5.0"/>
+	<tooltip Desc = "选取你的目标"/>
+	</Frame>
+	<Frame IsKeyBoard = "false" Index = "2">
+	<def KeyCode = "MIDDLEKEY" WinkTime = "5.0"/>
+	<tooltip Desc = "通过上下滚动调整角色视角"/>
+	</Frame>
+	<Frame IsKeyBoard = "false" Index = "3">
+	<def KeyCode = "RIGHTKEY" WinkTime = "5.0"/>
+	<tooltip Desc = "自动攻击目标/拾取物品/与NPC对话"/>
+	</Frame>
+</Movie>

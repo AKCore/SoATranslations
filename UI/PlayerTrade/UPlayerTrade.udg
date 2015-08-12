@@ -1,0 +1,722 @@
+﻿<Window class="UPlayerTrade">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="76 99"/>
+	<property extent="424 510"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property  CanEscapeFouce = "true"/>
+	<property bkgskin="PlayerTrade\PlayerTrade.skin"/>
+	<!--远程玩家姓名-->
+	<Window class="UStaticText" id="1">
+		<property style="SYNameUEdit"/>
+		<property position="251 57"/>
+		<property extent="133 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--本地玩家姓名-->
+	<Window class="UStaticText" id="3">
+		<property style="SYNameUEdit"/>
+		<property position="54 57"/>
+		<property extent="133 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--本地玩家交易的金钱-->
+	<Window class="UEdit" id="21">
+		<property style="SYPlayerNameEdit"/>
+		<property position="43 443"/>
+		<property extent="80 16"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bfoucesel = "1"/>
+		<property text=""/>
+	</Window>
+	<!--银币-->
+	<Window class="UEdit" id="22">
+		<property style="SYPlayerNameEdit"/>
+		<property position="143 443"/>
+		<property extent="15 16"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bfoucesel = "1"/>
+		<property text=""/>
+	</Window>
+	<!--铜币-->
+	<Window class="UEdit" id="23">
+		<property style="SYPlayerNameEdit"/>
+		<property position="174 443"/>
+		<property extent="15 16"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bfoucesel = "1"/>
+		<property text=""/>
+	</Window>
+	<!-- 交易按钮-->
+	<Window class="UBitmap" id = "104">
+		<property style="SYDialogFrame"/>
+		<property position="32 475"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="UButton"/>
+		<property bitmap="Public\OK.skin"/>
+		<property position="35 478"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "105">
+		<property style="SYDialogFrame"/>
+		<property position="130 475"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="133 478"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--钱-->
+	<Window class="UMoneyText" id="6">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="224 443"/>
+		<property extent="147 16"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+<Window class="UPlayerTradeContent" id="8">
+	<property style="UDialog"/>
+	<property position="26 90"/>
+	<property extent="186 349"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UPlayerTrade_TradeItem" id="0">
+		<property style="UDialog"/>
+		<property position="0 3"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="1">
+		<property style="UDialog"/>
+		<property position="0 46"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="2">
+		<property style="UDialog"/>
+		<property position="0 89"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="3">
+		<property style="UDialog"/>
+		<property position="0 132"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="4">
+		<property style="UDialog"/>
+		<property position="0 175"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="5">
+		<property style="UDialog"/>
+		<property position="0 218"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="6">
+		<property style="UDialog"/>
+		<property position="0 261"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="7">
+		<property style="UDialog"/>
+		<property position="0 304"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+</Window>
+<Window class="UPlayerTradeContent" id="9">
+	<property style="UDialog"/>
+	<property position="228 90"/>
+	<property extent="186 349"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UPlayerTrade_TradeItem" id="0">
+		<property style="UDialog"/>
+		<property position="0 3"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="1">
+		<property style="UDialog"/>
+		<property position="0 46"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="2">
+		<property style="UDialog"/>
+		<property position="0 89"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="3">
+		<property style="UDialog"/>
+		<property position="0 132"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="4">
+		<property style="UDialog"/>
+		<property position="0 175"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="5">
+		<property style="UDialog"/>
+		<property position="0 218"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="6">
+		<property style="UDialog"/>
+		<property position="0 261"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+	<Window class="UPlayerTrade_TradeItem" id="7">
+		<property style="UDialog"/>
+		<property position="0 304"/>
+		<property extent="186 42"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UPlayerTrade_TradeItem::TradeItemSlot" id="0">
+			<property style="SkillButton"/>
+			<property position="4 1"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYNameUEdit"/>
+			<property position="54 1"/>
+			<property extent="132 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="54 23"/>
+			<property extent="47 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="141 23"/>
+			<property extent="42 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+	</Window>
+</Window>
+</Window>

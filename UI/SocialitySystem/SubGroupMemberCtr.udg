@@ -1,0 +1,41 @@
+<Window class="USubGroupShow::USubGroupMemberCtr">
+	<property style="default"/>
+	<property position="7 0"/>
+	<property extent="90 35"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UBitmap" id="2">
+		<property style="UButton"/>
+		<property bitmap="Data\UI\UIPlayerShow\wuxiu.png"/>
+		<property position="0 13"/>
+		<property extent="23 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UProgressBar" id="0">
+		<property style="SYUProgressCtrl"/>
+		<property BarTexture="DATA\UI\UIPlayerShow\Local_HP.png"/>
+		<property BackTexture="DATA\UI\SocialitySystem\hp.png"/>
+		<property position="21 15"/>
+		<property extent="69 10"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UProgressBar" id="1">
+		<property style="SYUProgressCtrl"/>
+		<property BarTexture="DATA\UI\UIPlayerShow\Local_mp.png"/>
+		<property BackTexture="DATA\UI\SocialitySystem\mp.png"/>
+		<property position="21 25"/>
+		<property extent="69 7"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USubGroupShow::USubGroupName" id="3">
+		<property style="SYNameSmall"/>
+		<property position="0 0"/>
+		<property extent="90 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+</Window>

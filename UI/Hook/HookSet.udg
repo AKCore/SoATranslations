@@ -1,0 +1,329 @@
+<Window class="UHookSet">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="300 135"/>
+	<property extent="521 605"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property showclose = "true"/>
+	<property bkgskin="Hook\SetBGk.skin"/>	
+	<!--Hook skill btn-->
+	<Window class="UHookSet::SkillActionBtn" id="0">
+		<property style="SkillButton"/>
+		<property position="147 161"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UHookSet::SkillActionBtn" id="1">
+		<property style="SkillButton"/>
+		<property position="197 161"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UHookSet::SkillActionBtn" id="2">
+		<property style="SkillButton"/>
+		<property position="247 161"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UHookSet::SkillActionBtn" id="3">
+		<property style="SkillButton"/>
+		<property position="297 161"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UHookSet::SkillActionBtn" id="4">
+		<property style="SkillButton"/>
+		<property position="347 161"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--hp item-->
+	<Window class="UHookSet::ItemActionBtn" id="5">
+		<property style="SkillButton"/>
+		<property position="138 308"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UHookSet::ItemActionBtn" id="6">
+		<property style="SkillButton"/>
+		<property position="188 308"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UHookSet::ItemActionBtn" id="7">
+		<property style="SkillButton"/>
+		<property position="238 308"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--mp item--->
+	<Window class="UHookSet::ItemActionBtn" id="8">
+		<property style="SkillButton"/>
+		<property position="297 308"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UHookSet::ItemActionBtn" id="9">
+		<property style="SkillButton"/>
+		<property position="347 308"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UHookSet::ItemActionBtn" id="10">
+		<property style="SkillButton"/>
+		<property position="397 308"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--HP MP SPELL-->
+	<Window class="UHookSet::SkillActionBtn" id="11">
+		<property style="SkillButton"/>
+		<property position="223 408"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UHookSet::SkillActionBtn" id="12">
+		<property style="SkillButton"/>
+		<property position="335 408"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+<!--按钮设置-->
+	<!--自动攻击-->
+	<Window class="UBitmapButton" id="13">
+		<property style="UButton"/>
+		<property bitmap="SystemSet\ItemButton.skin"/>
+		<property position="85 108"/>
+		<property extent="22 22"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id = "14">
+		<property style="HookTitle"/>
+		<property position="115 108"/>
+		<property extent="132 22"/>
+		<property minExtent="8 8"/>
+		<property text="自动攻击"/>
+		<property visible="1"/>
+	</Window>
+	<!--自动补给-->
+	<Window class="UBitmapButton" id="15">
+		<property style="UButton"/>
+		<property bitmap="SystemSet\ItemButton.skin"/>
+		<property position="85 205"/>
+		<property extent="22 22"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id = "16">
+		<property style="HookTitle"/>
+		<property position="115 205"/>
+		<property text="自动补给"/>
+		<property extent="132 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--优先使用技能-->
+	<Window class="UBitmapButton" id="17">
+		<property style="UButton"/>
+		<property bitmap="SystemSet\ItemButton.skin"/>
+		<property position="85 366"/>
+		<property extent="22 22"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id = "18">
+		<property style="HookTitle"/>
+		<property position="115 366"/>
+		<property extent="132 22"/>
+		<property text="优先使用恢复技能"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--自动拾取-->
+	<Window class="UBitmapButton" id="19">
+		<property style="UButton"/>
+		<property bitmap="SystemSet\ItemButton.skin"/>
+		<property position="85 447"/>
+		<property extent="22 22"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id = "20">
+		<property style="HookTitle"/>
+		<property position="115 447"/>
+		<property text="自动拾取"/>
+		<property extent="132 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--回避BOSS-->
+	<Window class="UBitmapButton" id="21">
+		<property style="UButton"/>
+		<property bitmap="SystemSet\ItemButton.skin"/>
+		<property position="85 482"/>
+		<property extent="22 22"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id = "22">
+		<property style="HookTitle"/>
+		<property position="115 482"/>
+		<property extent="132 22"/>
+		<property text="回避BOSS"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+<!--补给条件-->
+	<!--血条补给线-->
+	<Window class="USlider" id = "23">
+		<property style="USlider"/>
+		<property position="220 235"/>
+		<property extent="216 12"/>
+		<property minExtent="8 8"/>
+		<property SliderButtonSkin = "SystemSet\RcButton.skin"/>
+		<property SliderBarSkin = "SystemSet\SliderBar.skin"/>
+		<property visible="1"/>
+	</Window>
+	<!--蓝条补给线-->
+	<Window class="USlider" id = "24">
+		<property style="USlider"/>
+		<property position="220 266"/>
+		<property extent="216 12"/>
+		<property minExtent="8 8"/>
+		<property SliderButtonSkin = "SystemSet\RcButton.skin"/>
+		<property SliderBarSkin = "SystemSet\SliderBar.skin"/>
+		<property visible="1"/>
+	</Window>
+<!--操作控制-->
+	<!--确认-->
+	<Window class="UBitmapButton" id="25">
+		<property style="UButton"/>
+		<property bitmap="Public\Start.skin"/>
+		<property position="256 567"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--取消-->
+	<Window class="UBitmapButton" id="26">
+		<property style="UButton"/>
+		<property bitmap="Public\Delete.skin"/>
+		<property position="336 567"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="36">
+		<property style="UButton"/>
+		<property bitmap="Public\SaveGuildInfo.skin"/>
+		<property position="115 567"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+<!--技能框提示-->
+	<Window class="UStaticText" id = "27">
+		<property style="SYSetTitle"/>
+		<property position="100 134"/>
+		<property text="需要使用的技能（使用鼠标将技能拖拽到下方栏中）"/>
+		<property extent="349 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+<!--HP补给提示-->
+	<Window class="UStaticText" id = "28">
+		<property style="SYSetTitle"/>
+		<property position="167 283"/>
+		<property text="HP补给品"/>
+		<property extent="68 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "29">
+		<property style="SYHookTi"/>
+		<property position="118 232"/>
+		<property text="HP补给提示"/>
+		<property extent="90 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "32">
+		<property style="SYHookTi"/>
+		<property position="160 399"/>
+		<property text="HP技能"/>
+		<property extent="54 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+<!--MP补给提示-->
+	<Window class="UStaticText" id = "30">
+		<property style="SYSetTitle"/>
+		<property position="329 283"/>
+		<property text="MP补给品"/>
+		<property extent="68 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "31">
+		<property style="SYHookTi"/>
+		<property position="118 263"/>
+		<property text="MP补给提示"/>
+		<property extent="90 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "33">
+		<property style="SYHookTi"/>
+		<property position="271 399"/>
+		<property text="MP技能"/>
+		<property extent="54 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+<!--死亡后自动跑回挂机点-->
+	<Window class="UBitmapButton" id="34">
+		<property style="UButton"/>
+		<property bitmap="SystemSet\ItemButton.skin"/>
+		<property position="242 482"/>
+		<property extent="22 22"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id = "35">
+		<property style="HookTitle"/>
+		<property position="272 482"/>
+		<property text="死亡返回挂机点"/>
+		<property extent="132 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

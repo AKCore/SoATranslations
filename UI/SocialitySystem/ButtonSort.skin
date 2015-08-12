@@ -1,0 +1,6 @@
+<Skin texture ="ButtonSort.png">
+	<item x="0" y="0"  w="2" h="15" />
+	<item x="0" y="15"  w="2" h="15" />
+	<item x="0" y="30"  w="2" h="15" />
+	<item x="0" y="45"  w="2" h="15" />
+</Skin>

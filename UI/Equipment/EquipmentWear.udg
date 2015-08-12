@@ -1,0 +1,89 @@
+﻿<Window class="UEquipmentWear">
+	<property style="default"/>
+	<property position="954 555"/>
+	<property extent="68 58"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property CanEscapeFouce = "true"/>
+	<!--肩-->
+	<Window class="UColorBitMap" id="8">
+		<property style="UBitmap"/>
+		<property position="17 2"/>
+		<property extent="35 18"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Equipment\SHOULDERS.png"/>
+	</Window>
+	<!--手套-->
+	<Window class="UColorBitMap" id="1">
+		<property style="UBitmap"/>
+		<property position="17 20"/>
+		<property extent="35 18"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Equipment\GLOVES.png"/>
+	</Window>
+	<!--鞋子-->
+	<Window class="UColorBitMap" id="4">
+		<property style="UBitmap"/>
+		<property position="22 46"/>
+		<property extent="26 13"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Equipment\BOOTS.png"/>
+	</Window>
+	<!--头盔-->
+	<Window class="UColorBitMap" id="0">
+		<property style="UBitmap"/>
+		<property position="31 0"/>
+		<property extent="8 12"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Equipment\Head.png"/>
+	</Window>
+	<!--主武器-->
+	<Window class="UColorBitMap" id="5">
+		<property style="UBitmap"/>
+		<property position="0 4"/>
+		<property extent="17 54"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Equipment\MAINHAND.png"/>
+	</Window>
+	<!--副手武器-->
+	<Window class="UColorBitMap" id="6">
+		<property style="UBitmap"/>
+		<property position="54 16"/>
+		<property extent="14 40"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Equipment\OFFHAND.png"/>
+	</Window>
+	<!--腰带-->
+	<Window class="UColorBitMap" id="9">
+		<property style="UBitmap"/>
+		<property position="25 24"/>
+		<property extent="22 6"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Equipment\WAIST.png"/>
+	</Window>
+	<!--胸部-->
+	<Window class="UColorBitMap" id="2">
+		<property style="UBitmap"/>
+		<property position="24 9"/>
+		<property extent="22 17"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Equipment\CHEST.png"/>
+	</Window>
+	<!--裤子-->
+	<Window class="UColorBitMap" id="3">
+		<property style="UBitmap"/>
+		<property position="24 30"/>
+		<property extent="22 16"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Equipment\TROUSERS.png"/>
+	</Window>
+</Window>

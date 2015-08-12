@@ -1,0 +1,30 @@
+<Window class="KeySetItem">
+	<property style="UBitmap"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="0 0"/>
+	<property extent="491 19"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UStaticText" id = "0">
+		<property style="SYSetTitle"/>
+		<property position="32 5"/>
+		<property extent="179 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="GetKeyCodeButton" id = "1">
+		<property style="SYKeyButton"/>
+		<property position="225 0"/>
+		<property extent="105 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="GetKeyCodeButton" id = "2">
+		<property style="SYKeyButton"/>
+		<property position="343 0"/>
+		<property extent="105 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

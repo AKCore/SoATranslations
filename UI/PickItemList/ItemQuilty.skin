@@ -1,0 +1,7 @@
+<Skin texture ="ItemQuility.png">
+	<item x="41" y="42" w="2" h="2" />
+	<item x="0" y="43" w="42" h="43" />
+	<item x="42" y="43" w="42" h="43" />
+	<item x="0" y="0" w="42" h="43" />
+	<item x="42" y="0" w="42" h="43" />
+</Skin>

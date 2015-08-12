@@ -1,0 +1,311 @@
+<Window class="UTeamFrame">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="223 135"/>
+	<property extent="551 482"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CloseBtnPos = "524 22"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="SocialitySystem\Team.skin"/>
+		<!--Team1-->
+		<Window class="UTeamCtr" id="0"> 
+			<property style="SYOtherEdit"/>
+			<property position="34 116"/>
+			<property extent="241 90"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<!--Team2-->
+		<Window class="UTeamCtr" id="1"> 
+			<property style="SYOtherEdit"/>
+			<property position="290 116"/>
+			<property extent="241 90"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<!--Team3-->
+		<Window class="UTeamCtr" id="2"> 
+			<property style="SYOtherEdit"/>
+			<property position="34 233"/>
+			<property extent="241 90"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<!--Team4-->
+		<Window class="UTeamCtr" id="3"> 
+			<property style="SYOtherEdit"/>
+			<property position="290 233"/>
+			<property extent="241 90"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<!--Team5-->
+		<Window class="UTeamCtr" id="4"> 
+			<property style="SYOtherEdit"/>
+			<property position="34 353"/>
+			<property extent="241 90"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<!--Team6-->
+		<Window class="UTeamCtr" id="5"> 
+			<property style="SYOtherEdit"/>
+			<property position="290 353"/>
+			<property extent="241 90"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<!--添加成员-->
+		<Window class="UBitmap" id = "106">
+			<property style="SYDialogFrame"/>
+			<property position="293 59"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="6"> 
+			<property style="SYOtherEdit"/>
+			<property bitmap="Public\AddTeamMember.skin"/>
+			<property position="296 62"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<!--就认确认-->
+		<Window class="UBitmap" id = "107">
+			<property style="SYDialogFrame"/>
+			<property position="374 59"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>				
+		<Window class="UBitmapButton" id="7">
+			<property style="SYOtherEdit"/>
+			<property bitmap="Public\TeamJiuren.skin"/>
+			<property position="377 62"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<!--转化团队-->	
+		<Window class="UBitmap" id = "108">
+			<property style="SYDialogFrame"/>
+			<property position="455 59"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="8">
+			<property style="SYOtherEdit"/>
+			<property bitmap="Public\ChangeToTeam.skin"/>
+			<property position="458 62"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class = "UStaticText" id = "9">
+			<property style = "SYDialogTitle"/>
+			<property position = "230 25"/>
+			<property extent = "111 20"/>
+			<property minExtent = "8 8"/>
+			<property text= "团 队"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class="UBitmapButton" id="10">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="28 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="好 友"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="107 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="部 族"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="185 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="谁在线"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="263 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="团 队"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="54">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="341 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="组队招募"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<!--小队勾选-->
+		<Window class="UStaticText" id = "114">
+			<property style="SYSkillText"/>
+			<property position="128 94"/>
+			<property extent="51 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text="小队 1"/>
+		</Window>
+		<Window class="UBitmapButton" id="14">
+			<property style="UButton"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="184 95"/>
+			<property extent="16 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UStaticText" id = "115">
+			<property style="SYSkillText"/>
+			<property position="384 94"/>
+			<property extent="51 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text="小队 2"/>
+		</Window>
+		<Window class="UBitmapButton" id="15">
+			<property style="UButton"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="440 95"/>
+			<property extent="16 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UStaticText" id = "116">
+			<property style="SYSkillText"/>
+			<property position="128 211"/>
+			<property extent="51 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text="小队 3"/>
+		</Window>
+		<Window class="UBitmapButton" id="16">
+			<property style="UButton"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="184 212"/>
+			<property extent="16 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UStaticText" id = "117">
+			<property style="SYSkillText"/>
+			<property position="384 211"/>
+			<property extent="51 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text="小队 4"/>
+		</Window>
+		<Window class="UBitmapButton" id="17">
+			<property style="UButton"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="440 212"/>
+			<property extent="16 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UStaticText" id = "118">
+			<property style="SYSkillText"/>
+			<property position="128 331"/>
+			<property extent="51 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text="小队 5"/>
+		</Window>
+		<Window class="UBitmapButton" id="18">
+			<property style="UButton"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="184 332"/>
+			<property extent="16 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UStaticText" id = "119">
+			<property style="SYSkillText"/>
+			<property position="384 331"/>
+			<property extent="51 16"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text="小队 6"/>
+		</Window>
+		<Window class="UBitmapButton" id="19">
+			<property style="UButton"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="440 332"/>
+			<property extent="16 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="20">
+			<property style="UButton"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="157 67"/>
+			<property extent="16 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UStaticText" id = "21">
+			<property style="SystemTip"/>
+			<property position="71 66"/>
+			<property text="显示小队背景："/>
+			<property extent="85 18"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="22">
+			<property style="UButton"/>
+			<property bitmap="Public\CheckButton4.skin"/>
+			<property position="253 67"/>
+			<property extent="16 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UStaticText" id = "23">
+			<property style="SystemTip"/>
+			<property position="176 66"/>
+			<property extent="75 18"/>
+			<property text="网格模式："/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+</Window>

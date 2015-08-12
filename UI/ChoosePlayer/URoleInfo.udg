@@ -1,0 +1,34 @@
+<Window class="URoleInfo">
+	<property style="URadioButton"/>
+	<property bitmap="ChoosePlayer\EnterGame.skin"/>
+	<property position="40 131"/>
+	<property extent="179 65"/>
+	<property minExtent="8 8"/>
+	<property groupNum="1"/>
+	<property buttonType="2"/>
+	<property visible="1"/>
+	<Window class="UEdit" id="0">
+		<property style="SYPlayerNameEdit"/>
+		<property position="62 21"/>
+		<property extent="108 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<Window class="UEdit" id="1">
+		<property style="SYPlayerNameEdit"/>
+		<property position="62 42"/>
+		<property extent="108 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<Window class="UBitmap" id="2">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\ChoosePlayer\ren.png"/>
+		<property position="14 16"/>
+		<property extent="41 41"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+</Window>

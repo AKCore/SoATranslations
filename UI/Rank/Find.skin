@@ -1,0 +1,6 @@
+<Skin texture ="Find.png">
+	<item x="0" y="0"  w="50" h="15" />
+	<item x="0" y="15"  w="50" h="15" />
+	<item x="0" y="30"  w="50" h="15" />
+	<item x="0" y="45"  w="50" h="15" />
+</Skin>

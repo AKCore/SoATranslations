@@ -1,0 +1,44 @@
+<Window class="UFittingRoom">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="572 114"/>
+	<property extent="452 496"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Equipment\FittingRoomBKG.skin"/>
+	<Window class="UNiAvControlRoleView" id="0">
+		<property style="UBitmap"/>
+		<property position="23 86"/>
+		<property extent="421 395"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="Equipment\Reset.skin"/>
+		<property position="364 58"/>
+		<property extent="64 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>	
+	</Window>
+	<!--×ó×ª-->
+	<Window class="UDownButton" id="20">
+		<property style="UButton"/>
+		<property bitmap="Equipment\TurnLeft.skin"/>
+		<property position="109 451"/>
+		<property extent="44 28"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--ÓÒ×ª-->
+	<Window class="UDownButton" id="21">
+		<property style="UButton"/>
+		<property bitmap="Equipment\Turnright.skin"/>
+		<property position="318 451"/>
+		<property extent="44 28"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

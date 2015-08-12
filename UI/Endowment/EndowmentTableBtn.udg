@@ -1,0 +1,40 @@
+<Window class="UEndowmentTableBtn_Content">
+	<property style="default"/>
+	<property position="91 91"/>
+	<property extent="490 38"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="0 0"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="´ÈÉÆ¾èÖú"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="93 0"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="¾èÖúÅÅÐÐ"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="186 0"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="¾èÖúÀúÊ·"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+</Window>

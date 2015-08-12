@@ -1,0 +1,10 @@
+<Window class="USoftKeyBoard::UKeyCtrl">
+	<property style="Softkeyboard"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="0 0"/>
+	<property extent="22 21"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property CanEscapeFouce = "false"/>
+</Window>

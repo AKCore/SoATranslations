@@ -1,0 +1,43 @@
+﻿<Window class="UPlayeInfo">
+	<property style="UBitmap"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="302 252"/>
+	<property extent="155 284"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property showclose="0"/>
+	<property CanEscapeFouce = "0"/>
+	<property bkgskin="Equipment\PropertyBGK.skin"/>
+	<!--基本属性-->
+	<Window class="UBitmapButton" id="0">
+		<property style="SYURadioButton"/>
+		<property bitmap="Equipment\PropertyPBtn.skin"/>
+		<property position="3 5"/>
+		<property extent="73 31"/>
+		<property minExtent="8 8"/>
+		<property text="人物属性"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<!--社会属性-->
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="Equipment\PropertyABtn.skin"/>
+		<property position="79 5"/>
+		<property extent="73 31"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="社会属性"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UPropertyInfo" id="2">
+		<property style="SYOtherEdit"/>
+		<property position="14 42"/>
+		<property extent="124 224"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+</Window>

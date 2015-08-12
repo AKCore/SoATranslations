@@ -1,0 +1,95 @@
+<Movie>
+	<FrameSay Index = "0" >
+	<Saying des = "现在，在屏幕下方闪动的按键是和人物行走或者视角相关的，您可以看到总共有8个，这是默认的移动按键，那么等下就会给你讲解每个按键具体的功能。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "1" >
+	<Saying des = "嗯，这是第一个要介绍给您的按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\W.png>,您可以用来进行操纵角色向前移动。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "2" >
+	<Saying des = "接下来还是移动的按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\Q.png>,您可以用来进行操纵角色向左移动。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "3" >
+	<Saying des = "依然是移动的按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\S.png>,您可以用来进行操纵角色向后移动。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "4" >
+	<Saying des = "这是最后一个移动的按键啦<img:DATA\\UI\\FreshManHelp\\KeyButton\\E.png>,您可以用来进行操纵角色向右移动。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "5" >
+	<Saying des = "如果在游戏的时候自己走动的很累了，这是第一个要介绍给您一个很方便的按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\G.png>,通过这个按键可以让您的角色自动向前奔跑。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "6" >
+	<Saying des = "这两个按键会帮助您左右转动。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "7" >
+	<Saying des = "看到别人跳动了么，您是不是也很想跳一跳，那么这最后一个按键可以帮助您。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "8" >
+	<Saying des = "这就是关于移动的教学了，那么您学会了么？如果你觉得不需要继续教程，可以选择“关闭”。<br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_Move>还没学会，重播一遍  </a><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_Base>学会了，下一个吧</a><right><a:Close>关闭</a>"/>
+	</FrameSay>
+
+
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "W" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "A" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "S" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "D" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "Q" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "E" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "G" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "SPACE" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "1">
+	<def KeyCode = "W" WinkTime = "5.0"/>
+	<tooltip Desc = "这是前移按键，持续按下就可以实现向前移动了。"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "2">
+	<def KeyCode = "Q" WinkTime = "5.0"/>
+	<tooltip Desc = "这是左移按键，持续按下就可以实现向左移动了。"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "3">
+	<def KeyCode = "S" WinkTime = "5.0"/>
+	<tooltip Desc = "这是后移按键，持续按下就可以实现向后移动了。"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "4">
+	<def KeyCode = "E" WinkTime = "5.0"/>
+	<tooltip Desc = "这是右移按键，持续按下就可以实现向右移动了。"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "5">
+	<def KeyCode = "G" WinkTime = "5.0"/>
+	<tooltip Desc = "按一次这个按键，就可以开始自动向前奔跑，再次按动或者使用其他移动按键等可以取消自动奔跑状态。"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "6">
+	<def KeyCode = "A" WinkTime = "5.0"/>
+	<tooltip Desc = "这个按键可以用来旋转视角。"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "6">
+	<def KeyCode = "D" WinkTime = "5.0"/>
+	<tooltip Desc = "这个按键可以用来旋转视角。"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "7">
+	<def KeyCode = "SPACE" WinkTime = "5.0"/>
+	<tooltip Desc = "这个是跳跃按键。"/>
+	</Frame>
+</Movie>

@@ -1,0 +1,142 @@
+<Window class="UPay">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="410 321"/>
+	<property extent="357 235"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Shop\PaySkin.skin"/>
+	<property showclose = "false"/>
+
+	<Window class= "UBitmap" id = "16">
+		<property style="SYDialogFrame"/>
+		<property position= "98 154"/>
+		<property extent= "106 22"/>
+		<property minExtent= "8 8"/>
+		<property visible= "1"/>
+		<property bitmap = "DATA\UI\Shop\EditBkg.png"/> 
+	</Window>
+	<Window class="UEdit" id="0">
+		<property style="SYChatInputHeadEdit"/>
+		<property position="99 156"/>
+		<property extent="105 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="1">
+		<property style="SYOtherEdit"/>
+		<property position="26 156"/>
+		<property extent="63 13"/>
+		<property minExtent="8 8"/>
+		<property text = "购买数量："/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="SYOtherEdit"/>
+		<property position="26 129"/>
+		<property extent="63 13"/>
+		<property minExtent="8 8"/>
+		<property text = "使用期限："/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="3">
+		<property style="SYDialogTitle"/>
+		<property position="83 20"/>
+		<property extent="190 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>	
+	<Window class="UStaticText" id="4">
+		<property style="SYOtherEdit"/>
+		<property position="135 98"/>
+		<property extent="84 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="UButton"/>
+		<property bitmap="Public\BuyItem.skin"/>
+		<property position="62 199"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="228 199"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="SYChatChannelCheckBox"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property position="98 129"/>
+		<property extent="16 16"/>
+		<property minExtent="8 8"/>
+		<property buttonType = "2"/>
+		<property groupNum = "30"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="9">
+		<property style="SYChatChannelCheckBox"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property position="219 129"/>
+		<property extent="16 16"/>
+		<property minExtent="8 8"/>
+		<property buttonType = "2"/>
+		<property groupNum = "30"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="10">
+		<property style="SYChatChannelCheckBox"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property position="98 157"/>
+		<property extent="16 16"/>
+		<property minExtent="8 8"/>
+		<property buttonType = "2"/>
+		<property groupNum = "30"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="11">
+		<property style="SYChatChannelCheckBox"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property position="219 157"/>
+		<property extent="16 16"/>
+		<property minExtent="8 8"/>
+		<property buttonType = "2"/>
+		<property groupNum = "30"/>
+		<property visible="1"/>
+	</Window>	
+	<Window class="UStaticText" id="12">
+		<property style="SYOtherEdit"/>
+		<property position="116 131"/>
+		<property extent="97 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>	
+	<Window class="UStaticText" id="13">
+		<property style="SYOtherEdit"/>
+		<property position="241 131"/>
+		<property extent="91 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>	
+	<Window class="UStaticText" id="14">
+		<property style="SYOtherEdit"/>
+		<property position="116 159"/>
+		<property extent="91 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>	
+	<Window class="UStaticText" id="15">
+		<property style="SYOtherEdit"/>
+		<property position="241 159"/>
+		<property extent="91 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

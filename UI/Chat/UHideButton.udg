@@ -1,0 +1,25 @@
+﻿<Window class="UHideChatButton">
+	<property style="default"/>
+	<property position="0 470"/>
+	<property extent="32 46"/>
+	<property minExtent="8 8"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="2"/>
+	<property visible="1"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\fangxia.skin"/>
+		<property position="0 17"/>
+		<property extent="32 30"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\shouqiRight.skin"/>
+		<property position="0 0"/>
+		<property extent="17 34"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+</Window>

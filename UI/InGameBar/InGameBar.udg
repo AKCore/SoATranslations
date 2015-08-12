@@ -1,0 +1,299 @@
+<Window class="UInGameBar">
+	<property style="UBitmap"/>
+	<property position="29 673"/>
+	<property extent="966 94"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="2"/>
+	<Window class="UBitmap" id="23">
+		<property style="UBitmap"/>
+		<property position="0 0"/>
+		<property extent="966 94"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\InGameBar\InGameBar.png"/>
+	</Window>
+	<Window class="UExpBar" id="22">
+		<property style="UProgressCtrl"/>
+		<property ExpBarTexture = "DATA\ui\InGameBar\ExpBar.png"/>
+		<property position="33 15"/>
+		<property extent="898 5"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+	</Window>
+	<!--技能快捷按钮-->
+	<Window class="UInGameBar::ActionButton" id="0">
+		<property style="SkillButton"/>
+		<property position="29 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton1;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="1">
+		<property style="SkillButton"/>
+		<property position="69 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton2;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="2">
+		<property style="SkillButton"/>
+		<property position="109 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton3;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="3">
+		<property style="SkillButton"/>
+		<property position="149 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton4;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="4">
+		<property style="SkillButton"/>
+		<property position="189 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton5;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="5">
+		<property style="SkillButton"/>
+		<property position="229 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton6;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="6">
+		<property style="SkillButton"/>
+		<property position="269 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton7;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="7">
+		<property style="SkillButton"/>
+		<property position="309 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton8;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="8">
+		<property style="SkillButton"/>
+		<property position="349 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton9;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="9">
+		<property style="SkillButton"/>
+		<property position="389 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton10;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="10">
+		<property style="SkillButton"/>
+		<property position="429 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton11;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="11">
+		<property style="SkillButton"/>
+		<property position="469 30"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property Accelerator = "ActionButton12;"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UInGameBar::ActionButton" id="10000">
+		<property style="SkillButton"/>
+		<property position="0 0"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<!-- 界面相关按钮   -->
+	<Window class="UBitmapButton" id="12">
+		<property style="UButton"/>
+		<property bitmap="Public\Equipment.skin"/>
+		<property position="536 20"/>
+		<property extent="38 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property Accelerator = "CallEquip;"/>
+		<property groupNum="-1"/>
+		<property buttonType="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "装备"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="13">
+		<property style="UButton"/>
+		<property bitmap="Public\Package.skin"/>
+		<property position="576 20"/>
+		<property extent="38 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property Accelerator = "CallBag;"/>
+		<property groupNum="-1"/>
+		<property buttonType="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "包裹栏"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="14">
+		<property style="UButton"/>
+		<property bitmap="Public\Skill.skin"/>
+		<property position="616 20"/>
+		<property extent="38 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property Accelerator = "CallSkill;"/>
+		<property groupNum="-1"/>
+		<property buttonType="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "技能栏"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="15">
+		<property style="UButton"/>
+		<property bitmap="Public\Friend.skin"/>
+		<property position="656 20"/>
+		<property extent="38 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property Accelerator = "CallFriend;"/>
+		<property groupNum="-1"/>
+		<property buttonType="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "社交"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="16">
+		<property style="UButton"/>
+		<property bitmap="Public\Contribute.skin"/>
+		<property position="696 20"/>
+		<property extent="38 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property Accelerator = "CallQuest;"/>
+		<property groupNum="-1"/>
+		<property buttonType="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "任务"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="17">
+		<property style="UButton"/>
+		<property bitmap="Public\Quest.skin"/>
+		<property position="736 20"/>
+		<property extent="38 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="-1"/>
+		<property Accelerator = "CallEndoment;"/>
+		<property buttonType="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "慈善捐助"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="18">
+		<property style="UButton"/>
+		<property bitmap="Public\Help.skin"/>
+		<property position="776 20"/>
+		<property extent="38 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="-1"/>
+		<property buttonType="1"/>
+		<property Accelerator = "CallFB;"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "副本大厅"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="19">
+		<property style="UButton"/>
+		<property bitmap="public\System.skin"/>
+		<property position="816 20"/>
+		<property extent="38 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="-1"/>
+		<property buttonType="1"/>
+		<property Accelerator = "Manufacture;"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "合成"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="20">
+		<property style="UButton"/>
+		<property bitmap="public\InstaceButton.skin"/>
+		<property position="856 20"/>
+		<property extent="38 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="-1"/>
+		<property buttonType="1"/>
+		<property Accelerator = "CallHelp;"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "帮助"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="21">
+		<property style="UButton"/>
+		<property bitmap="public\HelpButton.skin"/>
+		<property position="896 20"/>
+		<property extent="38 49"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="-1"/>
+		<property Accelerator = "CallGameSet;"/>
+		<property buttonType="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "系统设置"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="24">
+		<property style="UButton"/>
+		<property bitmap="InGameBar\AddActionBar.skin"/>
+		<property position="584 28"/>
+		<property extent="12 17"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "增加快捷栏"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UBitmapButton" id="25">
+		<property style="UButton"/>
+		<property bitmap="InGameBar\DelActionBar.skin"/>
+		<property position="584 46"/>
+		<property extent="12 17"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip = "减少快捷栏"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UClientStateCtrl" id="26">
+		<property style="UButton"/>
+		<property position="518 31"/>
+		<property extent="8 38"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

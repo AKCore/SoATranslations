@@ -1,0 +1,40 @@
+<Window class="UTeamPickSet">
+	<property style="SYDialogFrame"/>
+	<property position="10 269"/>
+	<property extent="251 104"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property showclose="0"/>
+	<property CanEscapeFouce="true"/>
+	<property bkgskin="UTeamPickSet\Bgk.skin"/>
+	<Window class="UComboBox" id="0">
+		<property style="SYTeamUComboBox"/>
+		<property position="100 14"/>
+		<property extent="135 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UComboBox" id="1">
+		<property style="SYTeamUComboBox"/>
+		<property position="100 45"/>
+		<property extent="135 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\OK.skin"/>
+		<property position="31 76"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="151 76"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+</Window>

@@ -1,0 +1,20 @@
+<Window class="UEndowmentFrame">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property CanEscapeFouce = "true"/>
+	<property CloseBtnPos = "938 55"/>
+	<property bkgskin="Donation\DonationBkg.skin"/>
+	<Window class="URichTextCtrl" id="100">
+		<property style="URichTextCtrl"/>
+		<property position="82 160"/>
+		<property extent="865 581"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property rtffile="Data\UI\Donation\JuanZhuShuoMing.txt"/>
+	</Window>
+</Window>

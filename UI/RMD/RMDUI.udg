@@ -1,0 +1,17 @@
+<Window class = "UIRightMouseList">
+<property style = "default"/>
+<property position = "0 0"/>
+<property extent = "1024 768"/>
+<property minExtent = "8 8"/>
+<property visible = "0"/>	
+	<Window class="UBitMapListBox" id="0">
+		<property style="SYUListBox1"/>
+		<property position="0 0"/>
+		<property extent="130 151"/>
+		<property minExtent="8 8"/>
+		<property ListBKGSkin = "RMD\RMDList.skin"/>
+		<property visible="1"/>
+		<property AnchorHori="3"/>
+		<property AnchorVert="3"/>
+	</Window>
+</Window>

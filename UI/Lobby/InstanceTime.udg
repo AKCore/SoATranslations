@@ -1,0 +1,9 @@
+<Window class="UInstanceTimeText">
+	<property style="default"/>
+	<property position="834 223"/>
+	<property extent="190 17"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	    <property AnchorHori="2"/>
+	    <property AnchorVert="3"/>
+</Window>

@@ -1,0 +1,112 @@
+﻿<Window class="UPackage">
+	<property style="UDialog"/>
+	<property AnchorHori="2"/>
+	<property AnchorVert="3"/>
+	<property position="601 291"/>
+	<property extent="411 401"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property headRec="0 0 411 90"/>
+	<property leftbordRec="0 90 21 348"/>
+	<property rightbordRec="406 90 411 348"/>
+	<property centerRec="21 90 406 348"/>
+	<property bottomRec="0 348 411 401"/>
+	<property  CanEscapeFouce = "true"/>
+	<property bkgskin="Package\PagDialog.skin"/>
+	<Window class="UPackageContainer" id="0">
+		<property style="UDragDropGridCtrl"/>
+		<property position="27 89"/>
+		<property extent="378 258"/>
+		<property minExtent="8 8"/>
+	</Window>
+	<!--钱-->
+	<Window class="UMoneyText" id="1">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="197 67"/>
+		<property extent="120 16"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--背包道具-->
+	<Window class="UPackage::BageSolt" id="4">
+		<property style="SkillButton"/>
+		<property position="31 350"/>
+		<property extent="40 41"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "Package\PackageBagSlot.skin"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UPackage::BageSolt" id="5">
+		<property style="SkillButton"/>
+		<property position="77 350"/>
+		<property extent="40 41"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "Package\PackageBagSlot.skin"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UPackage::BageSolt" id="6">
+		<property style="SkillButton"/>
+		<property position="123 350"/>
+		<property extent="40 41"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "Package\PackageBagSlot.skin"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UPackage::BageSolt" id="7">
+		<property style="SkillButton"/>
+		<property position="169 350"/>
+		<property extent="40 41"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "Package\PackageBagSlot.skin"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UPackage::BageSolt" id="8">
+		<property style="SkillButton"/>
+		<property position="215 350"/>
+		<property extent="40 41"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "Package\PackageBagSlot.skin"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UPackage::BageSolt" id="9">
+		<property style="SkillButton"/>
+		<property position="261 350"/>
+		<property extent="40 41"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "Package\PackageBagSlot.skin"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UPackage::BageSolt" id="10">
+		<property style="SkillButton"/>
+		<property position="308 350"/>
+		<property extent="40 41"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "Package\PackageBagSlot.skin"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UPackage::BageSolt" id="11">
+		<property style="SkillButton"/>
+		<property position="355 350"/>
+		<property extent="40 41"/>
+		<property minExtent="8 8"/>
+		<property BackSkin = "Package\PackageBagSlot.skin"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UMoneyText" id="12">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="88 67"/>
+		<property extent="78 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--整理背包-->
+	<Window class="UBitmapButton" id="13">
+		<property style="UButton"/>
+		<property bitmap="Package\zhengli.skin"/>
+		<property position="329 68"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+
+</Window>

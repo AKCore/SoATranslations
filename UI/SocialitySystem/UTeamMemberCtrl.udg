@@ -1,0 +1,11 @@
+<Window class="UTeamCtr::UTeamMemberCtrl">
+	<property style="SkillButton"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="0 0"/>
+	<property extent="241 18"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property CanEscapeFouce = "false"/>
+	<property bkgskin="SocialitySystem\TeamMember.skin"/>
+</Window>

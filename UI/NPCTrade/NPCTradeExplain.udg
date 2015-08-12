@@ -1,0 +1,74 @@
+<Window class="UNPCTradeExplain">
+	<property style="default"/>
+	<property position="29 90"/>
+	<property extent="130 40"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="URichTextCtrl" id="0">
+		<property style="URichTextCtrl"/>
+		<property position="44 1"/>
+		<property extent="83 25"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="1">
+		<property style="SkillButton"/>
+		<property position="2 2"/>
+		<property extent="36 36"/>
+		<property showbgk="0"/>
+		<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--金-->
+	<Window class="UEdit" id="2">
+		<property style="SYHideUEdit"/>
+		<property position="44 28"/>
+		<property extent="24 9"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--银-->
+	<Window class="UEdit" id="3">
+		<property style="SYHideUEdit"/>
+		<property position="80 28"/>
+		<property extent="12 9"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--铜-->
+	<Window class="UEdit" id="4">
+		<property style="SYHideUEdit"/>
+		<property position="104 28"/>
+		<property extent="12 9"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<Window class="UBitmap" id="5">
+		<property style="UBitmap"/>
+		<property position="68 28"/>
+		<property extent="12 12"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Public\gold.png"/>
+	</Window>
+	<Window class="UBitmap" id="6">
+		<property style="UBitmap"/>
+		<property position="92 28"/>
+		<property extent="12 12"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Public\silver.png"/>
+	</Window>
+	<Window class="UBitmap" id="7">
+		<property style="UBitmap"/>
+		<property position="116 28"/>
+		<property extent="12 12"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Public\copper.png"/>
+	</Window>
+</Window>

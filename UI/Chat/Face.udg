@@ -1,0 +1,7 @@
+<Window class="UChatFace" id="0">
+		<property style="default"/>
+		<property position="407 577"/>
+		<property extent="200 100"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+</Window>

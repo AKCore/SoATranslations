@@ -1,0 +1,445 @@
+<Window class="UMailReceiveList">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="3 132"/>
+	<property extent="346 520"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="MailSystem\MailReceivel.skin"/>
+	<!--发件箱和收件箱为一组按钮-->
+	<!--发件箱-->
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="MailSystem\MailTable.skin"/>
+		<property position="8 88"/>
+		<property extent="40 95"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property text="收件箱"/>
+		<property IsHoriText="0"/>
+	</Window>
+	<!--收件箱-->
+	<Window class="UBitmapButton" id="0">
+		<property style="SYURadioButton"/>
+		<property bitmap="MailSystem\MailTable.skin"/>
+		<property position="8 190"/>
+		<property extent="40 95"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property text="发件箱"/>
+		<property IsHoriText="0"/>
+	</Window>
+	<!--删除-->
+	<Window class="UBitmap" id = "102">
+		<property style="SYDialogFrame"/>
+		<property position="52 420"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\Delete.skin"/>
+		<property position="55 423"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+
+	<Window class="UStaticText" id="25">
+		<property style="SYStaticTextCtrl"/>
+		<property position="149 419"/>
+		<property extent="71 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--打开-->
+	<Window class="UBitmap" id = "103">
+		<property style="SYDialogFrame"/>
+		<property position="228 420"/>
+		<property extent="100 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="UButton"/>
+		<property bitmap="Public\OpenMail.skin"/>
+		<property position="231 423"/>
+		<property extent="94 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--上一页-->
+	<Window class="UBitmapButton" id="4">
+		<property style="UButton"/>
+		<property bitmap="Public\UpButton.skin"/>
+		<property position="311 91"/>
+		<property extent="24 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--下一页-->
+	<Window class="UBitmapButton" id="5">
+		<property style="UButton"/>
+		<property bitmap="Public\DownButton.skin"/>
+		<property position="311 385"/>
+		<property extent="24 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--第1个邮件-->
+	<Window class="UMailExplain" id="6">
+		<property style="URadioButton"/>
+		<property bitmap="MailSystem\MailContent.skin"/>
+		<property groupNum="100"/>
+		<property buttonType="2"/>
+		<property position="55 102"/>
+		<property extent="248 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<!--主题-->
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl"/>
+			<property position="64 28"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--发件人-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="64 10"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--时间-->
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="205 10"/>
+			<property extent="32 12"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id = "4">
+			<property style="SYDialogFrame"/>
+			<property position="205 6"/>
+			<property extent="41 41"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\MailSystem\DataBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="3">
+			<property style="SkillButton"/>
+			<property position="4 6"/>
+			<property extent="40 40"/>
+			<property showbgk="1"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property SkinBgk = "InGameBar\ActionButtonBkg.skin"/>
+		</Window>
+	</Window>
+	<!--第2个邮件-->
+	<Window class="UMailExplain" id="7">
+		<property style="URadioButton"/>
+		<property bitmap="MailSystem\MailContent.skin"/>
+		<property groupNum="100"/>
+		<property buttonType="2"/>
+		<property position="55 152"/>
+		<property extent="248 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<!--主题-->
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl"/>
+			<property position="64 28"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--发件人-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="64 10"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--时间-->
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="205 10"/>
+			<property extent="32 12"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id = "4">
+			<property style="SYDialogFrame"/>
+			<property position="205 6"/>
+			<property extent="41 41"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\MailSystem\DataBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="3">
+			<property style="SkillButton"/>
+			<property position="4 6"/>
+			<property extent="40 40"/>
+			<property showbgk="1"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property SkinBgk = "InGameBar\ActionButtonBkg.skin"/>
+		</Window>
+	</Window>
+	<!--第3个邮件-->
+	<Window class="UMailExplain" id="8">
+		<property style="URadioButton"/>
+		<property bitmap="MailSystem\MailContent.skin"/>
+		<property groupNum="100"/>
+		<property buttonType="2"/>
+		<property position="55 201"/>
+		<property extent="248 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<!--主题-->
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl"/>
+			<property position="64 28"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--发件人-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="64 10"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--时间-->
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="205 10"/>
+			<property extent="32 12"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id = "4">
+			<property style="SYDialogFrame"/>
+			<property position="205 6"/>
+			<property extent="41 41"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\MailSystem\DataBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="3">
+			<property style="SkillButton"/>
+			<property position="4 6"/>
+			<property extent="40 40"/>
+			<property showbgk="1"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property SkinBgk = "InGameBar\ActionButtonBkg.skin"/>
+		</Window>
+	</Window>
+	<!--第4个邮件-->
+	<Window class="UMailExplain" id="9">
+		<property style="URadioButton"/>
+		<property bitmap="MailSystem\MailContent.skin"/>
+		<property groupNum="100"/>
+		<property buttonType="2"/>
+		<property position="55 250"/>
+		<property extent="248 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<!--主题-->
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl"/>
+			<property position="64 28"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--发件人-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="64 10"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--时间-->
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="205 10"/>
+			<property extent="32 12"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id = "4">
+			<property style="SYDialogFrame"/>
+			<property position="205 6"/>
+			<property extent="41 41"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\MailSystem\DataBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="3">
+			<property style="SkillButton"/>
+			<property position="4 6"/>
+			<property extent="40 40"/>
+			<property showbgk="1"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property SkinBgk = "InGameBar\ActionButtonBkg.skin"/>
+		</Window>
+	</Window>
+	<!--第5个邮件-->
+	<Window class="UMailExplain" id="10">
+		<property style="URadioButton"/>
+		<property bitmap="MailSystem\MailContent.skin"/>
+		<property groupNum="100"/>
+		<property buttonType="2"/>
+		<property position="55 299"/>
+		<property extent="248 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<!--主题-->
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl"/>
+			<property position="64 28"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--发件人-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="64 10"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--时间-->
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="205 10"/>
+			<property extent="32 12"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id = "4">
+			<property style="SYDialogFrame"/>
+			<property position="205 6"/>
+			<property extent="41 41"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\MailSystem\DataBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="3">
+			<property style="SkillButton"/>
+			<property position="4 6"/>
+			<property extent="40 40"/>
+			<property showbgk="1"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property SkinBgk = "InGameBar\ActionButtonBkg.skin"/>
+		</Window>
+	</Window>
+	<!--第6个邮件-->
+	<Window class="UMailExplain" id="11">
+		<property style="URadioButton"/>
+		<property bitmap="MailSystem\MailContent.skin"/>
+		<property groupNum="100"/>
+		<property buttonType="2"/>
+		<property position="55 348"/>
+		<property extent="248 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<!--主题-->
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl"/>
+			<property position="64 28"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--发件人-->
+		<Window class="UStaticText" id="1">
+			<property style="SYSkillText"/>
+			<property position="64 10"/>
+			<property extent="129 17"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<!--时间-->
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="205 10"/>
+			<property extent="32 12"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id = "4">
+			<property style="SYDialogFrame"/>
+			<property position="205 6"/>
+			<property extent="41 41"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\MailSystem\DataBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="3">
+			<property style="SkillButton"/>
+			<property position="4 6"/>
+			<property extent="40 40"/>
+			<property showbgk="1"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property SkinBgk = "InGameBar\ActionButtonBkg.skin"/>
+		</Window>
+	</Window>
+	<Window class="UStaticText" id="23">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="158 60"/>
+		<property extent="63 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="收邮件"/>
+	</Window>
+	<Window class="UStaticText" id="24">
+		<property style="SYDialogTitle"/>
+		<property position="156 22"/>
+		<property extent="68 26"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="邮 箱"/>
+	</Window>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window class="ULoadingFrame">
+	<property style="LoadingFrame"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UBitmap" id="1">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Login\loadingTop.png"/>
+		<property position="0 0"/>
+		<property extent="1024 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="2">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Login\loadingBottom.png"/>
+		<property position="0 677"/>
+		<property extent="1024 91"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UProgressBar" id="0">
+		<property style="SYUProgressCtrl"/>
+		<property BarTexture="DATA\UI\Login\loadingBar.png"/>
+		<property position="0 684"/>
+		<property extent="1024 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

@@ -1,0 +1,141 @@
+<Window class="UIAuctionJinBi">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="42 100"/>
+	<property extent="186 331"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<Window class="UBitmap" id="0">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\JinBiBkg.png"/>
+		<property position="0 0"/>
+		<property extent="186 331"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="1">
+		<property style="SkillButton"/>
+		<property showbgk="0"/>
+		<property LockDrag="0"/>
+		<property position="20 49"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="URadioButton"/>
+		<property bitmap="Public\SendCheck.skin"/>
+		<property position="25 202"/>
+		<property extent="17 17"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="URadioButton"/>
+		<property bitmap="Public\SendCheck.skin"/>
+		<property position="105 202"/>
+		<property extent="17 17"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="URadioButton"/>
+		<property bitmap="Public\SendCheck.skin"/>
+		<property position="25 223"/>
+		<property extent="17 17"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UEdit" id="5">
+		<property style="UScenceChat"/>
+		<property position="21 116"/>
+		<property extent="74 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UEdit" id="6">
+		<property style="UScenceChat"/>
+		<property position="115 116"/>
+		<property extent="15 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UEdit" id="7">
+		<property style="UScenceChat"/>
+		<property position="147 116"/>
+		<property extent="15 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UEdit" id="8">
+		<property style="UScenceChat"/>
+		<property position="21 154"/>
+		<property extent="74 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UEdit" id="9">
+		<property style="UScenceChat"/>
+		<property position="115 154"/>
+		<property extent="15 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UEdit" id="10">
+		<property style="UScenceChat"/>
+		<property position="147 154"/>
+		<property extent="15 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UMoneyText" id="11">
+		<property style="UScenceChat"/>
+		<property position="21 269"/>
+		<property extent="147 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="14">
+		<property style="SYSkillText"/>
+		<property position="64 51"/>
+		<property extent="105 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<Window class="UBitmap" id = "120">
+		<property style="SYDialogFrame"/>
+		<property position="54 297"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="20">
+		<property style="UButton"/>
+		<property bitmap="Public\Kaishipaimai.skin"/>
+		<property position="57 300"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

@@ -1,0 +1,6 @@
+<Skin texture ="SkillBtnBkg.png">
+	<item x="106" y="51"  w="91" h="34" />
+	<item x="106" y="51"  w="91" h="34" />
+	<item x="102" y="6"  w="91" h="34" />
+	<item x="106" y="51"  w="91" h="34" />
+</Skin>

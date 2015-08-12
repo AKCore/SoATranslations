@@ -1,0 +1,80 @@
+<Window class="UIPlayerHead">
+	<property style="default"/>
+	<property position="0 155"/>
+	<property extent="160 67"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<Window class="UNiAVControlHead" id="3">
+		<property style="UBitmap"/>
+		<property position="4 12"/>
+		<property extent="51 51"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="100">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\UIPlayerShow\Teammem.png"/>
+		<property position="0 0"/>
+		<property extent="160 67"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="5">
+		<property style="UButton"/>
+		<property bitmap="Data\UI\UIPlayerShow\Master.png"/>
+		<property position="29 0"/>
+		<property extent="20 18"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UBitmap" id="7">
+		<property style="UButton"/>
+		<property Skin="UIPlayerShow\LevelMask.skin"/>
+		<property position="0 0"/>
+		<property extent="28 28"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UProgressBar_Skin" id="0">
+		<property style="SYUProgressCtrl1"/>
+		<property BarSkin="UIPlayerShow\HPBar_Local.skin"/>
+		<property position="58 25"/>
+		<property extent="87 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UProgressBar_Skin" id="1">
+		<property style="SYUProgressCtrl1"/>
+		<property BarSkin="UIPlayerShow\MPBar_Local.skin"/>
+		<property position="58 40"/>
+		<property extent="87 9"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="SYName"/>
+		<property position="57 14"/>
+		<property extent="81 9"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="SYOtherEdit"/>
+		<property position="3 6"/>
+		<property extent="22 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<Window class="UBitmap" id="6">
+		<property style="UButton"/>
+		<property Skin="UIPlayerShow\WuXiu.skin"/>
+		<property position="140 22"/>
+		<property extent="33 33"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

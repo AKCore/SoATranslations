@@ -1,0 +1,58 @@
+<System>
+    <AddActionBar1>FALSE</AddActionBar1>
+    <AddActionBar2>FALSE</AddActionBar2>
+    <ActionBar2Type>0</ActionBar2Type>
+    <ActionBar2Pos>400,597</ActionBar2Pos>
+    <AcitonBar2Lock>FALSE</AcitonBar2Lock>
+    <AddActionBar3>FALSE</AddActionBar3>
+    <ActionBar3Type>0</ActionBar3Type>
+    <ActionBar3Pos>400,551</ActionBar3Pos>
+    <AcitonBar3Lock>FALSE</AcitonBar3Lock>
+    <AddActionBar4>FALSE</AddActionBar4>
+    <ActionBar4Type>0</ActionBar4Type>
+    <ActionBar4Pos>400,505</ActionBar4Pos>
+    <AcitonBar4Lock>FALSE</AcitonBar4Lock>
+    <AddActionBar5>FALSE</AddActionBar5>
+    <ActionBar5Type>0</ActionBar5Type>
+    <ActionBar5Pos>400,459</ActionBar5Pos>
+    <AcitonBar5Lock>FALSE</AcitonBar5Lock>
+    <AddActionBar6>FALSE</AddActionBar6>
+    <ActionBar6Type>0</ActionBar6Type>
+    <ActionBar6Pos>400,410</ActionBar6Pos>
+    <AcitonBar6Lock>FALSE</AcitonBar6Lock>
+    <AddActionBar7>FALSE</AddActionBar7>
+    <ActionBar7Type>0</ActionBar7Type>
+    <ActionBar7Pos>400,364</ActionBar7Pos>
+    <AcitonBar7Lock>FALSE</AcitonBar7Lock>
+    <AutoPick>FALSE</AutoPick>
+    <LockCamera>FALSE</LockCamera>
+    <ChatFileter>TRUE</ChatFileter>
+    <MiniMapMonster>TRUE</MiniMapMonster>
+    <MiniMapNPC>TRUE</MiniMapNPC>
+    <MiniMapPlayer>TRUE</MiniMapPlayer>
+    <NPCName>TRUE</NPCName>
+    <PlayerName>TRUE</PlayerName>
+    <HPBarColorFul>TRUE</HPBarColorFul>
+    <HostHpBar>TRUE</HostHpBar>
+    <TalkPopo>TRUE</TalkPopo>
+    <TargetTarget>TRUE</TargetTarget>
+    <TeamState>TRUE</TeamState>
+    <Head3DShow>FALSE</Head3DShow>
+    <LockActionBar>FALSE</LockActionBar>
+    <CameraFollow>TRUE</CameraFollow>
+    <MouseSemsitivity>0.500000</MouseSemsitivity>
+    <CameraFollowSpeed>0.400000</CameraFollowSpeed>
+    <MouseMove>FALSE</MouseMove>
+    <CameraDis>0.000000</CameraDis>
+</System>
+<Audio>
+    <EnableMusic>TRUE</EnableMusic>
+    <EnableSound>TRUE</EnableSound>
+    <Enable3DSound>TRUE</Enable3DSound>
+    <EnvironSoundVolum>0.300000</EnvironSoundVolum>
+    <MusicVolum>0.300000</MusicVolum>
+    <SoundVolum>0.300000</SoundVolum>
+</Audio>
+<Video>
+    <GameBloom>TRUE</GameBloom>
+</Video>

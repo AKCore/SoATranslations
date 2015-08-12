@@ -1,0 +1,237 @@
+<Window class="UAuctionAucDlg">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="117 132"/>
+	<property extent="791 401"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="AuctionDlg\Auc_bg.skin"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\AuctionBrowse.skin"/>
+		<property position="23 93"/>
+		<property extent="61 44"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="5"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\AuctionSale.skin"/>
+		<property position="23 207"/>
+		<property extent="61 44"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="5"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="53">
+		<property style="UButton"/>
+		<property bitmap="Public\AuctionSaleYuanbao.skin"/>
+		<property position="23 264"/>
+		<property extent="61 44"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="5"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\AuctionJingPai.skin"/>
+		<property position="23 150"/>
+		<property extent="61 44"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property groupNum="5"/>
+		<property buttonType="2"/>
+	</Window>
+
+	<Window class="UBitmapButton" id="3">
+		<property style="UButton"/>
+		<property bitmap="Public\Jingpai.skin"/>
+		<property position="494 378"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="UButton"/>
+		<property bitmap="Public\Yikoujia.skin"/>
+		<property position="566 378"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="UButton"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="655 371"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="UButton"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="722 371"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillButton" id="7">
+		<property style="SkillButton"/>
+		<property position="97 114"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property showbgk="0"/>
+	</Window>
+	<Window class="USkillButton" id="8">
+		<property style="SkillButton"/>
+		<property bitmap="Public\AuctionBrowse.skin"/>
+		<property position="97 158"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property showbgk="0"/>
+	</Window>
+	<Window class="USkillButton" id="9">
+		<property style="SkillButton"/>
+		<property position="97 201"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property showbgk="0"/>
+	</Window>
+	<Window class="USkillButton" id="10">
+		<property style="SkillButton"/>
+		<property position="97 244"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property showbgk="0"/>
+	</Window>
+	<Window class="USkillButton" id="11">
+		<property style="SkillButton"/>
+		<property position="97 287"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property showbgk="0"/>
+	</Window>
+	<Window class="USkillButton" id="12">
+		<property style="SkillButton"/>
+		<property position="97 331"/>
+		<property extent="36 36"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property showbgk="0"/>
+	</Window>
+	<Window class="USpecListBox" id="13">
+		<property style="SYUSpecListBox"/>
+		<property bitmap="Public\SpecList.skin"/>
+		<property position="138 111"/>
+		<property extent="778 258"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--金币现有底图-->
+	<Window class="UBitmap" id="21">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\XianYouJinBi.png"/>
+		<property position="86 375"/>
+		<property extent="153 21"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--金币直购底图-->
+	<Window class="UBitmap" id="22">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\JingPaiJB.png"/>
+		<property position="317 375"/>
+		<property extent="170 21"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--金币现有-->
+	<Window class="UStaticText" id="15">
+		<property style="SYNoBottomNumEdit"/>
+		<property position="94 379"/>
+		<property extent="60 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="16">
+		<property style="SYNoBottomNumEdit"/>
+		<property position="171 379"/>
+		<property extent="16 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="17">
+		<property style="SYNoBottomNumEdit"/>
+		<property position="204 379"/>
+		<property extent="16 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--金币直购-->
+	<Window class="UEdit" id="18">
+		<property style="SYNoBottomNumEdit"/>
+		<property position="326 379"/>
+		<property extent="77 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UEdit" id="19">
+		<property style="SYNoBottomNumEdit"/>
+		<property position="425 379"/>
+		<property extent="15 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UEdit" id="20">
+		<property style="SYNoBottomNumEdit"/>
+		<property position="457 379"/>
+		<property extent="15 12"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--元宝现有底图-->
+	<Window class="UBitmap" id="25">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\XianYouYuanBao.png"/>
+		<property position="86 375"/>
+		<property extent="153 21"/>
+		<property minExtent="8 1"/>
+		<property visible="0"/>
+	</Window>
+	<!--元宝直购底图-->
+	<Window class="UBitmap" id="26">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\JingPaiYB.png"/>
+		<property position="317 375"/>
+		<property extent="170 21"/>
+		<property minExtent="8 1"/>
+		<property visible="0"/>
+	</Window>
+	<!--元宝现有-->
+	<Window class="UStaticText" id="23">
+		<property style="SYNoBottomNumEdit"/>
+		<property position="94 379"/>
+		<property extent="115 12"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<!--元宝直购-->
+	<Window class="UEdit" id="24">
+		<property style="SYNoBottomNumEdit"/>
+		<property position="324 379"/>
+		<property extent="139 12"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+</Window>

@@ -1,0 +1,43 @@
+<Window class="UChatPropsMsg">
+	<property style="UBitmap"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="370 280"/>
+	<property extent="458 122"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property showclose = "false"/>
+	<property bkgskin="chat\Props.skin"/>
+	<Window class="UChatEdit" id="0">
+		<property style="SYChatInputHeadEdit"/>
+		<property position="44 57"/>
+		<property extent="370 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\OK.skin"/>
+		<property position="150 90"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="239 90"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class = "UStaticText" id = "3">
+		<property style = "SYOtherEdit"/>
+		<property position = "188 30"/>
+		<property extent = "82 18"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property text = "请输入你要消息："/>
+	</Window>
+</Window>

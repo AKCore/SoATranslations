@@ -1,0 +1,7 @@
+<Window class="UGiftGivenTips">
+	<property style="default"/>
+	<property position="34 482"/>
+	<property extent="500 18"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+</Window>

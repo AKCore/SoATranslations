@@ -1,0 +1,143 @@
+<Window class="UKeySet">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="300 135"/>
+	<property extent="678 558"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property showclose = "false"/>
+	<property bkgskin="SystemSet\SetBGk.skin"/>	
+	<Window class="UStaticText" id = "0">
+		<property style="SYDialogTitle"/>
+		<property position="304 57"/>
+		<property extent="100 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="操作设置"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="91 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="游戏设置"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="184 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="视频设置"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="277 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="音频设置"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="370 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="按键设置"/>
+		<property visible="1"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmap" id = "35">
+		<property style="SYDialogFrame"/>
+		<property position="82 525"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="UButton"/>
+		<property bitmap="Public\DefaultSet.skin"/>
+		<property position="85 528"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "36">
+		<property style="SYDialogFrame"/>
+		<property position="365 525"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="UButton"/>
+		<property bitmap="Public\UseSet.skin"/>
+		<property position="368 528"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "37">
+		<property style="SYDialogFrame"/>
+		<property position="443 525"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="UButton"/>
+		<property bitmap="Public\OK.skin"/>
+		<property position="446 528"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "38">
+		<property style="SYDialogFrame"/>
+		<property position="521 525"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="524 528"/>
+		<property extent="69 15"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UScrollBar" id="9">
+		<property style="SYUScrollBar"/>
+		<property position="75 130"/>
+		<property extent="528 386"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin ="0 0"/>
+		<property visible="1"/>
+		<Window class="KeySetcontrol" id="0">
+			<property style="default"/>
+			<property position="0 0"/>
+			<property extent="504 384"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+</Window>

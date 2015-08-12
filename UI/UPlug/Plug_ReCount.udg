@@ -1,0 +1,56 @@
+﻿<Window class="UPlug_DPSCount_Dialog">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="561 135"/>
+	<property extent="173 229"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property bkgskin="UPlug\Dialog.skin"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="UPlug\laba.skin"/>
+		<property position="20 6"/>
+		<property extent="15 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="UPlug\xiang.skin"/>
+		<property position="122 6"/>
+		<property extent="15 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="UPlug\Next.skin"/>
+		<property position="20 21"/>
+		<property extent="15 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="UButton"/>
+		<property bitmap="UPlug\Prev.skin"/>
+		<property position="122 21"/>
+		<property extent="15 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="SYDialogTitle"/>
+		<property position="35 6"/>
+		<property extent="87 30"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UPlug_DPSCount" id="5">
+		<property style="Plug_ReCount"/>
+		<property position="3 45"/>
+		<property extent="167 180"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

@@ -1,0 +1,11 @@
+<Skin texture = "popoRB.png">
+	<item x= "0" y = "0" w= "7" h = "6"/>
+	<item x= "22" y = "0" w="17" h = "6"/>
+	<item x= "0"  y = "20" w= "7" h = "19"/>
+	<item x="22" y = "20" w="17" h = "19"/>
+	<item x="8"  y = "0" w="12" h = "6"/>
+	<item x="22" y = "7" w="17" h = "11"/>
+	<item x="8" y = "20" w="12" h = "19"/>
+	<item x="0" y = "7" w="7" h = "11"/>
+	<item x="8" y = "7" w="12" h = "11"/>
+</Skin>

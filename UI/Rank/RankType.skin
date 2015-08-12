@@ -1,0 +1,6 @@
+<Skin texture ="RankType.png">
+	<item x="0" y="0"  w="66" h="31" />
+	<item x="0" y="31"  w="66" h="31" />
+	<item x="0" y="62"  w="66" h="31" />
+	<item x="0" y="93"  w="66" h="31" />
+</Skin>

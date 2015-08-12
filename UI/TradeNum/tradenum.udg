@@ -1,0 +1,47 @@
+<Window class="UTradeNum">
+	<property style="UBitmap"/>
+	<property position="436 229"/>
+	<property extent="229 141"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property bkgskin="MSGBOX\Bgk.skin"/>
+	<Window class="URichTextCtrl" id="0">
+		<property style="URichTextCtrl"/>
+		<property position="11 30"/>
+		<property extent="206 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UEdit" id="1">
+		<property style="SYUEdit"/>
+		<property position="40 70"/>
+		<property extent="100 21"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="0"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="SYButtonSkin\OK.skin"/>
+		<property position="17 111"/>
+		<property extent="75 25"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="UButton"/>
+		<property bitmap="SYButtonSkin\Cancel.skin"/>
+		<property position="134 111"/>
+		<property extent="75 25"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="UButton"/>
+		<property bitmap="TradeNum\max.skin"/>
+		<property position="150 69"/>
+		<property extent="23 23"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

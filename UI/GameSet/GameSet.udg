@@ -1,0 +1,92 @@
+﻿<Window class="UGameSet">
+	<property style="SYDialogFrame"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property showclose = "false"/>
+	<property CanEscapeFouce = "true"/>
+	<property visible="0"/>
+	<Window class="UBitmap" id="7">
+		<property style="UBitmap"/>
+		<property AnchorHori="4"/>
+		<property AnchorVert="4"/>
+		<property position="400 190"/>
+		<property extent="205 309"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\GameSet\GameSet.png"/>
+		<!--property bkgskin="GameSet\GameSet.skin"/-->
+		<!--视频设置-->
+		<Window class="UBitmapButton" id="0">
+			<property style="UButton"/>
+			<property bitmap="Public\GameSet.skin"/>
+			<property position="53 80"/>
+			<property extent="100 19"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+		</Window>
+		<!--视频设置-->
+		<Window class="UBitmapButton" id="1">
+			<property style="UButton"/>
+			<property bitmap="Public\VideoSet.skin"/>
+			<property position="53 105"/>
+			<property extent="100 19"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+		</Window>
+		<!--声音设置-->
+		<Window class="UBitmapButton" id="2">
+			<property style="UButton"/>
+			<property bitmap="Public\SoundSet.skin"/>
+			<property position="53 130"/>
+			<property extent="100 19"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+		</Window>
+		<!--按键设置-->
+		<Window class="UBitmapButton" id="3">
+			<property style="UButton"/>
+			<property bitmap="Public\KeySet.skin"/>
+			<property position="53 155"/>
+			<property extent="100 19"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+		</Window>
+		<!--返回选择人物-->
+		<Window class="UBitmapButton" id="4">
+			<property style="UButton"/>
+			<property bitmap="Public\ToChoosePlayer.skin"/>
+			<property position="53 180"/>
+			<property extent="100 19"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+		</Window>
+		<!--重新开始游戏-->
+		<Window class="UBitmapButton" id="5">
+			<property style="UButton"/>
+			<property bitmap="Public\RestartGame.skin"/>
+			<property position="53 205"/>
+			<property extent="100 19"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+		</Window>
+		<!--退出游戏-->
+		<Window class="UBitmapButton" id="6">
+			<property style="UButton"/>
+			<property bitmap="Public\cQuitGame.skin"/>
+			<property position="53 230"/>
+			<property extent="100 19"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+		</Window>
+		<!--返回游戏-->
+		<Window class="UBitmapButton" id="7">
+			<property style="UButton"/>
+			<property bitmap="Public\ReturnGame.skin"/>
+			<property position="53 272"/>
+			<property extent="100 19"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+</Window>

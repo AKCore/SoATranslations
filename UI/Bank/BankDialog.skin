@@ -1,0 +1,7 @@
+<Skin texture ="BankBkg.png">
+	<item x="0" y="0" w="556" h="98" />
+	<item x="0" y="98" w="27" h="241" />
+	<item x="540" y="98" w="16" h="241" />
+	<item x="27" y="280" w="53" h="50" />
+	<item x="0" y="339" w="556" h="78" />
+</Skin>

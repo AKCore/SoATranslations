@@ -1,0 +1,57 @@
+﻿<Window class="UChatButtonGroup">
+	<property style="default"/>
+	<property position="3 516"/>
+	<property extent="24 163"/>
+	<property minExtent="8 8"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="2"/>
+	<property visible="1"/>
+	<Window class="UBitmapButton" id="3">
+		<property style="UButton"/>
+		<property bitmap="Public\Channel.skin"/>
+		<property position="0 0"/>
+		<property extent="24 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\Channel.skin"/>
+		<property position="0 139"/>
+		<property extent="24 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\UpToBeginButton.skin"/>
+		<property position="0 27"/>
+		<property extent="24 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UDownButton" id="24">
+		<property style="UButton"/>
+		<property bitmap="Public\UpButton.skin"/>
+		<property position="0 54"/>
+		<property extent="24 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UDownButton" id="25">
+		<property style="UButton"/>
+		<property bitmap="Public\DownButton.skin"/>
+		<property position="0 81"/>
+		<property extent="24 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\DownToEndButton.skin"/>
+		<property position="0 108"/>
+		<property extent="24 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

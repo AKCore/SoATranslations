@@ -1,0 +1,117 @@
+<Window class="UIAuctionAuc">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="42 100"/>
+	<property extent="186 331"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<Window class="UBitmap" id="0">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\AuctionDlg\AucBkg.png"/>
+		<property position="0 0"/>
+		<property extent="186 331"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UEdit" id="1">
+		<property style="UScenceChat"/>
+		<property position="25 55"/>
+		<property extent="118 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UEdit" id="2">
+		<property style="UScenceChat"/>
+		<property position="25 233"/>
+		<property extent="71 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UEdit" id="3">
+		<property style="UScenceChat"/>
+		<property position="116 233"/>
+		<property extent="15 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UEdit" id="4">
+		<property style="UScenceChat"/>
+		<property position="148 233"/>
+		<property extent="15 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+		<property bfoucesel = "1"/>
+	</Window>
+	<Window class="UBitmap" id = "105">
+		<property style="SYDialogFrame"/>
+		<property position="56 85"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="UButton"/>
+		<property bitmap="Public\Jingpai.skin"/>
+		<property position="59 88"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "106">
+		<property style="SYDialogFrame"/>
+		<property position="56 118"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="UButton"/>
+		<property bitmap="Public\Yikoujia.skin"/>
+		<property position="59 121"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "107">
+		<property style="SYDialogFrame"/>
+		<property position="56 259"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="UButton"/>
+		<property bitmap="Public\Jingpai.skin"/>
+		<property position="59 262"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "108">
+		<property style="SYDialogFrame"/>
+		<property position="56 288"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="UButton"/>
+		<property bitmap="Public\Yikoujia.skin"/>
+		<property position="59 291"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

@@ -1,0 +1,1068 @@
+<Window class="UOLPlayerQueryFrame">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="223 135"/>
+	<property extent="551 482"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="SocialitySystem\OLPlayerDlgBKG.skin"/>
+	<property CloseBtnPos = "524 22"/>
+	<Window class ="UIPlayerQueryList" id = "0">
+		<property style="SYChatInputHeadEdit"/>
+		<property position="25 109"/>
+		<property extent="515 300"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UIQueryListItem" id = "0">
+			<property style="SYOtherEdit"/>
+			<property position="0 0"/>
+			<property extent="515 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "175 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "177 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "222 0"/>
+				<property extent = "65 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "289 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "334 0"/>
+				<property extent = "181 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIQueryListItem" id = "1">
+			<property style="SYOtherEdit"/>
+			<property position="0 15"/>
+			<property extent="515 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "175 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "177 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "222 0"/>
+				<property extent = "65 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "289 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "334 0"/>
+				<property extent = "181 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIQueryListItem" id = "2">
+			<property style="SYOtherEdit"/>
+			<property position="0 30"/>
+			<property extent="515 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "175 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "177 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "222 0"/>
+				<property extent = "65 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "289 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "334 0"/>
+				<property extent = "181 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+	<Window class="UIQueryListItem" id = "3">
+		<property style="SYOtherEdit"/>
+		<property position="0 45"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "4">
+		<property style="SYOtherEdit"/>
+		<property position="0 60"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "5">
+		<property style="SYOtherEdit"/>
+		<property position="0 75"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "6">
+		<property style="SYOtherEdit"/>
+		<property position="0 90"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "7">
+		<property style="SYOtherEdit"/>
+		<property position="0 105"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "8">
+		<property style="SYOtherEdit"/>
+		<property position="0 120"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "9">
+		<property style="SYOtherEdit"/>
+		<property position="0 135"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "10">
+		<property style="SYOtherEdit"/>
+		<property position="0 150"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "11">
+		<property style="SYOtherEdit"/>
+		<property position="0 165"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "12">
+		<property style="SYOtherEdit"/>
+		<property position="0 180"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "13">
+		<property style="SYOtherEdit"/>
+		<property position="0 195"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "14">
+		<property style="SYOtherEdit"/>
+		<property position="0 210"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "15">
+		<property style="SYOtherEdit"/>
+		<property position="0 225"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "16">
+		<property style="SYOtherEdit"/>
+		<property position="0 240"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+	<Window class="UIQueryListItem" id = "17">
+		<property style="SYOtherEdit"/>
+		<property position="0 255"/>
+		<property extent="515 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYOtherEdit"/>
+			<property position = "0 0"/>
+			<property extent = "175 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYOtherEdit"/>
+			<property position = "177 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYOtherEdit"/>
+			<property position = "222 0"/>
+			<property extent = "65 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYOtherEdit"/>
+			<property position = "289 0"/>
+			<property extent = "43 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYOtherEdit"/>
+			<property position = "334 0"/>
+			<property extent = "181 15"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+	</Window>
+		<Window class="UIQueryListItem" id = "18">
+			<property style="SYOtherEdit"/>
+			<property position="0 270"/>
+			<property extent="515 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "175 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "177 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "222 0"/>
+				<property extent = "65 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "289 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "334 0"/>
+				<property extent = "181 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIQueryListItem" id = "19">
+			<property style="SYOtherEdit"/>
+			<property position="0 285"/>
+			<property extent="515 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "175 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "177 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "222 0"/>
+				<property extent = "65 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "289 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "334 0"/>
+				<property extent = "181 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+	</Window>
+		<Window class = "UBitmapButton" id = "1">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position = "25 88"/>
+			<property extent = "175 19"/>
+			<property minExtent = "8 8"/>
+			<property text = "姓名"/>
+			<property visible = "1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="2">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="202 88"/>
+			<property extent="43 19"/>
+			<property minExtent="8 8"/>
+			<property text="等级"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="3">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="247 88"/>
+			<property extent="65 19"/>
+			<property minExtent="8 8"/>
+			<property text="职业"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class="UBitmapButton" id="4">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="314 88"/>
+			<property extent="43 19"/>
+			<property minExtent="8 8"/>
+			<property text="种族"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class="UBitmapButton" id="5">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="359 88"/>
+			<property extent="181 19"/>
+			<property minExtent="8 8"/>
+			<property text="所在地图"/>
+			<property visible="1"/>
+		</Window>
+		<Window class = "UStaticText" id = "10">
+			<property style = "SYStaticTextCtrl"/>
+			<property position = "122 423"/>
+			<property extent = "40 18"/>
+			<property minExtent = "8 8"/>
+			<property text= "等级："/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "11">
+			<property style = "SYStaticTextCtrl"/>
+			<property position = "73 62"/>
+			<property extent = "65 18"/>
+			<property minExtent = "8 8"/>
+			<property text= "查询姓名："/>
+			<property visible = "1"/>
+		</Window>
+		<Window class="UComboBox" id = "12">
+			<property style="SYUComboBox1"/>
+			<property position="239 426"/>
+			<property extent="89 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UComboBox" id = "13">
+			<property style="SYUComboBox1"/>
+			<property position="341 426"/>
+			<property extent="50 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UComboBox" id = "14">
+			<property style="SYUComboBox1"/>
+			<property position="403 426"/>
+			<property extent="50 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UEdit" id = "15">
+			<property style="SYPlayerNameEdit"/>
+			<property position="144 63"/>
+			<property extent="174 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property bfoucesel = "true"/>
+			<property Tiptext = "输入查询姓名"/>
+		</Window>
+		<Window class="UEdit" id = "16">
+			<property style="SYPlayerNameEdit"/>
+			<property position="161 426"/>
+			<property extent="23 14"/>
+			<property minExtent="8 8"/>
+			<property bfoucesel = "true"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UEdit" id = "17">
+			<property style="SYPlayerNameEdit"/>
+			<property position="197 426"/>
+			<property extent="23 14"/>
+			<property minExtent="8 8"/>
+			<property bfoucesel = "true"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "140">
+			<property style="SYDialogFrame"/>
+			<property position="462 423"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="40">
+			<property style="UButton"/>
+			<property bitmap="Public\ChaXun.skin"/>
+			<property position="465 426"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class = "UStaticText" id = "42">
+			<property style = "SYDialogTitle"/>
+			<property position = "230 25"/>
+			<property extent = "111 20"/>
+			<property minExtent = "8 8"/>
+			<property text= "在线查询"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class="UBitmapButton" id="50">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="28 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="好 友"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="51">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="107 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="部 族"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="52">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="185 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="谁在线"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="53">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="263 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="团 队"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="54">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="341 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="组队招募"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+	<Window class = "UBitmapButton" id = "60">
+		<property style = "SYURadioButton"/>
+		<property bitmap = "Public\LeftArrow.skin"/>
+		<property position="34 413"/>
+		<property extent="22 22"/>
+		<property minExtent="8 8"/>
+	</Window>
+	<Window class="UStaticText" id = "61">
+		<property style="SYDialogTitle"/>
+		<property position="56 413"/>
+		<property extent="35 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="0"/>
+	</Window>
+	<Window class = "UBitmapButton" id = "62">
+		<property style = "SYURadioButton"/>
+		<property bitmap = "Public\RightArrow.skin"/>
+		<property position="91 413"/>
+		<property extent="22 22"/>
+		<property minExtent="8 8"/>
+	</Window>
+
+</Window>

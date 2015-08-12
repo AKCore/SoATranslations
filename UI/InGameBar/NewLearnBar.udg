@@ -1,0 +1,37 @@
+<Window class="ULearnSkillBar">
+	<property style="UBitmap"/>
+	<property position="400 550"/>
+	<property extent="190 46"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<Window class="ULearnSkillBar::NewSkillButton" id="0">
+		<property style="SkillButton"/>
+		<property position="0 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="ULearnSkillBar::NewSkillButton" id="1">
+		<property style="SkillButton"/>
+		<property position="40 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="ULearnSkillBar::NewSkillButton" id="2">
+		<property style="SkillButton"/>
+		<property position="80 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="ULearnSkillBar::NewSkillButton" id="3">
+		<property style="SkillButton"/>
+		<property position="120 5"/>
+		<property extent="40 40"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+</Window>

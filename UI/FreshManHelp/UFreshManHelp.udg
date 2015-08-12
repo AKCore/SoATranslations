@@ -1,0 +1,33 @@
+<Window class="FreshManHelp">
+	<property style="UBitmap"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+		<Window class = "UBitmap" id="1">
+		<property style = "UBitmap"/>
+		<property position = "119 448"/>
+		<property extent = "576 185"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property bitmap = "DATA\UI\FreshManHelp\KeyBoard.png"/>
+		</Window>
+		<Window class = "UBitmap" id = "0">
+		<property style = "UBitmap"/>
+		<property position = "762 464"/>
+		<property extent = "106 161"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property bitmap = "DATA\UI\FreshManHelp\AMouse.png"/>
+		</Window>	
+		<Window class = "UBitmapButton" id = "2">
+			<property style = "UButton"/>
+			<property position = "134 654"/>
+			<property extent = "69 15"/>
+			<property minExtent = "1 1"/>
+			<property bitmap = "Public\Cancel.skin"/>
+			<property visible = "1"/>
+		</Window>
+</Window>

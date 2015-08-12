@@ -1,0 +1,9 @@
+<Window class = "UAuraContent">
+	<property style = "SYStaticEditText"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="283 105"/>
+	<property extent="143 0"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+</Window>

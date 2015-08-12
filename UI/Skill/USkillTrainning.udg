@@ -1,0 +1,212 @@
+<Window class="USkillTrainingDlg">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="3 132"/>
+	<property extent="408 524"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CloseBtnPos = "381 22"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Skill\SkillTrainingBkg.skin"/>
+	<Window class="UScrollBar" id="0">
+		    <property style="SYUScrollBar"/>
+		    <property position="124 89"/>
+		    <property extent="272 171"/>
+		    <property minExtent="8 8"/>
+		    <property ChildMargin="0 10"/>
+		    <property visible="1"/>
+		    <property AllShowBar="0"/>
+		    <Window class="USpecListBox" id="1">
+			    <property style="ChooseSpecListBox"/>
+			    <property bitmap="Skill\SkillTrainingSpecList.skin"/>
+			    <property position="0 0"/>
+			    <property extent="248 154"/>
+			    <property minExtent="8 8"/>
+			    <property visible="1"/>
+		    </Window>
+	</Window>
+	<Window class="UListBox" id="2">
+		<property style="SYUListBox3"/>
+		<property position="28 96"/>
+		<property extent="88 154"/>
+		<property minExtent="8 8"/>
+		<property ChooseBkg = "DATA\UI\Skill\CateBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USkillTrainingInfo" id="3">
+		<property style="SYStaticTextCtrl"/>
+		<property position="24 270"/>
+		<property extent="372 199"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<Window class="UBitmap" id = "100">
+			<property style="SYDialogFrame"/>
+			<property position="35 20"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Skill\IconBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="0">
+			<property style="SkillButton"/>
+			<property showbgk="0"/>
+			<property LockDrag="1"/>
+			<property position="37 22"/>
+			<property extent="36 36"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style = "SYDialogTitle"/>
+			<property position="90 18"/>
+			<property extent="267 22"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="URichTextCtrl" id="2">
+			<property style="URichTextCtrl"/>
+			<property position="90 65"/>
+			<property extent="254 38"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="90 47"/>
+			<property extent="43 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property text="费用："/>
+		</Window>
+		<Window class= "UBitmap" id = "6">
+			<property style="SYDialogFrame"/>
+			<property position= "130 47"/>
+			<property extent= "124 20"/>
+			<property minExtent= "8 8"/>
+			<property visible= "1"/>
+			<property bitmap = "Data\UI\Skill\MoneyBkg.png"/>
+		</Window>
+		<Window class="UMoneyText" id="4">
+			<property style="UScenceChat"/>
+			<property position="133 48"/>
+			<property extent="124 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="URichTextCtrl" id="5">
+			<property style="URichTextCtrl"/>
+			<property position="21 107"/>
+			<property extent="336 77"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="URadioButton"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property position="359 53"/>
+		<property extent="16 16"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id="108">
+		<property style="SYStaticTextCtrl"/>
+		<property position="301 53"/>
+		<property extent="58 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="可学习"/>
+	</Window>
+	<Window class="UBitmapButton" id="9">
+		<property style="URadioButton"/>
+		<property bitmap="Public\CheckButton4.skin"/>
+		<property position="359 70"/>
+		<property extent="16 16"/>
+		<property minExtent="0 0"/>
+		<property visible="1"/>
+		<property groupNum="2"/>
+		<property buttonType="1"/>
+	</Window>
+	<Window class="UStaticText" id="109">
+		<property style="SYStaticTextCtrl"/>
+		<property position="301 70"/>
+		<property extent="58 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="不可学习"/>
+	</Window>
+	<Window class="UBitmapButton" id="19">
+		<property style="UBitmap"/>
+		<property bitmap="Skill\Search.skin"/>
+		<property position="280 77"/>
+		<property extent="14 14"/>
+		<property minExtent="2 2"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UEdit" id="20">
+		<property style="SYPlayerNameEdit"/>
+		<property position="138 77"/>
+		<property extent="142 14"/>
+		<property minExtent="8 2"/>
+		<property visible="0"/>
+		<property Tiptext="输入关键字搜索"/>
+	</Window>
+	<Window class = "UStaticText" id = "21">
+		<property style = "SYDialogTitle"/>
+		<property position = "77 21"/>
+		<property extent = "266 26"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+		<property text="技 能 训 练 师"/>
+	</Window>
+	<Window class="UBitmap" id = "122">
+		<property style="SYDialogFrame"/>
+		<property position="243 482"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="22">
+		<property style="UButton"/>
+		<property bitmap="Public\Learn.skin"/>
+		<property position="246 485"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id = "123">
+		<property style="SYDialogFrame"/>
+		<property position="321 482"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="23">
+		<property style="UButton"/>
+		<property bitmap="Public\Cancel.skin"/>
+		<property position="324 485"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="25">
+		<property style="SYStaticTextCtrl"/>
+		<property position="22 486"/>
+		<property extent="62 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text="当前持有："/>
+	</Window>
+	<Window class="UMoneyText" id="24">
+		<property style="UScenceChat"/>
+		<property position="84 486"/>
+		<property extent="151 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+</Window>

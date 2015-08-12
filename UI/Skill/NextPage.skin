@@ -1,0 +1,6 @@
+<Skin texture ="PageBtn.png">
+	<item x="0" y="64" w="83" h="16" />
+	<item x="0" y="80" w="83" h="16" />
+	<item x="0" y="96" w="83" h="16" />
+	<item x="0" y="96" w="83" h="16" />
+</Skin>

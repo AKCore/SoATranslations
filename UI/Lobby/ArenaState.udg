@@ -1,0 +1,7 @@
+<Window class="UArenaStateDlg">
+	<property style="default"/>
+	<property position="862 244"/>
+	<property extent="158 202"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+</Window>

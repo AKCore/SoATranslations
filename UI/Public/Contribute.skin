@@ -1,0 +1,6 @@
+<Skin texture ="InGameBarButton.png">
+	<item x="165" y="6"  w="38" h="49" />
+	<item x="165" y="62"  w="38" h="49" />
+	<item x="165" y="116"  w="38" h="49" />
+	<item x="165" y="170"  w="38" h="49" />
+</Skin>

@@ -1,0 +1,16 @@
+<Window class = "UTip">
+	<property style = "UMouseStopMain"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="0 0"/>
+	<property extent="195 8"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="URichTextCtrl" id="0">
+		<property style="URichTextCtrl"/>
+		<property position="3 3"/>
+		<property extent="189 8"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

@@ -1,0 +1,595 @@
+<Window class="UNPCTrade">
+	<property style="UDialog"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="280 132"/>
+	<property extent="350 479"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="NPCTrade\NPCTradeBgk.skin"/>
+	<Window class="UNPCTradeExplain" id="0">
+		<property style="SYHideUEdit"/>
+		<property position="27 101"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UNPCTradeExplain" id="1">
+		<property style="SYHideUEdit"/>
+		<property position="184 101"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UNPCTradeExplain" id="2">
+		<property style="SYHideUEdit"/>
+		<property position="27 144"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UNPCTradeExplain" id="3">
+		<property style="SYHideUEdit"/>
+		<property position="184 144"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UNPCTradeExplain" id="4">
+		<property style="SYHideUEdit"/>
+		<property position="27 187"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UNPCTradeExplain" id="5">
+		<property style="SYHideUEdit"/>
+		<property position="184 187"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>		
+	</Window>
+	<Window class="UNPCTradeExplain" id="6">
+		<property style="SYHideUEdit"/>
+		<property position="27 230"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>	
+	</Window>
+	<Window class="UNPCTradeExplain" id="7">
+		<property style="SYHideUEdit"/>
+		<property position="184 230"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>	
+	</Window>
+	<Window class="UNPCTradeExplain" id="8">
+		<property style="SYHideUEdit"/>
+		<property position="27 273"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UNPCTradeExplain" id="9">
+		<property style="SYHideUEdit"/>
+		<property position="184 273"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UNPCTradeExplain" id="10">
+		<property style="SYHideUEdit"/>
+		<property position="27 316"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>	
+	</Window>
+	<Window class="UNPCTradeExplain" id="11">
+		<property style="SYHideUEdit"/>
+		<property position="184 316"/>
+		<property extent="154 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UBitmap" id="3">
+			<property style="UButton"/>
+			<property bitmap="Data\UI\NPCTrade\ChooseBkg.png"/>
+			<property position="-3 -3"/>
+			<property extent="160 46"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="0">
+			<property style="SYStaticTextCtrl1"/>
+			<property position="40 0"/>
+			<property extent="114 20"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="USkillButton" id="1">
+			<property style="SkillButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property showbgk="0"/>
+			<property SkinBgk="PickItemList/SkillButton_01.skin"/>
+			<property minExtent="2 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UNPCTradeExplain::UPayControl" id="2">
+			<property style="SYStaticTextCtrl"/>
+			<property position="40 24"/>
+			<property extent="114 16"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<!--上一页-->
+	<Window class="UBitmapButton" id="12">
+		<property style="UButton"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="37 360"/>
+		<property extent="60 24"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--下一页-->
+	<Window class="UBitmapButton" id="13">
+		<property style="UButton"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="101 360"/>
+		<property extent="60 24"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--全部修理-->
+	<Window class="UBitmapButton" id="14">
+		<property style="UButton"/>
+		<property bitmap="Public\RepairAll.skin"/>
+		<property position="199 369"/>
+		<property extent="62 19"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip ="修理全部"/>
+		<property hovertime = "300"/>
+	</Window>
+	<!--修理单件-->
+	<Window class="UBitmapButton" id="15">
+		<property style="UButton"/>
+		<property bitmap="Public\Repair.skin"/>
+		<property position="265 369"/>
+		<property extent="62 19"/>
+		<property minExtent="2 2"/>
+		<property visible="1"/>
+		<property tooltipprofile = "UMouseStopMain"/>
+		<property tooltip ="装备修理"/>
+		<property hovertime = "300"/>
+	</Window>
+	<Window class="UMoneyText" id="17">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="95 406"/>
+		<property extent="154 16"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UComboBox" id="28">
+		<property style="SYUComboBox1"/>
+		<property position="247 65"/>
+		<property extent="63 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="29">
+		<property style="SYStaticTextCtrl"/>
+		<property position="24 428"/>
+		<property extent="312 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="鼠标右键单击图标购买"/>
+	</Window>
+	<Window class="UStaticText" id="30">
+		<property style="SYStaticTextCtrl"/>
+		<property position="24 428"/>
+		<property extent="312 15"/>
+		<property minExtent="1 1"/>
+		<property visible="0"/>
+		<property text="鼠标右键单击图标购回"/>
+	</Window>
+	<Window class="UStaticText" id="31">
+		<property style="SYStaticTextCtrl"/>
+		<property position="24 406"/>
+		<property extent="69 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text="当前持有:"/>
+		<property TextEdge = "1"/>
+	</Window>
+	<Window class = "UStaticText" id = "32">
+		<property style = "SYDialogTitle"/>
+		<property position = "96 22"/>
+		<property extent = "174 22"/>
+		<property minExtent = "8 8"/>
+		<property text= "商 店"/>
+		<property visible = "1"/>
+		<property TextEdge = "1"/>
+	</Window>
+	<Window class="UBitmap" id="33">
+		<property style="UButton"/>
+		<property position="10 9"/>
+		<property extent="54 54"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class = "UStaticText" id = "34">
+		<property style = "SYDialogTitle"/>
+		<property position = "96 22"/>
+		<property extent = "174 22"/>
+		<property minExtent = "8 8"/>
+		<property text= "回 购"/>
+		<property visible = "0"/>
+		<property TextEdge = "1"/>
+	</Window>
+	<Window class="UBitmapButton" id="40">
+		<property style="SYURadioButton"/>
+		<property bitmap="Public\SubTable.skin"/>
+		<property position="28 445"/>
+		<property extent="78 33"/>
+		<property minExtent="8 8"/>
+		<property text="商 店"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="41">
+		<property style="SYURadioButton"/>
+		<property bitmap="Public\SubTable.skin"/>
+		<property position="106 445"/>
+		<property extent="78 33"/>
+		<property minExtent="8 8"/>
+		<property text="回 购"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+</Window>

@@ -1,0 +1,126 @@
+<Window class="UNewBirdHelp">
+	<property style="UDialog"/>
+	<property position="94 25"/>
+	<property extent="827 678"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property CanEscapeFouce="true"/>
+	<property bkgskin="Lobby\ULobbyBkg.skin"/>
+	<Window class="UStaticText" id = "18">
+		<property style="SYDialogTitle"/>
+		<property position="364 56"/>
+		<property extent="100 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="帮助"/>
+	</Window>
+	<Window class="UBitmapButton" id="0">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="90 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="新手专题"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="183 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="游戏介绍"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="276 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="特色系统"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="369 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="装备精练"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="462 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="PK系统"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="555 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="常见问题"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\LobbyTable.skin"/>
+		<property position="651 91"/>
+		<property extent="88 38"/>
+		<property minExtent="8 8"/>
+		<property text="联系客服"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmap" id = "19">
+		<property style="SYDialogFrame"/>
+		<property position="737 133"/>
+		<property extent="12 523"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bitmap = "Data\UI\Lobby\ScrollBar.png"/>
+	</Window>
+	<Window class="UScrollBar" id="7">
+		<property style="SYUScrollBar"/>
+		<property position="232 133"/>
+		<property extent="521 532"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin ="16 7"/>
+		<property visible="1"/>
+		<Window class="URichTextCtrl" id="9">
+			<property style="URichTextCtrl"/>
+			<property position="0 0"/>
+			<property extent="465 523"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UListBox" id="8">
+		<property style="SYUListBox2"/>
+		<property position="90 176"/>
+		<property extent="142 489"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

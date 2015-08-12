@@ -1,0 +1,63 @@
+<Window class="UChatTableControl">
+   	<property style="UScenceChat"/>
+   	<property position="30 494"/>
+   	<property extent="366 16"/>
+   	<property minExtent="8 8"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="2"/>
+  	<property visible="1"/>
+	<Window class="UChatTableButton" id = "0">
+  	 	<property style="UButton"/>
+  	 	<property position="0 0"/>
+  	 	<property extent="50 16"/>
+  	 	<property minExtent="8 8"/>
+  		<property visible="1"/>
+		<property buttonType = "2"/>
+		<property groupNum = "50"/>
+	</Window>
+	<Window class="UChatTableButton" id = "1">
+   		<property style="UButton"/>
+   		<property position="50 0"/>
+   		<property extent="50 16"/>
+   		<property minExtent="8 8"/>
+   		<property visible="1"/>
+		<property buttonType = "2"/>
+		<property groupNum = "50"/>
+	</Window>
+	<Window class="UChatTableButton" id = "2">
+   		<property style="UButton"/>
+   		<property position="100 0"/>
+   		<property extent="50 16"/>
+   		<property minExtent="8 8"/>
+   		<property visible="1"/>
+		<property buttonType = "2"/>
+		<property groupNum = "50"/>
+	</Window>
+	<Window class="UChatTableButton" id = "3">
+   		<property style="UButton"/>
+   		<property position="150 0"/>
+   		<property extent="50 16"/>
+   		<property minExtent="8 8"/>
+   		<property visible="1"/>
+		<property buttonType = "2"/>
+		<property groupNum = "50"/>
+	</Window>
+	<Window class="UChatTableButton" id = "4">
+   		<property style="UButton"/>
+   		<property position="200 0"/>
+   		<property extent="50 16"/>
+   		<property minExtent="8 8"/>
+   		<property visible="1"/>
+		<property buttonType = "2"/>
+		<property groupNum = "50"/>
+	</Window>
+	<Window class="UChatTableButton" id = "5">
+   		<property style="UButton"/>
+   		<property position="250 0"/>
+   		<property extent="50 16"/>
+   		<property minExtent="8 8"/>
+   		<property visible="1"/>
+		<property buttonType = "2"/>
+		<property groupNum = "50"/>
+	</Window>
+</Window>

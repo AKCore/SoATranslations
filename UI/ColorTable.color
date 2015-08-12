@@ -1,0 +1,18 @@
+<Colors>
+	<ColorItem ColorDesc = "ItemJunk" Color = "128 128 128 255"/><!--无用-->
+	<ColorItem ColorDesc = "ItemCommon" Color = "255 255 255 255"/><!--普通-->
+	<ColorItem ColorDesc = "ItemUnCommon" Color = "0 255 0 255"/><!--优秀-->
+	<ColorItem ColorDesc = "ItemRare" Color = "2 109 254 255"/><!--精良-->
+	<ColorItem ColorDesc = "ItemLegend" Color = "255 0 255 255"/><!--史诗-->
+	<ColorItem ColorDesc = "ItemEpic" Color = "238 156 0 255"/><!--传说-->
+	<ColorItem ColorDesc = "ItemArtifact" Color = "255 0 0 255"/><!--哥-->
+	
+	<ColorItem ColorDesc = "ItemProperty" Color = "0 255 0 255"/> <!--属性-->
+	<ColorItem ColorDesc = "ItemDesc" Color = "0 255 0 255"/><!--描述-->
+	<ColorItem ColorDesc = "ItemXq" Color = "238 156 0 255"/><!--镶嵌-->
+	<ColorItem ColorDesc = "ItemOther" Color = "255 255 0 255"/><!--试穿等描述-->	
+	<ColorItem ColorDesc = "Warning" Color = "255 0 0 255"/><!--警告-->
+	<ColorItem ColorDesc = "ItemBangding" Color = "0 255 255 255"/> <!--绑定-->
+	<ColorItem ColorDesc = "ItemPay" Color = "1 251 254 255"/> <!--支付-->
+	<ColorItem ColorDesc = "DefaultColor" Color = "128 128 128 255"/><!--默认-->
+</Colors>

@@ -1,0 +1,235 @@
+<Movie>
+	<FrameSay Index = "0" >
+	<Saying des = "嗯，这是再一次的教学喽，看清楚啦。下面让我们一起来熟习游戏里的快捷键操作，进而更好的熟习游戏。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+        <FrameSay Index = "1" >
+	<Saying des = "大地图面板快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\M.png>,您可以用来打开或者关闭大地图界面，在大地图界面中，您还可以通过搜索NPC和怪物进行自动寻路。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "2" >
+	<Saying des = "背包面板按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\B.png>,您可以用来打开或者关闭背包界面，背包中可以查找到您身上携带的道具，包括游戏币和元宝，在背包界面中还可以通过“整理”按钮更方便的管理自己的物品。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "3" >
+	<Saying des = "社交面板快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\O.png>,您可以用来打开或者关闭社交界面，在这里您可以查询自己的好友和部族相关信息，同时在社交界面中你还可以查询目前在线的玩家，并方便的找到想一起组队共同战斗的朋友。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "4" >
+	<Saying des = "任务面板快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\L.png>,您可以用来打开或者关闭任务界面，在任务界面中可以查看到任务的详细信息，并且通过勾选框选择是否显示在任务追踪列表。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "5" >
+	<Saying des = "人物属性面板快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\C.png>,您可以用来打开或者关闭人物属性面板，在这里不仅可以查看到人物的各种基本属性和穿着的装备，还可以通过下方的“称号管理”和“玉能神器”分别管理自己的称号和精炼装备。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "6" >
+	<Saying des = "技能面板快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\X.png>,您可以用来打开或者关闭技能面板，在这里可以查看到自己所学会的所有技能，鼠标左键按住技能图标可以拖拽到主界面的快捷栏中方便使用，被动技能无法拖拽。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "7" >
+	<Saying des = "副本大厅快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\P.png>,您可以用来打开或者关闭副本大厅面板，在这里可以查看到符合自己等级的动态副本进行排队，战场和竞技场都在这个面板中可以找到，如果是组队状态的话只有队长才可以进行排队。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "8" >
+	<Saying des = "商城面板快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\V.png>,您可以用来打开或者关闭商城面板，在商城中可以根据需要的物品类型进行查找，在推荐栏和热销栏中更容易找到自己需要的物品。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "9" >
+	<Saying des = "帮助面板快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\H.png>,您可以用来打开或者关闭帮助面板，在这里你可以找到游戏中的各种帮助信息，系统介绍等信息。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "10" >
+	<Saying des = "慈善捐助快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\J.png>,您可以用来打开或者关闭慈善捐助面板，这里是专门为玩家提供的奉献爱心的平台，玩家捐助元宝的同时还会根据捐助的数量获得各种对应的奖励。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "11" >
+	<Saying des = "选择目标快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\F1.png>,通过F1可以便捷的选择到自己，可以在战斗中更有效的提高操作效率。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "12" >
+	<Saying des = "选择目标快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\F2.png>,通过F1可以便捷的选择到队友1，可以在战斗中更有效的提高操作效率。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "13" >
+	<Saying des = "选择目标快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\F3.png>,通过F1可以便捷的选择到队友2，可以在战斗中更有效的提高操作效率。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "14" >
+	<Saying des = "选择目标快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\F4.png>,通过F1可以便捷的选择到队友3，可以在战斗中更有效的提高操作效率。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "15" >
+	<Saying des = "选择目标快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\F5.png>,通过F1可以便捷的选择到队友4，可以在战斗中更有效的提高操作效率。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "16" >
+	<Saying des = "隐藏周围玩家快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\F6.png>,您可以用来隐藏周围的玩家，从而更有效的提高机器运行效率，但是在非安全区地图内请谨慎使用，防止被敌对阵营的玩家偷袭。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "17" >
+	<Saying des = "隐藏界面快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\F9.png>,您可以用隐藏所有界面，在您需要截图或欣赏游戏内的风景时，可以通过隐藏界面达到更好的效果。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "18" >
+	<Saying des = "系统菜单快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\F10.png>,通过这个按键可以呼出系统菜单进行各种设置。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "19" >
+	<Saying des = "自动选怪快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\TAB.png>,您可以用来自动选取周围的目标，在使用TAB按键时，会优先选取距离自己最近的敌对目标。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "20" >
+	<Saying des = "聊天输入快捷按键<img:DATA\\UI\\FreshManHelp\\KeyButton\\RETURN.png>,您可以用来呼出聊天输入框，注意在进行聊天输入时候有各种频道需要选择，不同的频道接收到的信息是不同的。<br><right><a:Close>关闭</a>"/>
+	</FrameSay>
+	<FrameSay Index = "21" >
+	<Saying des = "这就是关于游戏内系统和操作的各种快捷键的教学了，那么您学会了么？如果你觉得不需要继续教程，可以选择“关闭”。<br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_ReBase>还没学会，重播一遍  </a><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_EndNo>终于搞清楚了</a><right><a:Close>不需要再看了</a>"/>
+	</FrameSay>
+
+
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "F1" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "F2" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "F3" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "F4" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "F5" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "F6" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "F9" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "F10" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "M" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "B" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "O" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "L" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "C" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "X" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "P" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "V" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "H" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "J" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "RETURN" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "0">
+	<def KeyCode = "TAB" WinkTime = "15.0"/>
+	<tooltip Desc = ""/>
+	</Frame>
+
+	<Frame IsKeyBoard = "true" Index = "1">
+	<def KeyCode = "M" WinkTime = "5.0"/>
+	<tooltip Desc = "打开/关闭 大地图"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "2">
+	<def KeyCode = "B" WinkTime = "5.0"/>
+	<tooltip Desc = "打开/关闭 背包"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "3">
+	<def KeyCode = "O" WinkTime = "5.0"/>
+	<tooltip Desc = "打开/关闭 社交面板"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "4">
+	<def KeyCode = "L" WinkTime = "5.0"/>
+	<tooltip Desc = "打开/关闭 任务面板"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "5">
+	<def KeyCode = "C" WinkTime = "5.0"/>
+	<tooltip Desc = "打开/关闭 属性面板"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "6">
+	<def KeyCode = "X" WinkTime = "5.0"/>
+	<tooltip Desc = "打开/关闭 技能面板"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "7">
+	<def KeyCode = "P" WinkTime = "5.0"/>
+	<tooltip Desc = "打开/关闭 动态副本面板"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "8">
+	<def KeyCode = "V" WinkTime = "5.0"/>
+	<tooltip Desc = "打开/关闭 商城"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "9">
+	<def KeyCode = "H" WinkTime = "5.0"/>
+	<tooltip Desc = "打开/关闭 帮助系统面板"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "10">
+	<def KeyCode = "J" WinkTime = "5.0"/>
+	<tooltip Desc = "打开/关闭 慈善捐助系统面板"/>
+	</Frame>
+
+	<Frame IsKeyBoard = "true" Index = "11">
+	<def KeyCode = "F1" WinkTime = "5.0"/>
+	<tooltip Desc = "选择目标：自己"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "12">
+	<def KeyCode = "F2" WinkTime = "5.0"/>
+	<tooltip Desc = "选择目标：队友1"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "13">
+	<def KeyCode = "F3" WinkTime = "5.0"/>
+	<tooltip Desc = "选择目标：队友2"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "14">
+	<def KeyCode = "F4" WinkTime = "5.0"/>
+	<tooltip Desc = "选择目标：队友3"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "15">
+	<def KeyCode = "F5" WinkTime = "5.0"/>
+	<tooltip Desc = "选择目标：队友4"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "16">
+	<def KeyCode = "F6" WinkTime = "5.0"/>
+	<tooltip Desc = "隐藏其他玩家"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "17">
+	<def KeyCode = "F9" WinkTime = "5.0"/>
+	<tooltip Desc = "隐藏所有界面"/>
+	</Frame>
+	<Frame IsKeyBoard = "true" Index = "18">
+	<def KeyCode = "F10" WinkTime = "5.0"/>
+	<tooltip Desc = "打开系统菜单"/>
+	</Frame>
+
+	<Frame IsKeyBoard = "true" Index = "19">
+	<def KeyCode = "TAB" WinkTime = "5.0"/>
+	<tooltip Desc = "自动选取目标"/>
+	</Frame>
+
+	<Frame IsKeyBoard = "true" Index = "20">
+	<def KeyCode = "RETURN" WinkTime = "5.0"/>
+	<tooltip Desc = "呼出聊天输入"/>
+	</Frame>
+</Movie>

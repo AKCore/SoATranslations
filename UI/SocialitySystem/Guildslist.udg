@@ -1,0 +1,1017 @@
+<Window class="UIGuildQureyListDLg">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="223 135"/>
+	<property extent="731 458"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="SocialitySystem\Guildslist.skin"/>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYDialogTitle"/>
+			<property position = "281 22"/>
+			<property extent = "174 25"/>
+			<property minExtent = "8 8"/>
+			<property text = "部族列表"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYDialogTitle"/>
+			<property position = "338 419"/>
+			<property extent = "72 24"/>	
+			<property minExtent = "8 8"/>
+			<property text = "0/0"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class="UBitmapButton" id="8">
+			<property style="SYURadioButton"/>
+			<property bitmap="public\PrevPage.skin"/>
+			<property position="270 419"/>
+			<property extent="60 24"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="9">
+			<property style="SYURadioButton"/>
+			<property bitmap="public\NextPage.skin"/>
+			<property position="416 419"/>
+			<property extent="60 24"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="10">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="25 88"/>
+			<property extent="43 19"/>
+			<property minExtent="8 8"/>
+			<property text="等级"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="70 88"/>
+			<property extent="245 19"/>
+			<property minExtent="8 8"/>
+			<property text="部族名称"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="317 88"/>
+			<property extent="108 19"/>
+			<property minExtent="8 8"/>
+			<property text="人数"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="427 88"/>
+			<property extent="91 19"/>
+			<property minExtent="8 8"/>
+			<property text="族长"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="14">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="520 88"/>
+			<property extent="200 19"/>
+			<property minExtent="8 8"/>
+			<property text="部族战斗积分"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "118">
+			<property style="SYDialogFrame"/>
+			<property position="43 420"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="18">
+			<property style="UButton"/>
+			<property bitmap="Public\DeclareWar.skin"/>
+			<property position="46 423"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "119">
+			<property style="SYDialogFrame"/>
+			<property position="524 420"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="19">
+			<property style="UButton"/>
+			<property bitmap="Public\AllyReq.skin"/>
+			<property position="527 423"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmap" id = "120">
+			<property style="SYDialogFrame"/>
+			<property position="627 420"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>		
+		<Window class="UBitmapButton" id="20">
+			<property style="UButton"/>
+			<property bitmap="Public\AllyQuit.skin"/>
+			<property position="630 423"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "40">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 109"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "41">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 124"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "42">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 139"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "43">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 154"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "44">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 169"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "45">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 184"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "46">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 199"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "47">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 214"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "48">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 229"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "49">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 244"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+
+		<Window class="UIGuildQureyListitem" id = "50">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 259"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "51">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 274"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "52">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 289"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "53">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 304"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "54">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 319"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "55">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 334"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "56">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 349"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "57">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 364"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "58">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 379"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+		<Window class="UIGuildQureyListitem" id = "59">
+			<property style="SYOtherEdit"/>
+			<property AnchorHori="0"/>
+			<property AnchorVert="0"/>
+			<property position="25 394"/>
+			<property extent="695 15"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+			<Window class = "UStaticText" id = "0">
+				<property style = "SYOtherEdit"/>
+				<property position = "0 0"/>
+				<property extent = "43 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "1">
+				<property style = "SYOtherEdit"/>
+				<property position = "45 0"/>
+				<property extent = "245 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "2">
+				<property style = "SYOtherEdit"/>
+				<property position = "288 0"/>
+				<property extent = "108 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "3">
+				<property style = "SYOtherEdit"/>
+				<property position = "402 0"/>
+				<property extent = "91 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+			<Window class = "UStaticText" id = "4">
+				<property style = "SYOtherEdit"/>
+				<property position = "495 0"/>
+				<property extent = "200 15"/>
+				<property minExtent = "8 8"/>
+				<property visible = "1"/>
+			</Window>
+		</Window>
+</Window>

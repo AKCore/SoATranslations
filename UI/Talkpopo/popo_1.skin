@@ -1,0 +1,12 @@
+<Skin texture = "popo_1.png">
+	<item x= "0" y = "0" w= "8" h = "6"/>
+	<item x= "18" y = "0" w="8" h = "6"/>
+	<item x= "0"  y = "16" w= "8" h = "6"/>
+	<item x="18" y = "16" w="8" h = "6"/>
+
+	<item x="11"  y = "0" w="4" h = "6"/>
+	<item x="18" y = "9" w="8" h = "4"/>
+	<item x="11" y = "16" w="4" h = "6"/>
+	<item x="0" y = "9" w="8" h = "4"/>
+	<item x="11" y = "9" w="4" h = "4"/>
+</Skin>

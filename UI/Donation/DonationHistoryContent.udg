@@ -1,0 +1,54 @@
+<Window class="UEndowmentHistory_Content">
+	<property style="default"/>
+	<property position="75 129"/>
+	<property extent="877 625"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<Window class="UBitmap" id="0">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\HistoryBkg.png"/>
+		<property position="24 21"/>
+		<property extent="821 581"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="1">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Donation\logo.png"/>
+		<property position="57 556"/>
+		<property extent="107 46"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="606 556"/>
+		<property extent="59 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="3">
+		<property style="SYDialogTitle"/>
+		<property position="665 556"/>
+		<property extent="86 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="UButton"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="751 556"/>
+		<property extent="59 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="USpecListBox" id="5">
+    		<property style="ChooseSpecListBox"/>
+		<property bitmap="Donation\SpecListBlue.skin"/>
+    		<property position="144 64"/>
+	    	<property extent="585 434"/>
+    		<property minExtent="8 8"/>
+    		<property visible="1"/>
+	</Window>
+</Window>

@@ -1,0 +1,65 @@
+﻿<Window class="UChooseServer">
+	<property style="default"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property  CanEscapeFouce = "true"/>
+	<property minExtent="8 8"/>
+	<!--背景-->
+	<Window class="UNiAVControl" id="0">
+		<property style="UBitmap"/>
+		<property position="0 0"/>
+		<property extent="1024 768"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property avobj="Data\UI\Assert\Login\bg.nif"/>
+	</Window>
+	
+	<Window class="UBitmap" id="1">
+		<property style="UBitmap"/>
+		<property position="236 92"/>
+		<property extent="534 571"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property AnchorHori="4"/>
+	    	<property AnchorVert="4"/>
+		<property bitmap="Data\UI\ChooseServer\ChooseServer.png"/>
+	    	<Window class="UScrollBar" id="2">
+		    <property style="SYUScrollBar"/>
+		    <property position="77 101"/>
+		    <property extent="375 382"/>
+		    <property minExtent="8 8"/>
+		    <property ChildMargin="6 5"/>
+		    <property visible="1"/>
+		    <property AllShowBar="0"/>
+		    <Window class="USpecListBox" id="3">
+			    <property style="ChooseSpecListBox"/>
+			    <property bitmap="ChooseServer\ChooseServerSpecList.skin"/>
+			    <property position="0 0"/>
+			    <property extent="342 370"/>
+			    <property minExtent="8 8"/>
+			    <property visible="1"/>
+		    </Window>
+	    	</Window>
+	    
+	    <!--确定-->
+	    <Window class="UBitmapButton" id="4">
+		    <property style="UButton"/>
+		    <property bitmap="Public\cOK.skin"/>
+		    <property position="109 492"/>
+		    <property extent="72 19"/>
+		    <property minExtent="8 2"/>
+		    <property visible="1"/>
+	    </Window>
+	    <!--取消-->
+	    <Window class="UBitmapButton" id="5">
+		    <property style="UButton"/>
+		    <property bitmap="Public\cCancel.skin"/>
+		    <property position="347 492"/>
+		    <property extent="72 19"/>
+		    <property minExtent="8 2"/>
+		    <property visible="1"/>
+	    </Window>
+	</Window>
+</Window>

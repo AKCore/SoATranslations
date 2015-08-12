@@ -1,0 +1,5 @@
+<Movie>
+	<FrameSay Index = "0" >
+	<Saying des = "那么前面都是默认的快捷键，在君天下的世界中您还可以修改您自己喜好的快捷键，那么您需要现在就修改么？如果不需要修改，那么祝您在《君·天下OL》中游戏愉快！！<br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:CHANGEKEY>修改默认快捷键</a><br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:Close>以后再说吧，再见</a>"/>
+	</FrameSay>
+</Movie>

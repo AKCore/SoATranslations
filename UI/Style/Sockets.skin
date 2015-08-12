@@ -1,0 +1,9 @@
+<Skin texture ="Sockets.png">
+	<item x="0" y="0" w="72" h="72" />
+	<item x="293" y="0" w="72" h="72" />
+	<item x="198" y="0" w="72" h="72" />
+	<item x="98" y="0" w="72" h="72" />
+        <item x="390" y="0" w="72" h="72" />
+</Skin>
+	
+

@@ -1,0 +1,7 @@
+<Window class="UBattleGroundPowerUpdata">
+	<property style="SYSetTitle"/>
+	<property position="517 0"/>
+	<property extent="150 96"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+</Window>

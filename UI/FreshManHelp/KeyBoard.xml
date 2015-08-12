@@ -1,0 +1,81 @@
+<keyBoard>
+<KeyButton keycode = "ESCAPE" x = "9" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F1" x = "60" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F2" x = "98" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F3" x = "135" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F4" x = "173" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F5" x = "222" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F6" x = "260" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F7" x = "297" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F8" x = "335" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F9" x = "384" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F10" x = "422" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F11" x = "459" y = "10" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F12" x = "496" y = "10" w = "33" h = "31"></KeyButton>
+
+<KeyButton keycode = "GRAVE" x = "9" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "1" x = "46" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "2" x = "84" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "3" x = "121" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "4" x = "159" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "5" x = "196" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "6" x = "234" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "7" x = "271" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "8" x = "309" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "9" x = "346" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "0" x = "384" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "-" x = "421" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "=" x = "458" y = "50" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "BACK" x = "495" y = "50" w = "72" h = "31"></KeyButton>
+
+<KeyButton keycode = "TAB" x = "9" y = "84" w = "53" h = "31"></KeyButton>
+<KeyButton keycode = "Q" x = "65" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "W" x = "103" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "E" x = "140" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "R" x = "178" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "T" x = "215" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "Y" x = "253" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "U" x = "290" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "I" x = "328" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "O" x = "365" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "P" x = "402" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "LBRACKET" x = "440" y = "84" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "RBRACKET" x = "477" y = "84" w = "33" h = "31"></KeyButton>
+
+<KeyButton keycode = "CAPSLOCK" x = "9" y = "118" w = "61" h = "31"></KeyButton>
+<KeyButton keycode = "A" x = "74" y = "118" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "S" x = "112" y = "118" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "D" x = "149" y = "118" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "F" x = "186" y = "118" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "G" x = "223" y = "118" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "H" x = "261" y = "118" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "J" x = "298" y = "118" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "K" x = "337" y = "118" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "L" x = "373" y = "118" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "SEMICOLON" x = "411" y = "118" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "APOSTROPHE" x = "449" y = "118" w = "33" h = "31"></KeyButton>
+
+<KeyButton keycode = "LSHIFT" x = "9" y = "152" w = "90" h = "31"></KeyButton>
+<KeyButton keycode = "Z" x = "102" y = "152" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "X" x = "140" y = "152" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "C" x = "176" y = "152" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "V" x = "214" y = "152" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "B" x = "251" y = "152" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "N" x = "290" y = "152" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "M" x = "327" y = "152" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "COMMA" x = "365" y = "152" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "PERIOD" x = "402" y = "152" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "SLASH" x = "440" y = "152" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "RSHIFT" x = "477" y = "152" w = "90" h = "31"></KeyButton>
+
+<KeyButton keycode = "LCONTROL" x = "9" y = "186" w = "72" h = "31"></KeyButton>
+<KeyButton keycode = "LWIN" x = "84" y = "186" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "LALT" x = "122" y = "186" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "SPACE" x = "159" y = "186" w = "220" h = "31"></KeyButton>
+<KeyButton keycode = "RALT" x = "383" y = "186" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "RWIN" x = "420" y = "186" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "APPS" x = "458" y = "186" w = "33" h = "31"></KeyButton>
+<KeyButton keycode = "RCONTROL" x = "495" y = "186" w = "72" h = "31"></KeyButton>
+
+<KeyButton keycode = "RETURN" x = "486" y = "83" w = "81" h = "65"></KeyButton>
+</keyBoard>

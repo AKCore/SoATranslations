@@ -1,0 +1,22 @@
+<Window class="UDALABA">
+   <property style="UScenceChat"/>
+   <property position="212 125"/>
+   <property extent="600 140"/>
+   <property minExtent="8 8"/>
+   <property visible="1"/>
+	<Window class="UChatShowDalaba" id = "1">
+   		<property style="UScenceChat"/>
+   		<property position="0 0"/>
+   		<property extent="600 140"/>
+   		<property minExtent="8 8"/>
+   		<property visible="1"/>
+	</Window>
+	<Window class="UNiAVControlEffRe" id="2">
+		<property style="UBitmap"/>
+		<property position="0 0"/>
+		<property extent="600 140"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property avobj="Data\UI\Chat\GetNewQuest.nif"/>
+	</Window>
+</Window>

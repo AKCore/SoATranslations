@@ -1,0 +1,4 @@
+<Skin texture ="IMEBackGround.png">
+	<item x="0" y="0" w="256" h="50" />
+	<item x="0" y="50" w="256" h="78" />
+</Skin>

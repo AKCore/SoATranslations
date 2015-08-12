@@ -1,0 +1,6 @@
+<Skin texture = "FreshManHelpBtn.png">
+	<item x ="0" y ="0"    w ="26"  h ="34"/>
+	<item x ="0" y ="0"    w ="26"  h ="34"/>
+	<item x ="0" y ="34"    w ="26"  h ="34"/>
+	<item x ="0" y ="34"    w ="26"  h ="34"/>
+</Skin>

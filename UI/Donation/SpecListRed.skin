@@ -1,0 +1,5 @@
+<Skin texture ="RedBkg.png">
+	<item x="0" y="0"  w="1" h="1" />
+	<item x="0" y="0"  w="410" h="16" />
+	<item x="0" y="0"  w="410" h="16" />	
+</Skin>

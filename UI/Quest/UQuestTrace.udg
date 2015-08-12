@@ -1,0 +1,60 @@
+<Window class="UQuestTrace">
+	<property style="UBitmap"/>
+	<property AnchorHori="2"/>
+	<property AnchorVert="3"/>
+	<property position="829 250"/>
+	<property extent="193 438"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property  CanEscapeFouce = "true"/>
+	<Window class="URichTextCtrl" id="0">
+		<property style="SYTraceTextCtrl"/>
+		<property position="0 0"/>
+		<property extent="193 10"/>
+		<property MouseOverShowBGk="1"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+		<property ActiveBigMapURL = "false"/>
+		<property ActiveMouseOverURL ="1"/>
+	</Window>
+	<Window class="URichTextCtrl" id="1">
+		<property style="SYTraceTextCtrl"/>
+		<property position="0 0"/>
+		<property extent="193 10"/>
+		<property minExtent="8 8"/>
+		<property MouseOverShowBGk="1"/>
+		<property visible="0"/>
+		<property ActiveBigMapURL = "false"/>
+		<property ActiveMouseOverURL ="1"/>
+	</Window>
+	<Window class="URichTextCtrl" id="2">
+		<property style="SYTraceTextCtrl"/>
+		<property position="0 0"/>
+		<property extent="193 10"/>
+		<property minExtent="8 8"/>
+		<property MouseOverShowBGk="1"/>
+		<property visible="0"/>
+		<property ActiveBigMapURL = "false"/>
+		<property ActiveMouseOverURL ="1"/>
+	</Window>
+	<Window class="URichTextCtrl" id="3">
+		<property style="SYTraceTextCtrl"/>
+		<property position="0 0"/>
+		<property extent="193 10"/>
+		<property minExtent="8 8"/>
+		<property MouseOverShowBGk="1"/>
+		<property visible="0"/>
+		<property ActiveBigMapURL = "false"/>
+		<property ActiveMouseOverURL ="1"/>
+	</Window>
+	<Window class="URichTextCtrl" id="4">
+		<property style="SYTraceTextCtrl"/>
+		<property position="0 0"/>
+		<property extent="193 10"/>
+		<property minExtent="8 8"/>
+		<property MouseOverShowBGk="1"/>
+		<property visible="0"/>
+		<property ActiveBigMapURL = "false"/>
+		<property ActiveMouseOverURL ="1"/>
+	</Window>
+</Window>

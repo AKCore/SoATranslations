@@ -1,0 +1,728 @@
+<Window class="ShopSystem">
+	<property style="UDialog"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="117 132"/>
+	<property extent="789 464"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Shop\ShopSkin.skin"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_0.skin"/>
+		<property position="63 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_1.skin"/>
+		<property position="114 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_3.skin"/>
+		<property position="165 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_4.skin"/>
+		<property position="216 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_2.skin"/>
+		<property position="267 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_5.skin"/>
+		<property position="318 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_6.skin"/>
+		<property position="369 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_7.skin"/>
+		<property position="420 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_8.skin"/>
+		<property position="471 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="9">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_9.skin"/>
+		<property position="522 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="10">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_10.skin"/>
+		<property position="573 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="11">
+		<property style="UButton"/>
+		<property bitmap="Public\Item_Category_11.skin"/>
+		<property position="624 67"/>
+		<property extent="50 22"/>
+		<property minExtent="8 8"/>
+		<property groupNum = "22"/>
+		<property buttonType = "2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="12">
+		<property style="UButton"/>
+		<property bitmap="Public\BuyItem.skin"/>
+		<property position="211 328"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="13">
+		<property style="UButton"/>
+		<property bitmap="Public\GiftTo.skin"/>
+		<property position="292 328"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="14">
+		<property style="UButton"/>
+		<property bitmap="Public\Category.skin"/>
+		<property position="372 328"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="15">
+		<property style="UButton"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="480 316"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="16">
+		<property style="UButton"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="594 316"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="17">
+		<property style="UButton"/>
+		<property bitmap="Public\Chongzhi.skin"/>
+		<property position="692 66"/>
+		<property extent="69 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UScrollText" id="18">
+		<property style="UButton"/>
+		<property position="36 443"/>
+		<property extent="731 11"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="100">
+		<property style="SYNameUEdit"/>
+		<property position="539 322"/>
+		<property extent="55 13"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="ShopItemExplain" id="19">
+		<property style="UButton"/>
+		<property position="33 137"/>
+		<property extent="307 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopItemExplain::ItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class="ShopItemExplain::ItemBkgBitmap" id="1">
+			<property style="UButton"/>
+			<property position="42 0"/>
+			<property extent="267 40"/>
+			<property minExtent="8 8"/>
+			<property bkgskin = "Public\ShopItemBKG.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="46 17"/>
+			<property extent="90 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="132 17"/>
+			<property extent="26 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UComboBox" id="4">
+			<property style="SYUComboBox"/>
+			<property position="164 17"/>
+			<property extent="51 11"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="5">
+			<property style="SYStaticEditText"/>
+			<property position="221 17"/>
+			<property extent="82 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>	
+	<Window class="ShopItemExplain" id="20">
+		<property style="UButton"/>
+		<property position="33 183"/>
+		<property extent="307 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopItemExplain::ItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class="ShopItemExplain::ItemBkgBitmap" id="1">
+			<property style="UButton"/>
+			<property position="42 0"/>
+			<property extent="267 40"/>
+			<property minExtent="8 8"/>
+			<property bkgskin = "Public\ShopItemBKG.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="46 17"/>
+			<property extent="90 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="132 17"/>
+			<property extent="26 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UComboBox" id="4">
+			<property style="SYUComboBox"/>
+			<property position="164 17"/>
+			<property extent="51 11"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="5">
+			<property style="SYStaticEditText"/>
+			<property position="221 17"/>
+			<property extent="82 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>	
+	<Window class="ShopItemExplain" id="21">
+		<property style="UButton"/>
+		<property position="33 229"/>
+		<property extent="307 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopItemExplain::ItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class="ShopItemExplain::ItemBkgBitmap" id="1">
+			<property style="UButton"/>
+			<property position="42 0"/>
+			<property extent="267 40"/>
+			<property minExtent="8 8"/>
+			<property bkgskin = "Public\ShopItemBKG.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="46 17"/>
+			<property extent="90 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="132 17"/>
+			<property extent="26 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UComboBox" id="4">
+			<property style="SYUComboBox"/>
+			<property position="164 17"/>
+			<property extent="51 11"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="5">
+			<property style="SYStaticEditText"/>
+			<property position="221 17"/>
+			<property extent="82 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>	
+	<Window class="ShopItemExplain" id="22">
+		<property style="UButton"/>
+		<property position="33 275"/>
+		<property extent="307 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopItemExplain::ItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class="ShopItemExplain::ItemBkgBitmap" id="1">
+			<property style="UButton"/>
+			<property position="42 0"/>
+			<property extent="267 40"/>
+			<property minExtent="8 8"/>
+			<property bkgskin = "Public\ShopItemBKG.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="46 17"/>
+			<property extent="90 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="132 17"/>
+			<property extent="26 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UComboBox" id="4">
+			<property style="SYUComboBox"/>
+			<property position="164 17"/>
+			<property extent="51 11"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="5">
+			<property style="SYStaticEditText"/>
+			<property position="221 17"/>
+			<property extent="82 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="ShopItemExplain" id="23">
+		<property style="UButton"/>
+		<property position="351 137"/>
+		<property extent="309 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopItemExplain::ItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class="ShopItemExplain::ItemBkgBitmap" id="1">
+			<property style="UButton"/>
+			<property position="42 0"/>
+			<property extent="267 40"/>
+			<property minExtent="8 8"/>
+			<property bkgskin = "Public\ShopItemBKG.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="46 17"/>
+			<property extent="90 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="132 17"/>
+			<property extent="26 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UComboBox" id="4">
+			<property style="SYUComboBox"/>
+			<property position="164 17"/>
+			<property extent="51 11"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="5">
+			<property style="SYStaticEditText"/>
+			<property position="221 17"/>
+			<property extent="82 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>	
+	<Window class="ShopItemExplain" id="24">
+		<property style="UButton"/>
+		<property position="351 183"/>
+		<property extent="309 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopItemExplain::ItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class="ShopItemExplain::ItemBkgBitmap" id="1">
+			<property style="UButton"/>
+			<property position="42 0"/>
+			<property extent="267 40"/>
+			<property minExtent="8 8"/>
+			<property bkgskin = "Public\ShopItemBKG.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="46 17"/>
+			<property extent="90 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="132 17"/>
+			<property extent="26 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UComboBox" id="4">
+			<property style="SYUComboBox"/>
+			<property position="164 17"/>
+			<property extent="51 11"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="5">
+			<property style="SYStaticEditText"/>
+			<property position="221 17"/>
+			<property extent="82 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>	
+	<Window class="ShopItemExplain" id="25">
+		<property style="UButton"/>
+		<property position="351 229"/>
+		<property extent="309 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopItemExplain::ItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class="ShopItemExplain::ItemBkgBitmap" id="1">
+			<property style="UButton"/>
+			<property position="42 0"/>
+			<property extent="267 40"/>
+			<property minExtent="8 8"/>
+			<property bkgskin = "Public\ShopItemBKG.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="46 17"/>
+			<property extent="90 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="132 17"/>
+			<property extent="26 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UComboBox" id="4">
+			<property style="SYUComboBox"/>
+			<property position="164 17"/>
+			<property extent="51 11"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="5">
+			<property style="SYStaticEditText"/>
+			<property position="221 17"/>
+			<property extent="82 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>	
+	<Window class="ShopItemExplain" id="26">
+		<property style="UButton"/>
+		<property position="351 275"/>
+		<property extent="309 40"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopItemExplain::ItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="0 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>	
+		<Window class="ShopItemExplain::ItemBkgBitmap" id="1">
+			<property style="UButton"/>
+			<property position="42 0"/>
+			<property extent="267 40"/>
+			<property minExtent="8 8"/>
+			<property bkgskin = "Public\ShopItemBKG.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="46 17"/>
+			<property extent="90 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="3">
+			<property style="SYStaticEditText"/>
+			<property position="132 17"/>
+			<property extent="26 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UComboBox" id="4">
+			<property style="SYUComboBox"/>
+			<property position="164 17"/>
+			<property extent="51 11"/>
+			<property minExtent="8 8"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UStaticText" id="5">
+			<property style="SYStaticEditText"/>
+			<property position="221 17"/>
+			<property extent="82 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>	
+	<Window class="ShopHotItemExplain" id="27">
+		<property style="UButton"/>
+		<property position="692 119"/>
+		<property extent="71 56"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopHotItemExplain::HotItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="15 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYStaticEditText"/>
+			<property position="0 44"/>
+			<property extent="71 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="ShopHotItemExplain" id="28">
+		<property style="UButton"/>
+		<property position="692 180"/>
+		<property extent="71 56"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopHotItemExplain::HotItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="15 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYStaticEditText"/>
+			<property position="0 44"/>
+			<property extent="71 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="ShopHotItemExplain" id="29">
+		<property style="UButton"/>
+		<property position="692 241"/>
+		<property extent="71 56"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopHotItemExplain::HotItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="15 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYStaticEditText"/>
+			<property position="0 44"/>
+			<property extent="71 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="ShopHotItemExplain" id="30">
+		<property style="UButton"/>
+		<property position="692 302"/>
+		<property extent="71 56"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopHotItemExplain::HotItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="15 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYStaticEditText"/>
+			<property position="0 44"/>
+			<property extent="71 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="ShopHotItemExplain" id="31">
+		<property style="UButton"/>
+		<property position="692 365"/>
+		<property extent="71 56"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="ShopHotItemExplain::HotItemExplainCon" id="0">
+			<property style="UButton"/>
+			<property position="15 0"/>
+			<property extent="40 40"/>
+			<property minExtent="8 8"/>
+			<property BackSkin = "Public\ShopItemSlot.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYStaticEditText"/>
+			<property position="0 44"/>
+			<property extent="71 11"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>	
+	<Window class="UBitmap" id="32">
+		<property style="UBitmap"/>
+		<property position="34 352"/>
+		<property extent="632 83"/>
+		<property minExtent="8 8"/>
+		<property bitmap="Data\UI\Shop\ShopAdv.jpg"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UMoneyText" id="33">
+		<property style="SYChoosePlayerNameEdit"/>
+		<property position="90 328"/>
+		<property extent="113 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+</Window>

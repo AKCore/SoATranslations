@@ -1,0 +1,8 @@
+<Window class = "UBitmapButton">
+	<property style = "UButton"/>
+	<property position = "508 564"/>
+	<property extent = "26 34"/>
+	<property minExtent = "1 1"/>
+	<property bitmap = "FreshManHelp\FreshManHelpBtn.skin"/>
+	<property visible = "0"/>
+</Window>

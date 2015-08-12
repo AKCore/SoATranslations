@@ -1,0 +1,6 @@
+<Skin texture = "SliderBarBtn.png">
+	<item x ="2" y ="2"    w ="28"  h ="23"/>
+	<item x ="2" y ="25"    w ="28"  h ="23"/>
+	<item x ="2" y ="48"    w ="28"  h ="23"/>
+	<item x ="2" y ="71"    w ="28"  h ="23"/>
+</Skin>

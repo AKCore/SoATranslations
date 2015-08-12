@@ -1,0 +1,1308 @@
+<Window class="UIGuildFrame">
+	<property style="UDialog"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="223 135"/>
+	<property extent="551 482"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CloseBtnPos = "524 22"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="SocialitySystem\UGuild.skin"/>
+		<Window class ="UIGuildList" id = "0">
+			<property style="SYChatInputHeadEdit"/>
+			<property position="25 109"/>
+			<property extent="343 255"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<Window class="UGuildListItem" id = "0">
+				<property style="SYOtherEdit"/>
+				<property position="0 0"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "1">
+				<property style="SYOtherEdit"/>
+				<property position="0 15"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "2">
+				<property style="SYOtherEdit"/>
+				<property position="0 30"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "3">
+				<property style="SYOtherEdit"/>
+				<property position="0 45"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>			
+			<Window class="UGuildListItem" id = "4">
+				<property style="SYOtherEdit"/>
+				<property position="0 60"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "5">
+				<property style="SYOtherEdit"/>
+				<property position="0 75"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "6">
+				<property style="SYOtherEdit"/>
+				<property position="0 90"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "7">
+				<property style="SYOtherEdit"/>
+				<property position="0 105"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "8">
+				<property style="SYOtherEdit"/>
+				<property position="0 120"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>			
+			<Window class="UGuildListItem" id = "9">
+				<property style="SYOtherEdit"/>
+				<property position="0 135"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "10">
+				<property style="SYOtherEdit"/>
+				<property position="0 150"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "11">
+				<property style="SYOtherEdit"/>
+				<property position="0 165"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "12">
+				<property style="SYOtherEdit"/>
+				<property position="0 180"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+			<Window class="UGuildListItem" id = "13">
+				<property style="SYOtherEdit"/>
+				<property position="0 195"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>			
+			<Window class="UGuildListItem" id = "14">
+				<property style="SYOtherEdit"/>
+				<property position="0 210"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>			
+			<Window class="UGuildListItem" id = "15">
+				<property style="SYOtherEdit"/>
+				<property position="0 225"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>			
+			<Window class="UGuildListItem" id = "16">
+				<property style="SYOtherEdit"/>
+				<property position="0 240"/>
+				<property extent="343 15"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property hovertime="300"/>
+				<property tooltipprofile="UMouseStopMain"/>
+				<Window class= "UBitmap" id = "0">
+					<property style="SYDialogFrame"/>
+					<property position= "10 1"/>
+					<property extent= "14 14"/>
+					<property minExtent= "8 8"/>
+					<property visible= "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "1">
+					<property style = "SYOtherEdit"/>
+					<property position = "37 0"/>
+					<property extent = "120 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "2">
+					<property style = "SYOtherEdit"/>
+					<property position = "159 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "3">
+					<property style = "SYOtherEdit"/>
+					<property position = "195 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "4">
+					<property style = "SYOtherEdit"/>
+					<property position = "231 0"/>
+					<property extent = "34 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+				<Window class = "UStaticText" id = "5">
+					<property style = "SYOtherEdit"/>
+					<property position = "267 0"/>
+					<property extent = "76 15"/>
+					<property minExtent = "8 8"/>
+					<property visible = "1"/>
+				</Window>
+			</Window>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYDialogTitle"/>
+			<property position = "125 25"/>
+			<property extent = "317 20"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYChatInputHeadEdit"/>
+			<property position = "58 63"/>
+			<property extent = "72 16"/>
+			<property minExtent = "8 8"/>	
+			<property text = "部族等级："/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYChatInputHeadEdit"/>
+			<property position = "135 63"/>
+			<property extent = "41 16"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYChatInputHeadEdit"/>
+			<property position = "180 63"/>
+			<property extent = "74 16"/>
+			<property minExtent = "8 8"/>
+			<property text = "部族积分："/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "5">
+			<property style = "SYChatInputHeadEdit"/>
+			<property position = "250 63"/>
+			<property extent = "85 16"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "6">
+			<property style = "SYChatInputHeadEdit"/>
+			<property position = "339 63"/>
+			<property extent = "74 16"/>
+			<property minExtent = "8 8"/>
+			<property text = "战斗积分："/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "7">
+			<property style = "SYChatInputHeadEdit"/>
+			<property position = "418 63"/>
+			<property extent = "84 16"/>
+			<property minExtent = "8 8"/>
+			<property text = "0"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "8">
+			<property style="SYButtonSort"/>
+			<property position = "370 88"/>
+			<property extent = "171 19"/>
+			<property minExtent = "8 8"/>
+			<property text = "公 告"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticTextEdit" id = "9">
+			<property style = "FZYGuildInfoFont"/>
+			<property position = "381 132"/>
+			<property extent = "153 200"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "10">
+			<property style = "SYChatInputHeadEdit"/>
+			<property position = "24 406"/>
+			<property extent = "50 18"/>
+			<property minExtent = "8 8"/>
+			<property text = "权限："/>
+			<property visible = "1"/>
+		</Window>
+		<Window class="UBitmapButton" id="11">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="25 88"/>
+			<property extent="35 19"/>
+			<property minExtent="8 8"/>
+			<property text="身份"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="62 88"/>
+			<property extent="120 19"/>
+			<property minExtent="8 8"/>
+			<property text="成员"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="184 88"/>
+			<property extent="34 19"/>
+			<property minExtent="8 8"/>
+			<property text="性别"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="14">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="220 88"/>
+			<property extent="34 19"/>
+			<property minExtent="8 8"/>
+			<property text="等级"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="15">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="256 88"/>
+			<property extent="34 19"/>
+			<property minExtent="8 8"/>
+			<property text="职业"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="16">
+			<property style="SYButtonSort"/>
+			<property bitmap="Public\SortButton.skin"/>
+			<property position="292 88"/>
+			<property extent="76 19"/>
+			<property minExtent="8 8"/>
+			<property text="贡献值"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UIRankRadioButton" id="18">
+			<property style="SYChatInputHeadEdit"/>
+			<property position="77 407"/>
+			<property extent="71 16"/>
+			<property minExtent="8 8"/>
+			<property text="添加成员"/>
+			<property Skin ="Public\SendCheck.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UIRankRadioButton" id="19">
+			<property style="SYChatInputHeadEdit"/>
+			<property position="152 407"/>
+			<property extent="71 16"/>
+			<property minExtent="8 8"/>
+			<property text="删除成员"/>
+			<property Skin ="Public\SendCheck.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UIRankRadioButton" id="20">
+			<property style="SYChatInputHeadEdit"/>
+			<property position="226 407"/>
+			<property extent="71 16"/>
+			<property minExtent="8 8"/>
+			<property text="编辑公告"/>
+			<property Skin ="Public\SendCheck.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UIRankRadioButton" id="21">
+			<property style="SYChatInputHeadEdit"/>
+			<property position="302 407"/>
+			<property extent="71 16"/>
+			<property minExtent="8 8"/>
+			<property text="封印水晶"/>
+			<property Skin ="Public\SendCheck.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UIRankRadioButton" id="22">
+			<property style="SYChatInputHeadEdit"/>
+			<property position="376 407"/>
+			<property extent="71 16"/>
+			<property minExtent="8 8"/>
+			<property text="对外宣战"/>
+			<property Skin ="Public\SendCheck.skin"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UIRankRadioButton" id="23">
+			<property style="SYChatInputHeadEdit"/>
+			<property position="452 407"/>
+			<property extent="71 16"/>
+			<property minExtent="8 8"/>
+			<property text="城堡管理"/>
+			<property Skin ="Public\SendCheck.skin"/>
+			<property visible="0"/>
+		</Window>
+		<Window class="UBitmap" id = "140">
+			<property style="SYDialogFrame"/>
+			<property position="462 373"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="40">
+			<property style="UButton"/>
+			<property bitmap="Public\QuitGuild.skin"/>
+			<property position="465 376"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "141">
+			<property style="SYDialogFrame"/>
+			<property position="376 426"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="41">
+			<property style="UButton"/>
+			<property bitmap="Public\CityMess.skin"/>
+			<property position="379 429"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "142">
+			<property style="SYDialogFrame"/>
+			<property position="376 373"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="42">
+			<property style="UButton"/>
+			<property bitmap="Public\GuildRemoveMem.skin"/>
+			<property position="379 376"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "143">
+			<property style="SYDialogFrame"/>
+			<property position="296 373"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="43">
+			<property style="UButton"/>
+			<property bitmap="Public\InviteGuild.skin"/>
+			<property position="299 376"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="44">
+			<property style="UButton"/>
+			<property bitmap="Public\xuanzehuizhang.skin"/>
+			<property position="516 61"/>
+			<property extent="20 20"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property tooltipprofile = "UMouseStopMain"/>
+			<property tooltip = "选择部族徽章"/>
+			<property hovertime = "300"/>
+		</Window>
+		<Window class="UBitmap" id = "145">
+			<property style="SYDialogFrame"/>
+			<property position="420 334"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="45">
+			<property style="UButton"/>
+			<property bitmap="Public\SaveGuildInfo.skin"/>
+			<property position="423 337"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "146">
+			<property style="SYDialogFrame"/>
+			<property position="235 426"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="46">
+			<property style="UButton"/>
+			<property bitmap="Public\ChangeSure.skin"/>
+			<property position="238 429"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmap" id = "148">
+			<property style="SYDialogFrame"/>
+			<property position="462 426"/>
+			<property extent="75 21"/>
+			<property minExtent="8 8"/>
+			<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="48">
+			<property style="UButton"/>
+			<property bitmap="Public\GuildDisband.skin"/>
+			<property position="465 429"/>
+			<property extent="69 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class= "UBitmap" id = "54">
+			<property style="SYDialogFrame"/>
+			<property position= "9 8"/>
+			<property extent= "55 56"/>
+			<property minExtent= "8 8"/>
+			<property visible= "1"/>
+			<property bitmap = "DATA\UI\SocialitySystem\GuildMaskbkg.png"/> 
+		</Window>
+		<Window class= "UBitmap" id = "55">
+			<property style="SYDialogFrame"/>
+			<property position= "9 8"/>
+			<property extent= "55 55"/>
+			<property minExtent= "8 8"/>
+			<property visible= "1"/>
+			<property bitmap = "DATA\UI\SocialitySystem\DefaultguildMask.png"/> 
+		</Window>
+		<Window class="UComboBox" id = "56">
+			<property style="SYUComboBox1"/>
+			<property position="82 430"/>
+			<property extent="144 14"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="60">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="28 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="好 友"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="61">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="107 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="部 族"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="62">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="185 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="谁在线"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="63">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="263 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="团 队"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+		<Window class="UBitmapButton" id="64">
+			<property style="SYURadioButton"/>
+			<property bitmap="Public\SubTable.skin"/>
+			<property position="341 449"/>
+			<property extent="78 33"/>
+			<property minExtent="8 8"/>
+			<property text="组队招募"/>
+			<property groupNum="1"/>
+			<property visible="1"/>
+			<property buttonType="2"/>
+		</Window>
+	<Window class = "UBitmapButton" id = "70">
+		<property style = "SYURadioButton"/>
+		<property bitmap = "Public\LeftArrow.skin"/>
+		<property position="32 370"/>
+		<property extent="22 22"/>
+		<property minExtent="8 8"/>
+	</Window>
+	<Window class="UStaticText" id = "71">
+		<property style="SYDialogTitle"/>
+		<property position="56 370"/>
+		<property extent="33 22"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="0"/>
+	</Window>
+	<Window class = "UBitmapButton" id = "72">
+		<property style = "SYURadioButton"/>
+		<property bitmap = "Public\RightArrow.skin"/>
+		<property position="89 370"/>
+		<property extent="22 22"/>
+		<property minExtent="8 8"/>
+	</Window>
+	<Window class = "UStaticText" id = "74">
+		<property style = "SYChatInputHeadEdit"/>
+		<property position = "137 376"/>
+		<property extent = "71 16"/>
+		<property minExtent = "8 8"/>
+		<property text = "部族人数："/>
+		<property visible = "1"/>
+	</Window>
+	<Window class = "UStaticText" id = "75">
+		<property style = "SYChatInputHeadEdit"/>
+		<property position = "208 376"/>
+		<property extent = "65 16"/>
+		<property minExtent = "8 8"/>
+		<property visible = "1"/>
+	</Window>
+</Window>

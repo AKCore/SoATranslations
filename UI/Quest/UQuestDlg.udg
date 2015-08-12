@@ -1,0 +1,100 @@
+<Window class="UQuestDlg">
+	<property style="UBitmap"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="3 132"/>
+	<property extent="736 532"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property CanEscapeFouce = "true"/>
+	<property CloseBtnPos = "709 23"/>
+	<property bkgskin="Quest\QuestBGK.skin"/>
+	<Window class="UQuestList" id = "0">
+		<property style="UBitmap"/>
+		<property position="0 0"/>
+		<property extent="373 532"/>
+		<property minExtent="8 8"/>
+		<Window class="UBitmapButton" id="0">
+			<property style="UButton"/>
+			<property bitmap="Public\DropQuest.skin"/>
+			<property position="97 487"/>
+			<property extent="57 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="1">
+			<property style="UButton"/>
+			<property bitmap="Public\ShareQuest.skin"/>
+			<property position="241 487"/>
+			<property extent="57 15"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UScrollBar" id="2">
+			<property style="UScrollBarQ"/>
+			<property position="56 121"/>
+			<property extent="304 366"/>
+			<property minExtent="8 8"/>
+			<property ChildMargin = "0 11"/>
+			<property ShowScrollBkg="1"/>
+			<property visible="1"/>
+			<Window class="USpecListBox" id="3">
+				<property style="SYUSpecListBox"/>
+				<property bitmap="Public\SpecList.skin"/>
+				<property position="0 0"/>
+				<property extent="285 355"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+			</Window>
+		</Window>
+	</Window>
+	<Window class="UQuestLog" id = "1">
+		<property style="UBitmap"/>
+		<property position="373 0"/>
+		<property extent="363 532"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<Window class="UScrollBar" id="1">
+			<property style="UScrollBarQ"/>
+			<property position="24 121"/>
+			<property extent="296 366"/>
+			<property minExtent="8 8"/>
+			<property ChildMargin = "0 11"/>
+			<property ShowScrollBkg="1"/>
+			<property visible="1"/>
+			<Window class="URichTextCtrl" id="2">
+				<property style="URichTextCtrl"/>
+				<property position="0 0"/>
+				<property extent="276 355"/>
+				<property minExtent="8 8"/>
+				<property visible="1"/>
+				<property ActiveMouseOverURL="1"/>
+				<property ActiveBigMapURL="0"/>
+			</Window>
+		</Window>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYDialogTitle"/>
+		<property position="266 20"/>
+		<property extent="214 28"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="任务日志"/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYStaticTextCtrl"/>
+		<property position="83 74"/>
+		<property extent="108 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="任务列表"/>
+	</Window>
+	<Window class="UStaticText" id = "4">
+		<property style="SYStaticTextCtrl"/>
+		<property position="554 74"/>
+		<property extent="108 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="任务说明"/>
+	</Window>
+</Window>

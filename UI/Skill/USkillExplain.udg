@@ -1,0 +1,44 @@
+﻿<Window class="USkillExplain">
+	<property style="UBitmap"/>
+	<property position="29 90"/>
+	<property extent="238 49"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<property bitmap="Data\UI\Skill\USkillExplain.png"/>
+	<!--名字-->
+	<Window class="UEdit" id="0">
+		<property style="SYNameUEdit"/>
+		<property position="55 6"/>
+		<property extent="97 15"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--技能等级-->
+	<Window class="UEdit" id="1">
+		<property style="SYNameUEdit"/>
+		<property position="55 30"/>
+		<property extent="52 12"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--技能类型-->
+	<Window class="UEdit" id="2">
+		<property style="SYNameUEdit"/>
+		<property position="117 30"/>
+		<property extent="49 12"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+		<property text=""/>
+	</Window>
+	<!--技能图标-->
+	<Window class="USkillButton" id="3">
+		<property style="SkillButton"/>
+		<property position="9 4"/>
+		<property extent="40 40"/>
+		<property showbgk="0"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

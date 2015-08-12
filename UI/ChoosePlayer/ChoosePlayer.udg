@@ -1,0 +1,345 @@
+﻿<Window class="UChoosePlayer">
+	<property style="default"/>
+	<property AnchorHori="2"/>
+	<property AnchorVert="2"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property CanEscapeFouce = "true"/>
+	<property visible="1"/>
+	<Window class="UNiAVControlR" id="0">
+		<property style="UBitmap"/>
+		<property position="0 0"/>
+		<property extent="1024 768"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property avobj="Data\UI\Assert\ChoosePlayer\Choose.nif"/>
+	</Window>
+	<Window class="UBitmap" id="8">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\ChoosePlayer\RoleBgk.png"/>
+		<property position="35 98"/>
+		<property extent="189 516"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--顶部图-->
+	<Window class="UBitmap" id="16">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\ChoosePlayer\top.png"/>
+		<property position="0 0"/>
+		<property extent="1024 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--底部图-->
+	<Window class="UBitmap" id="17">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\ChoosePlayer\bom.png"/>
+		<property position="0 677"/>
+		<property extent="1024 91"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="URoleInfo" id="1">
+		<property style="URadioButton"/>
+		<property bitmap="Public\RoleInfo.skin"/>
+		<property position="40 131"/>
+		<property extent="179 65"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property visible="1"/>
+		<Window class="UStaticText" id="0">
+			<property style="SYNameUEdit"/>
+			<property position="62 21"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYOtherEdit"/>
+			<property position="62 42"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id="2">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\ChoosePlayer\ren.png"/>
+			<property position="14 10"/>
+			<property extent="51 51"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="URoleInfo" id="2">
+		<property style="URadioButton"/>
+		<property bitmap="Public\RoleInfo.skin"/>
+		<property position="40 194"/>
+		<property extent="179 65"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property visible="1"/>
+		<Window class="UStaticText" id="0">
+			<property style="SYNameUEdit"/>
+			<property position="62 21"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYOtherEdit"/>
+			<property position="62 42"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id="2">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\ChoosePlayer\ren.png"/>
+			<property position="14 10"/>
+			<property extent="51 51"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="URoleInfo" id="3">
+		<property style="URadioButton"/>
+		<property bitmap="Public\RoleInfo.skin"/>
+		<property position="40 257"/>
+		<property extent="179 65"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property visible="1"/>
+		<Window class="UStaticText" id="0">
+			<property style="SYNameUEdit"/>
+			<property position="62 21"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYOtherEdit"/>
+			<property position="62 42"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id="2">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\ChoosePlayer\ren.png"/>
+			<property position="14 10"/>
+			<property extent="51 51"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="URoleInfo" id="4">
+		<property style="URadioButton"/>
+		<property bitmap="Public\RoleInfo.skin"/>
+		<property position="40 320"/>
+		<property extent="179 65"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property visible="1"/>
+		<Window class="UStaticText" id="0">
+			<property style="SYNameUEdit"/>
+			<property position="62 21"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYOtherEdit"/>
+			<property position="62 42"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id="2">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\ChoosePlayer\ren.png"/>
+			<property position="14 10"/>
+			<property extent="51 51"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="URoleInfo" id="5">
+		<property style="URadioButton"/>
+		<property bitmap="Public\RoleInfo.skin"/>
+		<property position="40 383"/>
+		<property extent="179 65"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property visible="1"/>
+		<Window class="UStaticText" id="0">
+			<property style="SYNameUEdit"/>
+			<property position="62 21"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYOtherEdit"/>
+			<property position="62 42"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id="2">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\ChoosePlayer\ren.png"/>
+			<property position="14 10"/>
+			<property extent="51 51"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="URoleInfo" id="6">
+		<property style="URadioButton"/>
+		<property bitmap="Public\RoleInfo.skin"/>
+		<property position="40 446"/>
+		<property extent="179 65"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property visible="1"/>
+		<Window class="UStaticText" id="0">
+			<property style="SYNameUEdit"/>
+			<property position="62 21"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYOtherEdit"/>
+			<property position="62 42"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id="2">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\ChoosePlayer\ren.png"/>
+			<property position="14 10"/>
+			<property extent="51 51"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="URoleInfo" id="7">
+		<property style="URadioButton"/>
+		<property bitmap="Public\RoleInfo.skin"/>
+		<property position="40 509"/>
+		<property extent="179 65"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property buttonType="2"/>
+		<property visible="1"/>
+		<Window class="UStaticText" id="0">
+			<property style="SYNameUEdit"/>
+			<property position="62 21"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYOtherEdit"/>
+			<property position="62 42"/>
+			<property extent="108 15"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+			<property text=""/>
+		</Window>
+		<Window class="UBitmap" id="2">
+			<property style="UBitmap"/>
+			<property bitmap="Data\UI\ChoosePlayer\ren.png"/>
+			<property position="14 10"/>
+			<property extent="51 51"/>
+			<property minExtent="1 1"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<!--返回-->
+	<Window class="UBitmapButton" id="12">
+		<property style="UButton"/>
+		<property bitmap="Public\Back.skin"/>
+		<property position="34 713"/>
+		<property extent="72 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--选择服务器-->
+	<Window class="UBitmapButton" id="13">
+		<property style="UButton"/>
+		<property bitmap="Public\Server.skin"/>
+		<property position="120 713"/>
+		<property extent="72 19"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<!--进入游戏-->
+	<Window class="UBitmapButton" id="11">
+		<property style="UButton"/>
+		<property bitmap="Public\EnterGame.skin"/>
+		<property position="493 682"/>
+		<property extent="94 23"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--创建角色-->
+	<Window class="UBitmapButton" id="9">
+		<property style="UButton"/>
+		<property bitmap="Public\CreateRole.skin"/>
+		<property position="55 578"/>
+		<property extent="25 24"/>
+		<property extent="72 19"/>
+		<property visible="1"/>
+	</Window>
+	<!--删除角色-->
+	<Window class="UBitmapButton" id="10">
+		<property style="UButton"/>
+		<property bitmap="Public\DelRole.skin"/>
+		<property position="132 578"/>
+		<property extent="72 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--左转-->
+	<Window class="UDownButton" id="14">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnLeft.skin"/>
+		<property position="792 624"/>
+		<property extent="20 20"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--右转-->
+	<Window class="UDownButton" id="15">
+		<property style="UButton"/>
+		<property bitmap="Public\Turnright.skin"/>
+		<property position="816 624"/>
+		<property extent="20 20"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

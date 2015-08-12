@@ -1,0 +1,44 @@
+<Window class="UIQueryListItem">
+	<property style="UBitmap"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="0 0"/>
+	<property extent="503 19"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+		<Window class = "UStaticText" id = "0">
+			<property style = "SYTraceTextCtrl"/>
+			<property position = "10 0"/>
+			<property extent = "151 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "1">
+			<property style = "SYTraceTextCtrl"/>
+			<property position = "164 0"/>
+			<property extent = "30 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "2">
+			<property style = "SYTraceTextCtrl"/>
+			<property position = "197 0"/>
+			<property extent = "109 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "3">
+			<property style = "SYTraceTextCtrl"/>
+			<property position = "310 0"/>
+			<property extent = "50 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UStaticText" id = "4">
+			<property style = "SYTraceTextCtrl"/>
+			<property position = "360 0"/>
+			<property extent = "143 18"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+		</Window>
+</Window>

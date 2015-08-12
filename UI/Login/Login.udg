@@ -1,0 +1,133 @@
+﻿<Window class="ULoginFrame">
+	<property style="SYLoginFrame"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property CanEscapeFouce = "true"/>
+	<property visible="1"/>
+	<Window class="UNiAVControl" id="0">
+		<property style="UBitmap"/>
+		<property position="0 0"/>
+		<property extent="1024 768"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property avobj="Data\UI\Assert\Login\bg.nif"/>
+	</Window>
+	<!--顶部图-->
+	<Window class="UBitmap" id="8">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\ChoosePlayer\top.png"/>
+		<property position="0 0"/>
+		<property extent="1024 52"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--底部图-->
+	<Window class="UBitmap" id="9">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\ChoosePlayer\bom.png"/>
+		<property position="0 677"/>
+		<property extent="1024 91"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="100">
+		<property style="UBitmap"/>
+		<property position="115 91"/>
+		<property extent="793 291"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Login\logoName.png"/>
+	</Window>
+	<Window class="UBitmap" id="1">
+		<property style="UBitmap"/>
+		<property position="318 400"/>
+		<property extent="388 164"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bitmap="Data\UI\Login\logo.png"/>
+		<Window class="UEdit" id="2">
+			<property style="SYLoginEdit"/>
+			<property position="108 45"/>
+			<property extent="172 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property text=""/>
+			<property useSoftKeyboard= "0"/>
+		</Window>
+		<Window class="UEdit" id="3">
+			<property style="SYLoginEdit"/>
+			<property position="108 105"/>
+			<property extent="172 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property text=""/>
+			<property password="1"/>
+			<property useSoftKeyboard= "1"/>
+		</Window>
+		<!--登陆-->
+		<Window class="UBitmapButton" id="4">
+			<property style="UButton"/>
+			<property bitmap="Public\LoginGame.skin"/>
+			<property position="158 145"/>
+			<property extent="72 19"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="12">
+			<property style="UButton"/>
+			<property bitmap="Public\CheckButton3.skin"/>
+			<property position="288 45"/>
+			<property extent="16 16"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property buttonType="1"/>
+		</Window>
+		<Window class="UBitmapButton" id="13">
+			<property style="UButton"/>
+			<property bitmap="Login\softkey.skin"/>
+			<property position="256 105"/>
+			<property extent="25 15"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property buttonType="1"/>
+		</Window>
+	</Window>
+	<!--退出-->
+	<Window class="UBitmapButton" id="5">
+		<property style="UButton"/>
+		<property bitmap="Public\QuitGame.skin"/>
+		<property position="34 713"/>
+		<property extent="72 19"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--服务条款-->
+	<Window class="UBitmapButton" id="6">
+		<property style="UButton"/>
+		<property bitmap="Public\Service.skin"/>
+		<property position="838 713"/>
+		<property extent="72 19"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--游戏动画-->
+	<Window class="UBitmapButton" id="7">
+		<property style="UButton"/>
+		<property bitmap="Public\GameFlash.skin"/>
+		<property position="925 713"/>
+		<property extent="72 19"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="11">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Login\CopyRight.png"/>
+		<property position="211 732"/>
+		<property extent="618 31"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

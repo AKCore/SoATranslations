@@ -1,0 +1,4 @@
+<Skin texture ="HeadRes.png"> 
+	<item x="45" y="365" w="38" h="4" />
+	<item x="42" y="352" w="44" h="10" />
+</Skin>

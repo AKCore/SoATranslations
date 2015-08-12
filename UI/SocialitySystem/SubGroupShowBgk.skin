@@ -1,0 +1,5 @@
+<Skin texture = "SubGroupShowBgk.png">
+	<item x="0" y = "0" w="114" h = "22"/>
+	<item x="0" y = "22" w="114" h = "196"/>
+	<item x="0" y = "218" w="114" h = "2"/>
+</Skin>

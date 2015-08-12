@@ -1,0 +1,26 @@
+﻿<Window class="UChatInputMsgBox" >
+		<property style="default"/>
+		<property position="30 657"/>
+		<property extent="366 24"/>
+		<property minExtent="8 8"/>
+		<property AnchorHori="3"/>
+		<property AnchorVert="2"/>
+		<property  CanEscapeFouce = "true"/>
+  		<property Accelerator = "CallTalk;Whisper;"/>
+		<property visible="0"/>
+		<Window class = "UEditExt" id = "0">
+			<property style = "SYChatInputHeadEdit"/>
+			<property position = "9 5"/>
+			<property extent="335 15"/>
+			<property minExtent="8 8"/>
+			<property  CanEscapeFouce = "true"/>
+			<property visible="1"/>
+		</Window>
+		<Window class="UButton" id="1">
+			<property style="UButton"/>
+			<property position="346 3"/>
+			<property extent="17 18"/>
+			<property minExtent="0 0"/>
+			<property visible="1"/>
+		</Window>
+</Window>

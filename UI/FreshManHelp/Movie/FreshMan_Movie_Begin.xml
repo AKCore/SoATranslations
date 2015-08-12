@@ -1,0 +1,5 @@
+<Movie>
+	<FrameSay Index = "0" >
+	<Saying des = "欢迎来到《君·天下》的游戏世界，我是您的朋友火铳。下面由我来带您进入这个神奇的世界。点击“下一步”就可以继续本教程，如果您已经是高手可以点击“关闭”来结束本教程。<br><img:DATA\\UI\\NpcDlg\\TalkMask.png><a:MOVIE_Move>下一步</a><right><a:Close>关闭</a>"/>
+	</FrameSay>
+</Movie>

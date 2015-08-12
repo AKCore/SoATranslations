@@ -1,0 +1,5 @@
+<Skin texture = "CastBar.png">
+	<item x="0" y="16" w="186" h="16" />
+    	<item x="0" y="0" w="186" h="16" />
+	<item x="0" y="32" w="186" h="16" />
+</Skin>

@@ -1,0 +1,4 @@
+<Skin texture ="DefaultControlSkin.png">
+    <item x="0" y="203" w="115" h="15" />  <!--bgk     -->
+    <item x="0" y="187" w="115" h="15" />  <!--lightbgk-->
+</Skin>

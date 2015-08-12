@@ -1,0 +1,12 @@
+﻿<Window class="UInGame">
+	<property style="InGame"/>
+	<property AnchorHori="width"/>
+	<property AnchorVert="height"/>
+	<property position="0 0"/>
+	<property extent="1024 768"/>
+	<property minExtent="8 8"/>
+	<property  CanEscapeFouce = "true"/>
+	<property Accelerator = "HideUI;MoveForward;MoveBackward;MoveLeft;MoveRight;MoveTurnLeft;MoveTurnRight;Jump;AutoChoose;AutoMove;ChooseSelf;ChooseTeam1;ChooseTeam2;ChooseTeam3;ChooseTeam4;HidePlayer;PrintScreen;FullScreen;AutoLoot;"/>
+	<property visible="1"/>
+</Window>
+	

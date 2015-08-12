@@ -1,0 +1,6 @@
+<Skin texture ="PublicButton.png">
+	<item x="632" y="596"  w="42" h="22" />
+	<item x="632" y="618"  w="42" h="22" />
+	<item x="632" y="640"  w="42" h="22" />
+	<item x="632" y="662"  w="42" h="22" />
+</Skin>

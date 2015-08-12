@@ -1,0 +1,165 @@
+<Window class="UBattleGroundBillBoard">
+	<property style="SYDialogFrame"/>
+	<property position="56 114"/>
+	<property extent="862 483"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property showclose ="false"/>
+	<property CanEscapeFouce = "true"/>
+	<property bkgskin="Lobby\BGBillBoardBkg.skin"/>
+	<Window class="UBitmap" id = "13">
+		<property style="SYDialogFrame"/>
+		<property position="270 149"/>
+		<property extent="280 300"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bitmap = "Data\UI\Lobby\BKGIMAGE_ALL.png"/>
+	</Window>
+	<Window class="UScrollBar" id="12">
+		<property style="SYUScrollBar"/>
+		<property position="74 115"/>
+		<property extent="715 355"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin="0 26"/>
+		<property ShowScrollBkg="1"/>
+		<property visible="1"/>
+		<Window class="UBattleGroundSpecList" id="12">
+			<property style="ChooseSpecListBox"/>
+			<property bitmap="Lobby\BGSpeclist.skin"/>
+			<property position="0 0"/>
+			<property extent="687 339"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UBitmapButton" id="0">
+		<property style="SYURadioButton"/>
+		<property bitmap="SocialitySystem\ButtonSort.skin"/>
+		<property position="73 115"/>
+		<property extent="183 17"/>
+		<property minExtent="8 8"/>
+		<property text="Íæ¼Ò"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="SocialitySystem\ButtonSort.skin"/>
+		<property position="256 115"/>
+		<property extent="53 17"/>
+		<property minExtent="8 8"/>
+		<property text="Ö°Òµ"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="SYURadioButton"/>
+		<property bitmap="SocialitySystem\ButtonSort.skin"/>
+		<property position="309 115"/>
+		<property extent="49 17"/>
+		<property minExtent="8 8"/>
+		<property text="»÷°Ü"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="SYURadioButton"/>
+		<property bitmap="SocialitySystem\ButtonSort.skin"/>
+		<property position="358 115"/>
+		<property extent="65 17"/>
+		<property minExtent="8 8"/>
+		<property text="±»»÷°Ü"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="SYURadioButton"/>
+		<property bitmap="SocialitySystem\ButtonSort.skin"/>
+		<property position="423 115"/>
+		<property extent="81 17"/>
+		<property minExtent="8 8"/>
+		<property text="ÉËº¦"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="SYURadioButton"/>
+		<property bitmap="SocialitySystem\ButtonSort.skin"/>
+		<property position="504 115"/>
+		<property extent="68 17"/>
+		<property minExtent="8 8"/>
+		<property text="ÖÎÁÆ"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="SYURadioButton"/>
+		<property bitmap="SocialitySystem\ButtonSort.skin"/>
+		<property position="572 115"/>
+		<property extent="77 17"/>
+		<property minExtent="8 8"/>
+		<property text="ÈÙÓþ"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="7">
+		<property style="SYURadioButton"/>
+		<property bitmap="SocialitySystem\ButtonSort.skin"/>
+		<property position="649 115"/>
+		<property extent="112 17"/>
+		<property minExtent="8 8"/>
+		<property text="Ê¤¸º"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="8">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\BGBtnALL.skin"/>
+		<property position="74 84"/>
+		<property extent="67 30"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="9">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\BGBtnYao.skin"/>
+		<property position="140 84"/>
+		<property extent="66 30"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="10">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\BGBtnRen.skin"/>
+		<property position="206 84"/>
+		<property extent="66 30"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="11">
+		<property style="SYURadioButton"/>
+		<property bitmap="Lobby\BGBtnWu.skin"/>
+		<property position="272 84"/>
+		<property extent="66 30"/>
+		<property minExtent="8 8"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmap" id = "15">
+		<property style="SYDialogFrame"/>
+		<property position="705 87"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property bitmap = "Data\UI\Public\ButtonBkg.png"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="14">
+		<property style="UButton"/>
+		<property bitmap="Public\ExitInstance.skin"/>
+		<property position="708 90"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

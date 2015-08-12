@@ -1,0 +1,6 @@
+<Skin texture ="MailTable.png">
+	<item x="53" y="2" w="40" h="95"/>
+	<item x="53" y="2" w="40" h="95"/>
+	<item x="3" y="2" w="40" h="95" />
+	<item x="3" y="2" w="40" h="95" />
+</Skin>

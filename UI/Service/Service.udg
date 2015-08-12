@@ -1,0 +1,44 @@
+﻿<Window class="UServiceProtocol">
+	<property style="UBitmap"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property bitmap="Data\UI\Service\Service.png"/>
+	<property position="324 113"/>
+	<property extent="417 486"/>
+	<property minExtent="8 8"/>
+	<property visible="1"/>
+	<Window class="UScrollBar" id="0">
+		<property style="SYUScrollBar"/>
+		<property position="32 67"/>
+		<property extent="358 372"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin="0 13"/>
+		<property visible="1"/>
+		<Window class="URichTextCtrl" id="1">
+			<property style="URichTextCtrl"/>
+			<property position="10 15"/>
+			<property extent="327 348"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+			<property rtffile="Data\UI\Service\service.txt"/>
+		</Window>
+	</Window>
+	<!--接受-->
+	<Window class="UBitmapButton" id="2">
+		<property style="UButton"/>
+		<property bitmap="Public\Accept.skin"/>
+		<property position="130 455"/>
+		<property extent="72 19"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+	<!--拒绝-->
+	<Window class="UBitmapButton" id="3">
+		<property style="UButton"/>
+		<property bitmap="Public\refuse.skin"/>
+		<property position="216 455"/>
+		<property extent="72 19"/>
+		<property minExtent="8 2"/>
+		<property visible="1"/>
+	</Window>
+</Window>

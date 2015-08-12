@@ -1,0 +1,145 @@
+所有.stl文档必须由<styles>开始，以</styles>结束。
+里面的小stl Item必须由<style name = "ITEMNAME">开始，以</style>结束。
+属性格式如下
+<property Pro = ""/>
+下面介绍现在可以添加到stl文件中的属性
+1、
+<property tab = "true"/> 
+<property tab = "false">
+这个是改控件属性所在的控件是否可以被TAB获得焦点
+2、
+<property canKeyFocus = "true"/> 
+<property canKeyFocus = "false"/>
+这是属性是控制所在控件是否可以接受键盘输入，通常情况下可以接受键盘输入的控件
+必然可以接受TAB获得焦点
+3、
+<property dragdrop = "true"/> 
+<property dragdrop = "false"/>
+是否响应DragDrop事件的控制
+4、
+<property mouseOverSelected = "true"/>
+<property mouseOverSelected = "false"/>
+鼠标放在控件上是是否被选中（暂时没有做任何处理）
+5、
+<property modal = "true"/>
+<property modal = "false"/>
+模态和非模态对话框（暂时没有模态设置）
+6、
+<property opaque = "true"/>
+<property opaque = "false"/>
+是否被控件颜色全部填充
+7、
+<property fillColor = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+控件填充颜色(一般是没有美术资源时会用到)
+8、
+<property fillColorHL = "R G B A"/> 
+R 0~255 G 0~255 B 0~255 A 0~255
+控件高亮时的填充颜色
+9、
+<property fillColorNA = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+控件非激活状态下的填充颜色
+10、
+<property border = "Num"/>
+现在的边框统一为一个像素单位，这个是边框类型，填1即可
+11、
+<property borderThickness = "Num"/>
+边框的厚度,不过现在统一为一个像素单位,填1即可
+12、
+<property borderColor = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+边框的颜色
+13、
+<property borderColorHL = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+边框高亮颜色
+14、
+<property borderColorNA = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+边框非激活颜色
+15、
+<property bevelColorHL = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+UNKOWN（不用填入）
+16、
+<property bevelColorLL = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+UNKOWN（不用填入）
+17、
+<property FontType = "STRING"/>
+字体的名字比如"宋体"
+18、
+<property FontSize = "NUM"/>
+字体的大小，单位（
+19、
+<property FontCharSet = "NUM"/>
+字体字符集，详细见WinGDI，这里可以填入1，
+控件如果只是较多的显示中文可以用134（GB2312_CHARSET）中文字符集
+20、
+<property FontColor = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+字体一般颜色
+21、
+<property FontColorHL = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+字体高亮颜色
+22、
+<property FontColorNA = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+字体非激活颜色
+23、
+<property FontColorSEL = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+字体拖选后的颜色
+24、
+<property FontColorUsr0 = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+外加的字体颜色1
+25、
+<property FontColorUsr1 = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+外加的字体颜色2
+26、
+<property justify = "NUM"/>
+字体的对齐方式
+0 UT_LEFT
+1 UT_RIGHT
+2 UT_CENTER
+27、
+<property textOffSet = "NUM_X NUM_Y"/>
+字体的偏移位置 NUM < 0 || NUM > 3
+28、
+<property autoSizeWidth = "true"/>
+<property autoSizeWidth = "false"/>
+是否自动变化宽度（没有控件实现
+29、
+<property autoSizeHeight = "true"/>
+<property autoSizeHeight = "false"/>
+是否自动变化高度（没有控件实现
+30、
+<property returnTab = "true"/>
+<property returnTab = "false"/>
+主要在Edit控件中实现是否输入完成KeyDown中收到return后是否释放焦点
+31、
+<property numbersOnly = "true"/>
+是否限制Edit控件只允许数字输入
+32、
+<property cursorColor = "R G B A"/>
+R 0~255 G 0~255 B 0~255 A 0~255
+控制Edit控件中的光标颜色
+33、
+<property skin = "STRING"/>
+对于某些控件需要一个.skin文件的支持可以加入.skin文件的路径
+34、
+<property soundDown = "STRING"/>
+鼠标点击控件后发出的声音，要一个声音文件的路径
+35、
+<property soundOver = "STRING"/>
+鼠标移入控件中发出的声音，要一个声音文件的路径
+36、
+<property soundOpen = "STRING"/>
+打开控件中发出的声音，要一个声音文件的路径 visible->true
+37、
+<property soundClose = "STRING"/>
+关闭控件中发出的声音，要一个声音文件的路径 visible->false

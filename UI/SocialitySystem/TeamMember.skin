@@ -1,0 +1,6 @@
+<Skin texture = "TeamMember.png">
+	<item x="0" y = "0" w="241" h = "17"/>
+	<item x="0" y = "18" w="241" h = "18"/>
+	<item x="0" y = "36" w="241" h = "17"/>
+	<item x="0" y = "54" w="241" h = "18"/>
+</Skin>

@@ -1,0 +1,17 @@
+﻿<Window class = "UChatMsgShow">
+	<property style="default"/>
+	<property position="30  510"/>
+	<property extent="365 137"/>
+	<property minExtent="8 8"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="2"/>
+	<property visible="1"/>
+	<Window class="UChatRichEdit" id="0">
+		<property style="SYUIChatMsg"/>
+		<property position="0  0"/>
+		<property extent="365 0"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property ActiveBigMapURL = "false"/>
+	</Window>
+</Window>

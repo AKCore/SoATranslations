@@ -1,0 +1,6 @@
+<Skin texture ="tradenum.png">
+	<item x="0" y="0"  w="24" h="24" />
+	<item x="0" y="36"  w="24" h="24" />
+	<item x="0" y="72"  w="24" h="24" />
+	<item x="0" y="108"  w="24" h="24" />
+</Skin>

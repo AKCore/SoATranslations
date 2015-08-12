@@ -1,0 +1,7 @@
+<Skin texture ="PackageR.png">
+	<item x="0" y="0" w="411" h="90" />
+	<item x="0" y="90" w="21" h="43" />
+	<item x="406" y="90" w="5" h="43" />
+	<item x="80" y="99" w="21" h="22" />
+	<item x="0" y="133" w="411" h="53" />
+</Skin>

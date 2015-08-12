@@ -1,0 +1,281 @@
+<Window class="UQueryFrame">
+	<property style="UDialog"/>
+	<property position="281 144"/>
+	<property extent="549 458"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property CanEscapeFouce="true"/>
+	<Window class="UBitmap" id="100">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\QuerySystem\Query.png"/>
+		<property position="0 0"/>
+		<property extent="549 458"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "18">
+		<property style="SYDialogTitle"/>
+		<property position="260 24"/>
+		<property extent="60 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="查询"/>
+	</Window>
+	<Window class="UBitmapButton" id="0">
+		<property style="SYURadioButton"/>
+		<property bitmap="QuerySystem\BtnBkg.skin"/>
+		<property position="23 109"/>
+		<property extent="70 30"/>
+		<property minExtent="8 8"/>
+		<property text="任务查询"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="SYURadioButton"/>
+		<property bitmap="QuerySystem\BtnBkg.skin"/>
+		<property position="23 139"/>
+		<property extent="70 30"/>
+		<property minExtent="8 8"/>
+		<property text="NPC查询"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="2">
+		<property style="SYURadioButton"/>
+		<property bitmap="QuerySystem\BtnBkg.skin"/>
+		<property position="23 169"/>
+		<property extent="70 30"/>
+		<property minExtent="8 8"/>
+		<property text="怪物查询"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="3">
+		<property style="SYURadioButton"/>
+		<property bitmap="QuerySystem\BtnBkg.skin"/>
+		<property position="23 199"/>
+		<property extent="70 30"/>
+		<property minExtent="8 8"/>
+		<property text="装备查询"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="SYURadioButton"/>
+		<property bitmap="QuerySystem\BtnBkg.skin"/>
+		<property position="23 229"/>
+		<property extent="70 30"/>
+		<property minExtent="8 8"/>
+		<property text="地图查询"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="5">
+		<property style="SYURadioButton"/>
+		<property bitmap="QuerySystem\BtnBkg.skin"/>
+		<property position="23 259"/>
+		<property extent="70 30"/>
+		<property minExtent="8 8"/>
+		<property text="技能查询"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="SYURadioButton"/>
+		<property bitmap="QuerySystem\BtnBkg.skin"/>
+		<property position="23 289"/>
+		<property extent="70 30"/>
+		<property minExtent="8 8"/>
+		<property text="称号查询"/>
+		<property groupNum="1"/>
+		<property visible="1"/>
+		<property buttonType="2"/>
+	</Window>
+	<Window class="UBitmap" id="23">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Public\ButtonBkg.png"/>
+		<property position="462 62"/>
+		<property extent="75 21"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="10">
+		<property style="SYURadioButton"/>
+		<property bitmap="Public\ChaXun.skin"/>
+		<property position="465 65"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="11">
+		<property style="UButton"/>
+		<property bitmap="Public\PrevPage.skin"/>
+		<property position="183 418"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="12">
+		<property style="UButton"/>
+		<property bitmap="Public\NextPage.skin"/>
+		<property position="305 418"/>
+		<property extent="60 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+
+	<Window class="UStaticText" id = "30">
+		<property style="SYOtherEdit"/>
+		<property position="88 63"/>
+		<property extent="35 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "31">
+		<property style="SYOtherEdit"/>
+		<property position="181 63"/>
+		<property extent="35 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "32">
+		<property style="SYOtherEdit"/>
+		<property position="274 63"/>
+		<property extent="35 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "33">
+		<property style="SYOtherEdit"/>
+		<property position="367 63"/>
+		<property extent="35 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+
+	<Window class="UBitmap" id="135">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\QuerySystem\BlackBkg.png"/>
+		<property position="123 61"/>
+		<property extent="58 22"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="136">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\QuerySystem\BlackBkg.png"/>
+		<property position="216 61"/>
+		<property extent="58 22"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="137">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\QuerySystem\BlackBkg.png"/>
+		<property position="309 61"/>
+		<property extent="58 22"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="138">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\QuerySystem\BlackBkg.png"/>
+		<property position="402 61"/>
+		<property extent="58 22"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+
+	<Window class="UComboBox" id = "35">
+		<property style="SYUComboBox1"/>
+		<property position="125 65"/>
+		<property extent="54 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UComboBox" id = "36">
+		<property style="SYUComboBox1"/>
+		<property position="218 65"/>
+		<property extent="54 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UComboBox" id = "37">
+		<property style="SYUComboBox1"/>
+		<property position="311 65"/>
+		<property extent="54 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UComboBox" id = "38">
+		<property style="SYUComboBox1"/>
+		<property position="404 65"/>
+		<property extent="54 14"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+
+        <Window class="UEdit" id = "40">
+		<property style="SYUComboBox"/>
+		<property position="125 65"/>
+		<property extent="54 14"/>
+		<property minExtent="8 8"/>
+		<property Tiptext = "输入等级"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UEdit" id = "41">
+		<property style="SYUComboBox"/>
+		<property position="218 65"/>
+		<property extent="54 14"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UEdit" id = "42">
+		<property style="SYUComboBox"/>
+		<property position="311 65"/>
+		<property extent="54 14"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UEdit" id = "43">
+		<property style="SYUComboBox"/>
+		<property position="404 65"/>
+		<property extent="54 14"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+
+	<Window class = "UQueryList" id = "50">
+		<property style="SYOtherEdit"/>
+		<property position="97 88"/>
+		<property extent="443 322"/>
+		<property minExtent="8 1"/>
+		<property visible="1"/>
+	</Window>
+
+	<Window class="UStaticText" id = "60">
+		<property style="SYDialogTitle"/>
+		<property position="243 418"/>
+		<property extent="62 24"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+
+	<Window class="UBitmapButton" id="255">
+		<property style="UButton"/>
+		<property bitmap="SystemTips\Close.skin"/>
+		<property position="524 23"/>
+		<property extent="18 18"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

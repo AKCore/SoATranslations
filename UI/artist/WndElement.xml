@@ -1,0 +1,28 @@
+<ElementDef>
+	<Global crFill="255 255 255 255" GenMask="0" Id="{1AF0861D-C000-4A0A-8511-B728B0985FA2}" MtlFlags="0" Name="boat_mission_russ.LAVA_rock" Opacity="1" Shader="templmodelcommon" >
+   <Textures>
+    <Texture File="Textures\TERRAIN\detail\vulcano.DDS" Map="Diffuse" >
+     <TexMod TileU="0.5" TileV="0.5" />
+    </Texture>
+   </Textures>
+   <SubMaterials>
+    <Material AlphaTest="0" GenMask="0" Id="{10C70108-40A1-4033-B050-F384BACAD147}" MtlFlags="0" Name="[1] rock_colourfull_proxy" Opacity="1" Shader="TemplDecal" >
+     <Textures>     </Textures>
+    </Material>
+   </SubMaterials>
+  </Global>
+	
+	<Material AlphaTest="0" GenMask="0" Id="{1AF0861D-C000-4A0A-8511-B728B0985FA2}" MtlFlags="0" Name="boat_mission_russ.LAVA_rock" Opacity="1" Shader="templmodelcommon" >
+   <Textures>
+    <Texture File="Textures\TERRAIN\detail\vulcano.DDS" Map="Diffuse" >
+     <TexMod TileU="0.5" TileV="0.5" />
+    </Texture>
+   </Textures>
+   <SubMaterials>
+    <Material AlphaTest="0" GenMask="0" Id="{10C70108-40A1-4033-B050-F384BACAD147}" MtlFlags="0" Name="[1] rock_colourfull_proxy" Opacity="1" Shader="TemplDecal" >
+     <Textures>     </Textures>
+    </Material>
+   </SubMaterials>
+  </Material>
+  
+</ElementDef>

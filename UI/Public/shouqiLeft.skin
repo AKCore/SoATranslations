@@ -1,0 +1,6 @@
+<Skin texture = "ShouqiLeft.png">
+	<item x ="0" y ="0"    w ="17"  h ="34"/>
+	<item x ="0" y ="34"    w ="17"  h ="34"/>
+	<item x ="0" y ="68"    w ="17"  h ="34"/>
+	<item x ="0" y ="68"    w ="17"  h ="34"/>
+</Skin>

@@ -1,0 +1,66 @@
+<Window class="UFreshManTip">
+	<property style="UBitmap"/>
+	<property AnchorHori="0"/>
+	<property AnchorVert="0"/>
+	<property position="426 486"/>
+	<property extent="450 175"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+		<Window class = "UBitmap" id="0">
+			<property style = "UBitmap"/>
+			<property position = "0 0"/>
+			<property extent = "450 175"/>
+			<property minExtent = "8 8"/>
+			<property visible = "1"/>
+			<property bitmap = "DATA\UI\FreshManHelp\FreshManTipBkg.png"/>
+		</Window>
+		<Window class="UStaticText" id="1">
+			<property style="SYStaticEditText"/>
+			<property position="231 38"/>
+			<property extent="78 15"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property text="小助手提示"/>
+		</Window>
+		<Window class="URichTextCtrl" id="2">
+			<property style="SYStaticEditText"/>
+			<property position="110 61"/>
+			<property extent="322 81"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+		<Window class = "UBitmapButton" id = "3">
+			<property style = "UButton"/>
+			<property position = "283 148"/>
+			<property extent = "72 19"/>
+			<property minExtent = "1 1"/>
+			<property bitmap = "Public\CloseBtn.skin"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class = "UBitmapButton" id = "4">
+			<property style = "UButton"/>
+			<property position = "360 148"/>
+			<property extent = "72 19"/>
+			<property minExtent = "1 1"/>
+			<property bitmap = "Public\Nextbtn.skin"/>
+			<property visible = "1"/>
+		</Window>
+		<Window class="UStaticText" id="5">
+			<property style="SYStaticEditText"/>
+			<property position="135 152"/>
+			<property extent="142 12"/>
+			<property minExtent="8 2"/>
+			<property visible="1"/>
+			<property text="无需帮助"/>
+		</Window>
+		<Window class = "UBitmapButton" id = "6">
+			<property style = "UButton"/>
+			<property position = "111 150"/>
+			<property extent = "16 16"/>
+			<property minExtent = "1 1"/>
+			<property bitmap = "Public\CheckButton3.skin"/>
+			<property groupNum="20"/>
+			<property buttonType="1"/>
+			<property visible = "1"/>
+		</Window>
+</Window>

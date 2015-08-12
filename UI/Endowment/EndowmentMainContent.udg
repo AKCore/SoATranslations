@@ -1,0 +1,127 @@
+<Window class="UEndowmentMain_Content">
+	<property style="default"/>
+	<property position="74 129"/>
+	<property extent="529 474"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<Window class="UBoardControl" id="40">
+		<property style="SYPlayerNameEdit"/>
+		<property position="258 440"/>
+		<property extent="111 23"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="0">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Endowment\NameBkg.png"/>
+		<property position="183 17"/>
+		<property extent="154 27"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "1">
+		<property style="SYDialogTitle"/>
+		<property position="183 17"/>
+		<property extent="154 27"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id = "2">
+		<property style="SYSetTitle"/>
+		<property position="95 440"/>
+		<property extent="154 21"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="输入捐助的元宝数量："/>
+	</Window>
+	<Window class="UStaticText" id = "3">
+		<property style="SYSetTitle"/>
+		<property position="0 57"/>
+		<property extent="529 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="104">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Public\ButtonBkg.png"/>
+		<property position="379 440"/>
+		<property extent="75 21"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="4">
+		<property style="UButton"/>
+		<property bitmap="Public\JuanZhu.skin"/>
+		<property position="382 443"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UEdit" id="5">
+		<property style="SYPlayerNameEdit"/>
+		<property position="260 442"/>
+		<property extent="107 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property bfoucesel="1"/>
+	</Window>
+	<Window class="UBoardControl" id="6">
+		<property style="SYPlayerNameEdit"/>
+		<property position="104 80"/>
+		<property extent="323 250"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmap" id="7">
+		<property style="UBitmap"/>
+		<property bitmap="Data\UI\Endowment\Text.png"/>
+		<property position="43 378"/>
+		<property extent="433 38"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="URichTextCtrl" id="8">
+		<property style="URichTextCtrl"/>
+		<property position="95 337"/>
+		<property extent="334 39"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property ActiveBigMapURL = "false"/>
+	</Window>
+	<!--prev-->
+	<Window class="UBitmapButton" id="50">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnLeftBig.skin"/>
+		<property position="126 16"/>
+		<property extent="44 28"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--next-->
+	<Window class="UBitmapButton" id="51">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnrightBig.skin"/>
+		<property position="349 16"/>
+		<property extent="44 28"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<!--prev-->
+	<Window class="UBitmapButton" id="52">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnLeftBig.skin"/>
+		<property position="28 158"/>
+		<property extent="44 28"/>
+		<property minExtent="1 1"/>
+		<property visible="1"/>
+	</Window>
+	<!--next-->
+	<Window class="UBitmapButton" id="53">
+		<property style="UButton"/>
+		<property bitmap="Public\TurnrightBig.skin"/>
+		<property position="453 158"/>
+		<property extent="44 28"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

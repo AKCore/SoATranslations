@@ -1,0 +1,366 @@
+<styles>
+	<!-- 缺省窗口样式 -->
+	<style name="default">
+		<property tab="false"/>
+		<property canKeyFocus="false"/>
+		<property opaque="false"/>
+		<property fillColor="0 0 0"/>
+		<property fillColorHL="128 128 128"/>
+		<property fillColorNA="112 112 112"/>
+		<property border="false"/>
+		<property borderThickness="0"/>
+		<property borderColor="40 231 240"/>
+		<property fontColorHL="40 231 240"/>
+		<property fontColorNA="128 128 128"/>
+		<property fontType="黑体"/>
+		<property fontSize="14"/>
+		<property fontCharset="0"/>
+		<property fontColor="0 0 0"/>
+		<property fontColorHL="23 32 47"/>
+		<property fontColorNA="0 0 0"/>
+		<property fontColorSEL="126 137 155"/>
+		<property fontColorUsr0="7 143 214"/>
+		<property fontColorUsr1="135 2 2"/>
+		<property textOffset="0 2"/>
+		<property modal="false"/>
+		<property dragdrop="false"/>
+	</style>
+	<!-- 缺省IME窗口样式 -->
+	<style name="IME">
+		<property tab="false"/>
+		<property canKeyFocus="true"/>
+		<property mouseOverSelected="false"/>
+		<property fontType="黑体"/>
+		<property fontSize="14"/>
+		<property fontCharset="0"/>
+		<property fontColor="150 209 251"/>
+		<property fontColorHL="250 180 10"/>
+		<property fontColorNA="0 0 0"/>
+		<property fontColorSEL="255 255 255"/>
+		<property cursorColor="255 255 255"/>
+		<property textOffset="0 2"/>
+		<property modal="false"/>
+		<property justify="0"/>
+		<property autoSizeWidth="false"/>
+		<property autoSizeHeight="false"/>
+		<property returnTab="false"/>
+		<property numbersOnly="false"/>
+	</style>
+	<!-- 默认UScrollBar控件样式 不可缺失-->
+	<style name="UScrollBar">
+		<property tab="false"/>
+		<property canKeyFocus="true"/>
+		<property mouseOverSelected="false"/>
+		<property opaque="false"/>
+		<property fillColor="255 0 0"/>
+		<property fillColorHL="255 255 128"/>
+		<property fillColorNA="144 154 171"/>
+		<property border="0"/>
+		<property skin="Core\ScrollBar.skin"/>
+	</style>
+	<style name="UScrollBarQ">
+  	  <property tab="false"/>
+  	  <property canKeyFocus="false"/>
+  	  <property mouseOverSelected="false"/>
+   	  <property opaque="false"/>
+   	  <property fillColor="255 0 0"/>
+  	  <property fillColorHL="255 255 128"/>
+  	  <property fillColorNA="144 154 171"/>
+  	  <property border="0"/>
+   	 <property skin="Core\ScrollBarQ.skin"/>
+  	</style>
+	<!-- 默认Button控件样式 -->
+	<style name="UButton">
+		<property tab="false"/>
+		<property canKeyFocus="true"/>
+		<property mouseOverSelected="false"/>
+		<property opaque="true"/>
+		<property fillColor="128 128 128 0"/>
+		<property fillColorHL="255 255 128 128"/>
+		<property fillColorNA="144 154 171 255"/>
+		<property border="0"/>
+		<property borderThickness="0"/>
+		<property borderColor="40 100 140"/>
+		<property fontColorHL="40 100 240"/>
+		<property fontColorNA="128 128 128"/>
+		<property fontType="黑体"/>
+		<property fontSize="14"/>
+		<property fontCharset="0"/>
+		<property fontColor="197 197 197"/>
+		<property fontColorHL="255 255 255"/>
+		<property fontColorNA="0 0 0"/>
+		<property fontColorSEL="126 137 155"/>
+		<property cursorColor="255 255 255"/>
+		<property textOffset="0 2"/>
+		<property modal="true"/>
+		<property justify="0"/>
+		<property autoSizeWidth="false"/>
+		<property autoSizeHeight="false"/>
+		<property returnTab="true"/>
+		<property numbersOnly="false"/>
+		<property soundDown="sound/UI/UI_button.wav"/>
+	</style>
+	<!-- 默认CheckBox控件样式 -->
+	<style name="UCheckBox">
+		<property tab="false"/>
+		<property canKeyFocus="true"/>
+		<property mouseOverSelected="false"/>
+		<property opaque="true"/>
+		<property fillColor="255 0 0"/>
+		<property fillColorHL="255 255 128"/>
+		<property fillColorNA="144 154 171"/>
+		<property border="false"/>
+		<property borderThickness="0"/>
+		<property borderColor="40 100 140"/>
+		<property fontColorHL="40 100 240"/>
+		<property fontColorNA="128 128 128"/>
+		<property fontType="黑体"/>
+		<property fontSize="14"/>
+		<property fontCharset="0"/>
+		<property fontColor="0 0 0"/>
+		<property fontColorHL="23 32 47"/>
+		<property fontColorNA="0 0 0"/>
+		<property fontColorSEL="126 137 155"/>
+		<property skin="Core\CheckBox.skin"/>
+		<property textOffset="0 2"/>
+		<property modal="true"/>
+		<property justify="0"/>
+		<property autoSizeWidth="false"/>
+		<property autoSizeHeight="false"/>
+		<property returnTab="false"/>
+		<property numbersOnly="false"/>
+		<property cursorColor="0 0 0 255"/>
+		<property soundDown="sound/UI/UI_button.wav"/>
+	</style>
+	<!-- 默认RadioButton控件样式 -->
+	<style name="URadioButton">
+		<property tab="false"/>
+		<property canKeyFocus="true"/>
+		<property mouseOverSelected="false"/>
+		<property opaque="true"/>
+		<property fillColor="255 0 0"/>
+		<property fillColorHL="255 255 128"/>
+		<property fillColorNA="144 154 171"/>
+		<property border="false"/>
+		<property borderThickness="0"/>
+		<property borderColor="40 100 140"/>
+		<property fontColorHL="40 100 240"/>
+		<property fontColorNA="128 128 128"/>
+		<property fontType="黑体"/>
+		<property fontSize="14"/>
+		<property fontCharset="0"/>
+		<property fontColor="0 0 0"/>
+		<property fontColorHL="23 32 47"/>
+		<property fontColorNA="0 0 0"/>
+		<property fontColorSEL="126 137 155"/>
+		<property skin="Core\RadioButton.skin"/>
+		<property textOffset="0 2"/>
+		<property modal="true"/>
+		<property justify="0"/>
+		<property autoSizeWidth="false"/>
+		<property autoSizeHeight="false"/>
+		<property returnTab="false"/>
+		<property numbersOnly="false"/>
+		<property cursorColor="0 0 0 255"/>
+		<property soundDown="sound/UI/UI_button.wav"/>
+	</style>
+	<!-- 默认Dialog控件样式 -->
+	<style name="UDialog">
+		<property tab="false"/>
+		<property canKeyFocus="false"/>
+		<property mouseOverSelected="false"/>
+		<property opaque="true"/>
+    		<property dragdrop="true"/>
+		<property fillColor="0 0 0 128"/>
+		<property fillColorHL="255 255 255"/>
+		<property fillColorNA="255 255 255"/>
+		<property border="false"/>
+		<property borderThickness="0"/>
+		<property borderColor="40 100 140"/>
+		<property fontColorHL="40 100 240"/>
+		<property fontColorNA="128 128 128"/>
+		<property fontType="黑体"/>
+		<property fontSize="14"/>
+		<property fontCharset="134"/>
+		<property fontColor="255 255 255"/>
+		<property fontColorHL="23 32 47"/>
+		<property fontColorNA="0 0 0"/>
+		<property fontColorSEL="126 137 155"/>
+		<property textOffset="0 2"/>
+		<property modal="true"/>
+		<property justify="0"/>
+		<property autoSizeWidth="false"/>
+		<property autoSizeHeight="false"/>
+		<property returnTab="false"/>
+		<property numbersOnly="false"/>
+		<property cursorColor="0 0 0 255"/>
+		<property soundOpen="sound/UI/UI_openoanel.wav"/>
+		<property soundClose="sound/UI/UI_closepanel.wav"/>
+	</style>
+	<!-- 默认Bitmap控件样式 -->
+	<style name="UBitmap">
+		<property tab="false"/>
+		<property canKeyFocus="false"/>
+		<property mouseOverSelected="false"/>
+		<property modal="true"/>
+		<property autoSizeWidth="false"/>
+		<property autoSizeHeight="false"/>
+		<property border="0"/>
+		<property borderThickness="1"/>
+		<property borderColor="0 0 0"/>
+	</style>
+	<!-- 默认ComboBox控件样式 -->
+	<style name="UComboBox">
+		<property tab="false"/>
+		<property canKeyFocus="false"/>
+		<property mouseOverSelected="false"/>
+		<property opaque="false"/>
+		<property fillColor="104 128 117"/>
+		<property fillColorHL="45 117 53"/>
+		<property fillColorNA="45 88 98"/>
+		<property border="0"/>
+		<property borderThickness="0"/>
+		<property borderColor="40 100 140"/>
+		<property fontColorHL="40 100 240"/>
+		<property fontColorNA="128 128 128"/>
+		<property fontType="黑体"/>
+		<property fontSize="14"/>
+		<property fontCharset="0"/>
+		<property fontColor="255 255 255"/>
+		<property fontColorHL="23 32 47"/>
+		<property fontColorNA="0 0 0"/>
+		<property fontColorSEL="126 137 155"/>
+		<property skin="Core\ComboBox.skin"/>
+		<property textOffset="0 2"/>
+		<property modal="true"/>
+		<property justify="0"/>
+	</style>
+	<style name="UProgressCtrl">
+		<property skin="Core\ProgressBar.skin"/>
+	</style>
+	<!-- 默认Button控件样式 -->
+	<style name="UListBox">
+		<property tab="false"/>
+		<property canKeyFocus="true"/>
+		<property mouseOverSelected="false"/>
+		<property opaque="true"/>
+		<property fillColor="104 128 117 100"/>
+		<property fillColorHL="45 117 5 125"/>
+		<property fillColorNA="45 88 98"/>
+		<property border="1"/>
+		<property borderThickness="1"/>
+		<property borderColor="40 100 140"/>
+		<property fontType="黑体"/>
+		<property fontSize="18"/>
+		<property fontColorHL="40 100 240"/>
+		<property fontColorNA="128 128 128"/>
+	</style>
+	<!-- 默认 Edit 控件样式 -->
+	<style name="UEdit">
+		<property tab="false"/>
+		<property canKeyFocus="true"/>
+		<property mouseOverSelected="false"/>
+		<property opaque="true"/>
+		<property fillColor="180 166 162"/>
+		<property fillColorHL="180 166 162"/>
+		<property fillColorNA="180 166 162"/>
+		<property border="false"/>
+		<property borderThickness="0"/>
+		<property borderColor="40 231 240"/>
+		<property fontColorHL="40 231 240"/>
+		<property fontColorNA="128 128 128"/>
+		<property fontType="黑体"/>
+		<property fontSize="14"/>
+		<property fontCharset="0"/>
+		<property fontColor="0 0 0"/>
+		<property cursorColor="255 255 255"/>
+		<property fontColorHL="200 200 200"/>
+		<property fontColorNA="0 0 0"/>
+		<property fontColorSEL="126 137 155"/>
+		<property textOffset="0 2"/>
+		<property returnTab="true"/>
+		<property modal="true"/>
+		<property justify="0"/>
+	</style>
+	<!-- 默认Bitmap控件样式 -->
+	<style name="URichTextCtrl">
+		<property tab="false"/>
+		<property canKeyFocus="false"/>
+		<property mouseOverSelected="false"/>
+		<property modal="true"/>
+		<property autoSizeWidth="false"/>
+		<property autoSizeHeight="false"/>
+		<property opaque="true"/>
+		<property fillColor="125 125 125 0"/>
+		<property border="0"/>
+		<property borderThickness="1"/>
+		<property borderColor="0 255 0"/>
+		<property cursorColor="255 255 255"/>
+		<property fontColor="255 255 255"/>
+		<property fontColorHL="23 32 47"/>
+		<property fontColorNA="0 0 0"/>
+		<property fontColorSEL="126 137 155"/>
+		<property FontColorUsr0="86 77 208 255"/>
+		<property FontColorUsr1="228 41 149 255"/>
+		<property fontType="黑体"/>
+   		<property fontSize="12"/>
+    		<property fontCharset="134"/>
+	</style>
+	<!-- 默认Button控件样式 -->
+	<style name="UListCtrl">
+		<property tab="false"/>
+		<property canKeyFocus="false"/>
+		<property mouseOverSelected="false"/>
+		<property opaque="true"/>
+		<property fillColor="125 125 125 100"/>
+		<property fillColorHL="0 150 210 125"/>
+		<property fillColorNA="144 154 171"/>
+		<property border="1"/>
+		<property borderThickness="1"/>
+		<property borderColor="40 100 140"/>
+		<property fontColorHL="40 100 240"/>
+		<property fontColorNA="128 128 128"/>
+	</style>
+	<!-- 默认Button控件样式 -->
+	<style name="UDragDropGridCtrl">
+		<property tab="false"/>
+		<property canKeyFocus="false"/>
+		<property dragdrop="true"/>
+		<property opaque="false"/>
+		<property fontColor="255 255 255"/>
+		<property fontColorHL="23 32 47"/>
+	</style>
+	<!-- 默认Slider控件样式 -->
+  	<style name="USlider">
+  		<property tab="false"/>
+    		<property canKeyFocus="false"/>
+  		<property mouseOverSelected="false"/>
+    		<property opaque="false"/>
+    		<property fillColor="165 105 85 255"/>
+    		<property fillColorNA="125 125 125 255"/>
+  	</style>
+	 <style name="Softkeyboard">
+   		 <property tab="false"/>
+   		 <property canKeyFocus="false"/>
+   		 <property opaque="false"/>
+   		 <property fillColor="0 0 0"/>
+   		 <property fillColorHL="128 128 128"/>
+   		 <property fillColorNA="112 112 112"/>
+    		 <property border="false"/>
+    		 <property borderThickness="0"/>
+    		 <property borderColor="40 231 240"/>
+ 	 	 <property fontType="黑体"/>
+    		 <property fontSize="12"/>
+    		 <property fontCharset="134"/>
+    		 <!--property fontColor="23 32 47"/ -->
+		 <property fontColor="212 211 209"/>
+    		 <property fontColorNA="111 214 243"/>
+    		 <property fontColorHL="255 145 56"/>
+    		 <property fontColorSEL="126 137 155"/>
+    		 <property fontColorUsr0="7 143 214"/>
+    		 <property fontColorUsr1="135 2 2"/>
+    		 <property textOffset="0 0"/>
+    		 <property modal="false"/>
+    		 <property dragdrop="false"/>
+  	</style>
+</styles>

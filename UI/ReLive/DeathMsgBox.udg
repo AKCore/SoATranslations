@@ -1,0 +1,46 @@
+<Window class="UDeathMsgBox">
+	<property style="UBitmap"/>
+	<property AnchorHori="4"/>
+	<property AnchorVert="4"/>
+	<property position="293 293"/>
+	<property extent="422 144"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\Relive.skin"/>
+		<property position="80 111"/>
+		<property extent="100 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\ReliveAtCity.skin"/>
+		<property position="242 111"/>
+		<property extent="100 19"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="2">
+		<property style="SYDialogTitle"/>
+		<property position="24 39"/>
+		<property extent="373 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>	
+	<Window class="UStaticText" id="3">
+		<property style="SYDialogTitle"/>
+		<property position="24 65"/>
+		<property extent="373 17"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UStaticText" id="4">
+		<property style="SYDialogTitle"/>
+		<property position="149 91"/>
+		<property extent="124 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+</Window>

@@ -1,0 +1,6 @@
+<Skin texture ="DonationBtn.png">
+	<item x="7" y="8"  w="33" h="22" />
+	<item x="7" y="46"  w="33" h="22" />
+	<item x="7" y="84"  w="33" h="22" />
+	<item x="7" y="120"  w="33" h="22" />
+</Skin>

@@ -1,0 +1,61 @@
+<Window class="UQuestList">
+	<property style="UBitmap"/>
+	<property AnchorHori="3"/>
+	<property AnchorVert="3"/>
+	<property position="3 132"/>
+	<property extent="371 486"/>
+	<property minExtent="8 8"/>
+	<property visible="0"/>
+	<property  CanEscapeFouce = "true"/>
+	<property showclose = "false"/>
+	<property bkgskin="Quest\ListBGK.skin"/>
+	<Window class="UBitmapButton" id="0">
+		<property style="UButton"/>
+		<property bitmap="Public\DropQuest.skin"/>
+		<property position="89 441"/>
+		<property extent="57 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="1">
+		<property style="UButton"/>
+		<property bitmap="Public\ShareQuest.skin"/>
+		<property position="237 441"/>
+		<property extent="57 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+	</Window>
+	<Window class="UBitmapButton" id="6">
+		<property style="UButton"/>
+		<property bitmap="Public\CancelQuest.skin"/>
+		<property position="218 378"/>
+		<property extent="69 15"/>
+		<property minExtent="8 8"/>
+		<property visible="0"/>
+	</Window>
+	<Window class="UScrollBar" id="2">
+		<property style="UScrollBarQ"/>
+		<property position="46 72"/>
+		<property extent="304 369"/>
+		<property minExtent="8 8"/>
+		<property ChildMargin = "0 6"/>
+		<property ShowScrollBkg="1"/>
+		<property visible="1"/>
+		<Window class="USpecListBox" id="3">
+			<property style="SYUSpecListBox"/>
+			<property bitmap="Public\SpecList.skin"/>
+			<property position="0 0"/>
+			<property extent="285 350"/>
+			<property minExtent="8 8"/>
+			<property visible="1"/>
+		</Window>
+	</Window>
+	<Window class="UStaticText" id = "9">
+		<property style="SYDialogTitleEndowment"/>
+		<property position="337 27"/>
+		<property extent="34 15"/>
+		<property minExtent="8 8"/>
+		<property visible="1"/>
+		<property text ="ÈÎÎñ"/>
+	</Window>
+</Window>
